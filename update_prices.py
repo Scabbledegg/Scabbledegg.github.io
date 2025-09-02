@@ -1,4 +1,7 @@
+
+"""
 update_prices.py
+
 Leest Bulk.csv (met kolommen zoals Name, Set name, Quantity, eventueel Foil)
 en schrijft data/prices.json met per-kaartprijzen (Scryfall 'eur' / 'eur_foil').
 
@@ -6,6 +9,7 @@ Gebruik:
   pip install requests
   python update_prices.py --csv Bulk.csv --out-json data/prices.json --out-csv data/cards_with_prices.csv
 """
+
 import argparse, csv, json, time, os, sys
 from datetime import datetime
 import requests
@@ -14,8 +18,6 @@ SCRYFALL_SEARCH = "https://api.scryfall.com/cards/search"
 SCRYFALL_NAMED = "https://api.scryfall.com/cards/named"
 
 def find_field(headers, candidates):
-    # headers: list of actual CSV headers
-    # candidates: prioritized list of names to match (case-insensitive)
     hmap = {h.lower(): h for h in headers}
     for c in candidates:
         if c.lower() in hmap:
@@ -50,16 +52,20 @@ def pick_card_from_search(res_json, target_setname):
     if not target_setname:
         return items[0]
     target_lower = target_setname.strip().lower()
-    # try exact set_name match first
+    # Exact match first
     for c in items:
         if c.get("set_name","").strip().lower() == target_lower:
             return c
-    # try set code match (if target looks like a code)
     for c in items:
         if c.get("set","").strip().lower() == target_lower:
             return c
-    # otherwise fallback to first
     return items[0]
+
+def parse_float(x):
+    try:
+        return float(x) if x not in (None,"") else None
+    except:
+        return None
 
 def main():
     ap = argparse.ArgumentParser()
@@ -74,14 +80,14 @@ def main():
         rows = list(reader)
         headers = reader.fieldnames or []
 
-    # detect kolomnamen
+    # Detect kolommen
     name_field = find_field(headers, ["Name","name","Card Name","card_name"])
     setname_field = find_field(headers, ["Set name","set_name","Set","set"])
     qty_field = find_field(headers, ["Quantity","Qty","quantity","qty"])
     foil_field = find_field(headers, ["Foil","Is foil","foil","is_foil"])
 
     if not name_field:
-        print("CSV bevat geen kolom 'Name' (of alternatieven). Aborting.", file=sys.stderr)
+        print("CSV bevat geen kolom 'Name'. Aborting.", file=sys.stderr)
         sys.exit(1)
 
     prices = {}
@@ -94,51 +100,49 @@ def main():
         if not name:
             continue
 
-        # try Scryfall search
-        card_data = None
+        # Scryfall search
+        card = None
         res = scryfall_search_card(name)
         card = pick_card_from_search(res, setname) if res else None
 
         if not card:
-            # try named endpoint (fallback)
+            # fallback named endpoint
             try:
-                resp = requests.get(SCRYFALL_NAMED, params={"exact": name}, headers={"User-Agent":"MTG-Price-Updater/1.0"}, timeout=12)
+                resp = requests.get(SCRYFALL_NAMED, params={"exact": name},
+                                    headers={"User-Agent":"MTG-Price-Updater/1.0"}, timeout=12)
                 if resp.ok:
                     card = resp.json()
             except Exception:
                 card = None
 
         p = card.get("prices", {}) if isinstance(card, dict) else {}
-        price_eur = p.get("eur")
-        price_eur_foil = p.get("eur_foil")
+        price_eur = parse_float(p.get("eur"))
+        price_eur_foil = parse_float(p.get("eur_foil"))
+        # Kies foil prijs indien gewenst, fallback naar normaal
         chosen = price_eur_foil if is_foil and price_eur_foil else price_eur
+        if chosen is None:
+            chosen = price_eur if price_eur is not None else price_eur_foil if price_eur_foil is not None else 0.0
 
-        key = f"{name}|{setname}".strip("|")
-        def parsef(x):
-            try:
-                return float(x) if x not in (None,"") else None
-            except:
-                return None
-
+        key = f"{name.strip()}|{setname.strip()}".strip("|")
         prices[key] = {
             "name": name,
             "set_name": setname or None,
             "foil": bool(is_foil),
-            "price_eur": parsef(price_eur),
-            "price_eur_foil": parsef(price_eur_foil),
-            "chosen_price_eur": parsef(chosen),
+            "price_eur": price_eur,
+            "price_eur_foil": price_eur_foil,
+            "chosen_price_eur": chosen,
             "scryfall_id": card.get("id") if card else None,
             "updated_at": ts,
         }
 
         time.sleep(args.sleep)
 
-    # schrijf JSON
+    # Schrijf JSON
     os.makedirs(os.path.dirname(args.out_json) or ".", exist_ok=True)
     with open(args.out_json, "w", encoding="utf-8") as f:
         json.dump({"updated_at": ts, "prices": prices}, f, ensure_ascii=False, indent=2)
 
-    # optionele CSV output
+    # Optionele CSV output
     if args.out_csv:
         fieldnames = list(headers)
         for col in ("price_eur","price_eur_foil","chosen_price_eur"):
@@ -150,7 +154,7 @@ def main():
             for r in rows:
                 name = r.get(name_field,"").strip()
                 setname = (r.get(setname_field) or "").strip() if setname_field else ""
-                key = f"{name}|{setname}".strip("|")
+                key = f"{name.strip()}|{setname.strip()}".strip("|")
                 info = prices.get(key, {})
                 r["price_eur"] = info.get("price_eur")
                 r["price_eur_foil"] = info.get("price_eur_foil")
