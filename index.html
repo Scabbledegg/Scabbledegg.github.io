@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>My MTG Deck Database</title>
-  <!-- PapaParse om CSV te lezen -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -50,12 +49,6 @@
       font-size: 12px;
       margin: 2px 0;
     }
-    .price {
-      font-weight: 700;
-      margin-top: 6px;
-      font-size: 13px;
-      color: #dcdcdc;
-    }
   </style>
 </head>
 <body>
@@ -77,116 +70,78 @@
 
   <div class="grid" id="cardGrid"></div>
 
-  <script defer>
-    window.onerror = function(msg, src, line, col, err) {
-      console.error("JS Error:", msg, "in", src, ":", line, col);
-    };
-
+  <script>
+    // Zelfde sanitize als Python
     function sanitizeFileName(name) {
       return name
-        .replace(/[/:]/g, "-")
-        .replace(/[^a-zA-Z0-9\s\-]/g, "")
+        .replace(/[/:]/g, "-")        // vervang / en :
+        .replace(/[^a-zA-Z0-9\s\-]/g, "") // haal rare tekens weg
         .trim()
-        .replace(/\s+/g, " ");
+        .replace(/\s+/g, " ");        // dubbele spaties fixen
     }
 
-    function euroFmt(n) {
-      if (n === null || n === undefined) return "—";
-      try {
-        return new Intl.NumberFormat(undefined, { style: "currency", currency: "EUR" }).format(n);
-      } catch {
-        return "€" + n;
-      }
-    }
+    Papa.parse("Bulk.csv", {
+      download: true,
+      header: true,
+      complete: function(results) {
+        const data = results.data;
+        const grid = document.getElementById("cardGrid");
+        const filterSet = document.getElementById("filterSet");
 
-    let priceMap = {};
+        // Vul set-filter
+        const sets = [...new Set(data.map(c => c["Set name"]))].sort();
+        sets.forEach(set => {
+          if (set) {
+            const opt = document.createElement("option");
+            opt.value = set;
+            opt.textContent = set;
+            filterSet.appendChild(opt);
+          }
+        });
 
-    document.addEventListener("DOMContentLoaded", function() {
-      // CSV laden
-      Papa.parse("Bulk.csv", {
-        download: true,
-        header: true,
-        complete: function(results) {
-          const data = results.data;
-          const grid = document.getElementById("cardGrid");
-          const filterSet = document.getElementById("filterSet");
+        function renderCards() {
+          const searchName = document.getElementById("searchName").value.toLowerCase();
+          const selectedSet = filterSet.value;
+          const selectedRarity = document.getElementById("filterRarity").value;
 
-          // Vul set-filter
-          const sets = [...new Set(data.map(c => c["Set name"]))].sort();
-          sets.forEach(set => {
-            if (set) {
-              const opt = document.createElement("option");
-              opt.value = set;
-              opt.textContent = set;
-              filterSet.appendChild(opt);
-            }
+          grid.innerHTML = "";
+
+          data.forEach(card => {
+            if (!card["Name"]) return;
+
+            const name = card["Name"];
+            const set = card["Set name"];
+            const rarity = card["Rarity"];
+            const qty = card["Quantity"] || "1"; // pak aantal, of standaard 1
+
+            // Filters
+            if (searchName && !name.toLowerCase().includes(searchName)) return;
+            if (selectedSet && set !== selectedSet) return;
+            if (selectedRarity && rarity.toLowerCase() !== selectedRarity) return;
+
+            const div = document.createElement("div");
+            div.className = "card";
+
+            // Bestandsnaam zoals Python maakt
+            const imgFile = "./card_images/" + sanitizeFileName(name) + ".jpg";
+
+            div.innerHTML = `
+              <img src="${imgFile}" alt="${name}">
+              <h3>${name}</h3>
+              <p>${set} - ${rarity}</p>
+              <p>Copies: ${qty}</p>
+            `;
+            grid.appendChild(div);
           });
-
-          // prijzen laden
-          fetch("data/prices.json", { cache: "no-store" })
-            .then(res => {
-              if (!res.ok) throw new Error("prices.json niet beschikbaar");
-              return res.json();
-            })
-            .then(json => {
-              priceMap = json.prices || {};
-            })
-            .catch(err => {
-              console.warn("Geen prices.json of load faalde:", err);
-              priceMap = {};
-            })
-            .finally(() => {
-              renderCards();
-            });
-
-          function getPriceFor(name, set) {
-            const key = `${name}|${set}`.replace(/\|$/, "");
-            const info = priceMap[key] || priceMap[name] || null;
-            if (!info) return null;
-            return info.chosen_price_eur ?? info.price_eur ?? info.price_eur_foil ?? null;
-          }
-
-          function renderCards() {
-            const searchName = document.getElementById("searchName").value.toLowerCase();
-            const selectedSet = filterSet.value;
-            const selectedRarity = document.getElementById("filterRarity").value;
-
-            grid.innerHTML = "";
-
-            data.forEach(card => {
-              if (!card["Name"]) return;
-
-              const name = card["Name"];
-              const set = card["Set name"] || "";
-              const rarity = (card["Rarity"] || "").toLowerCase();
-              const qty = card["Quantity"] || "1";
-
-              if (searchName && !name.toLowerCase().includes(searchName)) return;
-              if (selectedSet && set !== selectedSet) return;
-              if (selectedRarity && rarity !== selectedRarity) return;
-
-              const div = document.createElement("div");
-              div.className = "card";
-
-              const imgFile = "./card_images/" + sanitizeFileName(name) + ".jpg";
-              const priceVal = getPriceFor(name, set);
-
-              div.innerHTML = `
-                <img src="${imgFile}" alt="${name}" onerror="this.style.opacity='.2'">
-                <h3>${name}</h3>
-                <p>${set} - ${rarity}</p>
-                <p>Copies: ${qty}</p>
-                <p class="price">${euroFmt(priceVal)}</p>
-              `;
-              grid.appendChild(div);
-            });
-          }
-
-          document.getElementById("searchName").addEventListener("input", renderCards);
-          document.getElementById("filterSet").addEventListener("change", renderCards);
-          document.getElementById("filterRarity").addEventListener("change", renderCards);
         }
-      });
+
+        // Filters & search
+        document.getElementById("searchName").addEventListener("input", renderCards);
+        document.getElementById("filterSet").addEventListener("change", renderCards);
+        document.getElementById("filterRarity").addEventListener("change", renderCards);
+
+        renderCards();
+      }
     });
   </script>
 </body>
