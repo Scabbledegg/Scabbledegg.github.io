@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>My MTG Deck Database</title>
   <!-- PapaParse om CSV te lezen -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" defer></script>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -77,13 +77,11 @@
 
   <div class="grid" id="cardGrid"></div>
 
-  <script>
-    // simpele foutlogger
+  <script defer>
     window.onerror = function(msg, src, line, col, err) {
       console.error("JS Error:", msg, "in", src, ":", line, col);
     };
 
-    // zelfde sanitize als Python
     function sanitizeFileName(name) {
       return name
         .replace(/[/:]/g, "-")
@@ -92,7 +90,6 @@
         .replace(/\s+/g, " ");
     }
 
-    // formatteer naar €
     function euroFmt(n) {
       if (n === null || n === undefined) return "—";
       try {
@@ -104,94 +101,92 @@
 
     let priceMap = {};
 
-    // laad CSV
-    Papa.parse("Bulk.csv", {
-      download: true,
-      header: true,
-      complete: function(results) {
-        const data = results.data;
-        const grid = document.getElementById("cardGrid");
-        const filterSet = document.getElementById("filterSet");
+    document.addEventListener("DOMContentLoaded", function() {
+      // CSV laden
+      Papa.parse("Bulk.csv", {
+        download: true,
+        header: true,
+        complete: function(results) {
+          const data = results.data;
+          const grid = document.getElementById("cardGrid");
+          const filterSet = document.getElementById("filterSet");
 
-        // Vul set-filter
-        const sets = [...new Set(data.map(c => c["Set name"]))].sort();
-        sets.forEach(set => {
-          if (set) {
-            const opt = document.createElement("option");
-            opt.value = set;
-            opt.textContent = set;
-            filterSet.appendChild(opt);
+          // Vul set-filter
+          const sets = [...new Set(data.map(c => c["Set name"]))].sort();
+          sets.forEach(set => {
+            if (set) {
+              const opt = document.createElement("option");
+              opt.value = set;
+              opt.textContent = set;
+              filterSet.appendChild(opt);
+            }
+          });
+
+          // prijzen laden
+          fetch("data/prices.json", { cache: "no-store" })
+            .then(res => {
+              if (!res.ok) throw new Error("prices.json niet beschikbaar");
+              return res.json();
+            })
+            .then(json => {
+              priceMap = json.prices || {};
+            })
+            .catch(err => {
+              console.warn("Geen prices.json of load faalde:", err);
+              priceMap = {};
+            })
+            .finally(() => {
+              renderCards();
+            });
+
+          function getPriceFor(name, set) {
+            const key = `${name}|${set}`.replace(/\|$/, "");
+            const info = priceMap[key] || priceMap[name] || null;
+            if (!info) return null;
+            return info.chosen_price_eur ?? info.price_eur ?? info.price_eur_foil ?? null;
           }
-        });
 
-        // prijzen proberen te laden
-        fetch("data/prices.json", { cache: "no-store" })
-          .then(res => {
-            if (!res.ok) throw new Error("prices.json niet beschikbaar");
-            return res.json();
-          })
-          .then(json => {
-            priceMap = json.prices || {};
-          })
-          .catch(err => {
-            console.warn("Geen prices.json of load faalde:", err);
-            priceMap = {};
-          })
-          .finally(() => {
-            renderCards();
-          });
+          function renderCards() {
+            const searchName = document.getElementById("searchName").value.toLowerCase();
+            const selectedSet = filterSet.value;
+            const selectedRarity = document.getElementById("filterRarity").value;
 
-        function getPriceFor(name, set) {
-          const key = `${name}|${set}`.replace(/\|$/, "");
-          const info = priceMap[key] || priceMap[name] || null;
-          if (!info) return null;
-          return info.chosen_price_eur ?? info.price_eur ?? info.price_eur_foil ?? null;
+            grid.innerHTML = "";
+
+            data.forEach(card => {
+              if (!card["Name"]) return;
+
+              const name = card["Name"];
+              const set = card["Set name"] || "";
+              const rarity = (card["Rarity"] || "").toLowerCase();
+              const qty = card["Quantity"] || "1";
+
+              if (searchName && !name.toLowerCase().includes(searchName)) return;
+              if (selectedSet && set !== selectedSet) return;
+              if (selectedRarity && rarity !== selectedRarity) return;
+
+              const div = document.createElement("div");
+              div.className = "card";
+
+              const imgFile = "./card_images/" + sanitizeFileName(name) + ".jpg";
+              const priceVal = getPriceFor(name, set);
+
+              div.innerHTML = `
+                <img src="${imgFile}" alt="${name}" onerror="this.style.opacity='.2'">
+                <h3>${name}</h3>
+                <p>${set} - ${rarity}</p>
+                <p>Copies: ${qty}</p>
+                <p class="price">${euroFmt(priceVal)}</p>
+              `;
+              grid.appendChild(div);
+            });
+          }
+
+          document.getElementById("searchName").addEventListener("input", renderCards);
+          document.getElementById("filterSet").addEventListener("change", renderCards);
+          document.getElementById("filterRarity").addEventListener("change", renderCards);
         }
-
-        function renderCards() {
-          const searchName = document.getElementById("searchName").value.toLowerCase();
-          const selectedSet = filterSet.value;
-          const selectedRarity = document.getElementById("filterRarity").value;
-
-          grid.innerHTML = "";
-
-          data.forEach(card => {
-            if (!card["Name"]) return;
-
-            const name = card["Name"];
-            const set = card["Set name"] || "";
-            const rarity = (card["Rarity"] || "").toLowerCase();
-            const qty = card["Quantity"] || "1";
-
-            // filters
-            if (searchName && !name.toLowerCase().includes(searchName)) return;
-            if (selectedSet && set !== selectedSet) return;
-            if (selectedRarity && rarity !== selectedRarity) return;
-
-            const div = document.createElement("div");
-            div.className = "card";
-
-            const imgFile = "./card_images/" + sanitizeFileName(name) + ".jpg";
-
-            // prijs ophalen
-            const priceVal = getPriceFor(name, set);
-
-            div.innerHTML = `
-              <img src="${imgFile}" alt="${name}" onerror="this.style.opacity='.2'">
-              <h3>${name}</h3>
-              <p>${set} - ${rarity}</p>
-              <p>Copies: ${qty}</p>
-              <p class="price">${euroFmt(priceVal)}</p>
-            `;
-            grid.appendChild(div);
-          });
-        }
-
-        // events
-        document.getElementById("searchName").addEventListener("input", renderCards);
-        document.getElementById("filterSet").addEventListener("change", renderCards);
-        document.getElementById("filterRarity").addEventListener("change", renderCards);
-      }
+      });
     });
   </script>
 </body>
