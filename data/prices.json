@@ -1,1 +1,21 @@
-{}
+{}import json
+import csv
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--csv")
+parser.add_argument("--out-json")
+args = parser.parse_args()
+
+prices = {}
+with open(args.csv, newline="", encoding="utf-8") as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        name = row["Name"]
+        setname = row.get("Set name", "")
+        price = float(row.get("Price", 0))  # of uit externe API
+        key = f"{name}|{setname}"
+        prices[key] = {"chosen_price_eur": price, "price_eur": price}
+
+with open(args.out_json, "w", encoding="utf-8") as f:
+    json.dump({"prices": prices}, f, indent=2)
