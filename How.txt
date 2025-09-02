@@ -2,3 +2,25 @@ python download_card_art.py
 git add .
 git commit -m "update kaarten"
 git push
+
+1
+git add Bulk.csv card_images/
+This tells Git to track your new CSV and the folder with images.
+
+If you have a lot of images, you can stage everything at once:
+
+bash
+Copy code
+git add .
+2️⃣ Commit the changes
+Add a descriptive message:
+
+bash
+Copy code
+git commit -m "Update Bulk.csv and add card images"
+3️⃣ Push to GitHub
+Send your changes to your repository:
+
+bash
+Copy code
+git push origin main
