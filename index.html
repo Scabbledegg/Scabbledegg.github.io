@@ -1,148 +1,116 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My MTG Deck Database</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #222;
-      color: white;
-      padding: 20px;
-    }
-    h1 {
-      text-align: center;
-    }
-    .filters {
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-      margin-bottom: 20px;
-    }
-    input, select {
-      padding: 5px;
-      border-radius: 5px;
-      border: none;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-      gap: 15px;
-    }
-    .card {
-      background: #333;
-      padding: 10px;
-      border-radius: 8px;
-      text-align: center;
-    }
-    .card img {
-      width: 100%;
-      border-radius: 6px;
-      background: #111;
-    }
-    .card h3 {
-      font-size: 14px;
-      margin: 5px 0 0 0;
-    }
-    .card p {
-      font-size: 12px;
-      margin: 2px 0;
-    }
-  </style>
-</head>
-<body>
-  <h1>My MTG Deck Database</h1>
+<script>
+  // Zelfde sanitize als Python
+  function sanitizeFileName(name) {
+    return name
+      .replace(/[/:]/g, "-")
+      .replace(/[^a-zA-Z0-9\s\-]/g, "")
+      .trim()
+      .replace(/\s+/g, " ");
+  }
 
-  <div class="filters">
-    <input type="text" id="searchName" placeholder="Search by name">
-    <select id="filterSet">
-      <option value="">All sets</option>
-    </select>
-    <select id="filterRarity">
-      <option value="">All rarities</option>
-      <option value="common">Common</option>
-      <option value="uncommon">Uncommon</option>
-      <option value="rare">Rare</option>
-      <option value="mythic">Mythic</option>
-    </select>
-  </div>
-
-  <div class="grid" id="cardGrid"></div>
-
-  <script>
-    // Zelfde sanitize als Python
-    function sanitizeFileName(name) {
-      return name
-        .replace(/[/:]/g, "-")        // vervang / en :
-        .replace(/[^a-zA-Z0-9\s\-]/g, "") // haal rare tekens weg
-        .trim()
-        .replace(/\s+/g, " ");        // dubbele spaties fixen
+  // Format euro
+  function euroFmt(n) {
+    if (n === null || n === undefined) return "—";
+    try {
+      return new Intl.NumberFormat(undefined, { style: "currency", currency: "EUR" }).format(n);
+    } catch (e) {
+      return "€" + n;
     }
+  }
 
-    Papa.parse("Bulk.csv", {
-      download: true,
-      header: true,
-      complete: function(results) {
-        const data = results.data;
-        const grid = document.getElementById("cardGrid");
-        const filterSet = document.getElementById("filterSet");
+  let priceMap = {}; // gevuld met data/prices.json -> .prices
 
-        // Vul set-filter
-        const sets = [...new Set(data.map(c => c["Set name"]))].sort();
-        sets.forEach(set => {
-          if (set) {
-            const opt = document.createElement("option");
-            opt.value = set;
-            opt.textContent = set;
-            filterSet.appendChild(opt);
-          }
+  Papa.parse("Bulk.csv", {
+    download: true,
+    header: true,
+    complete: function(results) {
+      const data = results.data;
+      const grid = document.getElementById("cardGrid");
+      const filterSet = document.getElementById("filterSet");
+
+      // Vul set-filter (zoals voorheen)
+      const sets = [...new Set(data.map(c => c["Set name"]))].filter(Boolean).sort();
+      sets.forEach(set => {
+        const opt = document.createElement("option");
+        opt.value = set;
+        opt.textContent = set;
+        filterSet.appendChild(opt);
+      });
+
+      // probeer prijzen te laden (indien aanwezig)
+      fetch("data/prices.json", { cache: "no-store" })
+        .then(res => {
+          if (!res.ok) throw new Error("prices.json niet beschikbaar");
+          return res.json();
+        })
+        .then(json => {
+          priceMap = json.prices || {};
+        })
+        .catch(err => {
+          console.warn("Geen prices.json gevonden of load faalde:", err);
+          priceMap = {};
+        })
+        .finally(() => {
+          // renderen, of opnieuw op filters
+          renderCards();
         });
 
-        function renderCards() {
-          const searchName = document.getElementById("searchName").value.toLowerCase();
-          const selectedSet = filterSet.value;
-          const selectedRarity = document.getElementById("filterRarity").value;
-
-          grid.innerHTML = "";
-
-          data.forEach(card => {
-            if (!card["Name"]) return;
-
-            const name = card["Name"];
-            const set = card["Set name"];
-            const rarity = card["Rarity"];
-            const qty = card["Quantity"] || "1"; // pak aantal, of standaard 1
-
-            // Filters
-            if (searchName && !name.toLowerCase().includes(searchName)) return;
-            if (selectedSet && set !== selectedSet) return;
-            if (selectedRarity && rarity.toLowerCase() !== selectedRarity) return;
-
-            const div = document.createElement("div");
-            div.className = "card";
-
-            // Bestandsnaam zoals Python maakt
-            const imgFile = "./card_images/" + sanitizeFileName(name) + ".jpg";
-
-            div.innerHTML = `
-              <img src="${imgFile}" alt="${name}">
-              <h3>${name}</h3>
-              <p>${set} - ${rarity}</p>
-              <p>Copies: ${qty}</p>
-            `;
-            grid.appendChild(div);
-          });
-        }
-
-        // Filters & search
-        document.getElementById("searchName").addEventListener("input", renderCards);
-        document.getElementById("filterSet").addEventListener("change", renderCards);
-        document.getElementById("filterRarity").addEventListener("change", renderCards);
-
-        renderCards();
+      function getPriceFor(name, set) {
+        const key = `${name}|${set}`.replace(/\|$/, "");
+        const info = priceMap[key] || priceMap[name] || null;
+        if (!info) return null;
+        return info.chosen_price_eur ?? info.price_eur ?? info.price_eur_foil ?? null;
       }
-    });
-  </script>
-</body>
-</html>
+
+      function renderCards() {
+        const searchName = document.getElementById("searchName").value.toLowerCase();
+        const selectedSet = filterSet.value;
+        const selectedRarity = document.getElementById("filterRarity").value;
+
+        grid.innerHTML = "";
+
+        data.forEach(card => {
+          if (!card["Name"]) return;
+
+          const name = card["Name"];
+          const set = card["Set name"];
+          const rarity = card["Rarity"] || "";
+          const qty = card["Quantity"] || "1";
+
+          // Filters
+          if (searchName && !name.toLowerCase().includes(searchName)) return;
+          if (selectedSet && set !== selectedSet) return;
+          if (selectedRarity && rarity.toLowerCase() !== selectedRarity) return;
+
+          const div = document.createElement("div");
+          div.className = "card";
+
+          const imgFile = "./card_images/" + sanitizeFileName(name) + ".jpg";
+
+          // prijs ophalen
+          const priceVal = getPriceFor(name, set);
+          const priceHtml = priceVal != null ? `<p class="price">${euroFmt(priceVal)}</p>` : `<p class="price">—</p>`;
+
+          div.innerHTML = `
+            <img src="${imgFile}" alt="${name}" onerror="this.style.opacity='.2'; this.nextElementSibling && (this.nextElementSibling.style.opacity='.6')">
+            <h3>${name}</h3>
+            <p>${set} - ${rarity}</p>
+            <p>Copies: ${qty}</p>
+            ${priceHtml}
+          `;
+          grid.appendChild(div);
+        });
+      }
+
+      // Filters & search
+      document.getElementById("searchName").addEventListener("input", renderCards);
+      document.getElementById("filterSet").addEventListener("change", renderCards);
+      document.getElementById("filterRarity").addEventListener("change", renderCards);
+    }
+  });
+</script>
+
+<style>
+  /* voeg dit toe in <head> of bestaand style-blok */
+  .price { font-weight: 700; margin-top: 6px; font-size: 13px; color: #dcdcdc; }
+</style>

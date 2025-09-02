@@ -1,5 +1,4 @@
-python "download_card_art.py"
-
-python -m http.server 8000
-browser:
-http://localhost:8000/index.html
+python download_card_art.py
+git add .
+git commit -m "update kaarten"
+git push
