@@ -196,7 +196,7 @@
       if (result.length > 0) {
         result.push(`<br><strong>Totaal: ${euroFmt(total)}</strong>`);
         document.getElementById("deckResult").innerHTML =
-          "<strong>Gevonden kaarten (volgens je database):</strong><br>" + result.join("<br>");
+          "<strong>Gevonden kaarten:</strong><br>" + result.join("<br>");
       } else {
         document.getElementById("deckResult").innerHTML =
           "<em>Geen kaarten uit je decklist gevonden in de database.</em>";
