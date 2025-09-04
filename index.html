@@ -20,10 +20,25 @@
       justify-content: center;
       margin-bottom: 20px;
     }
-    input, select {
+    input, select, textarea, button {
       padding: 5px;
       border-radius: 5px;
       border: none;
+    }
+    textarea {
+      width: 100%;
+      background: #333;
+      color: white;
+      margin-top: 10px;
+    }
+    button {
+      margin-top: 5px;
+      background: #555;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #777;
     }
     .grid {
       display: grid;
@@ -55,6 +70,14 @@
       font-size: 13px;
       color: #dcdcdc;
     }
+    #deckResult {
+      margin-top: 10px;
+      padding: 10px;
+      background: #333;
+      border-radius: 6px;
+      font-size: 14px;
+      line-height: 1.4;
+    }
   </style>
 </head>
 <body>
@@ -74,15 +97,21 @@
     </select>
   </div>
 
+  <!-- Decklist checker -->
+  <h2>Decklist Checker</h2>
+  <textarea id="decklist" rows="8" placeholder="Plak hier je decklist, bv:&#10;4 Lightning Bolt&#10;2 Counterspell"></textarea>
+  <br>
+  <button onclick="checkDeck()">Check deck</button>
+  <div id="deckResult"></div>
+
+  <h2>Database</h2>
   <div class="grid" id="cardGrid"></div>
 
   <script defer>
-    // Fout logging
     window.onerror = function(msg, src, line, col, err) {
       console.error("JS Error:", msg, "in", src, ":", line, col);
     };
 
-    // Sanitize filenames zoals Python
     function sanitizeFileName(name) {
       return name
         .replace(/[/:]/g, "-")
@@ -91,7 +120,6 @@
         .replace(/\s+/g, " ");
     }
 
-    // Formatteer naar €
     function euroFmt(n) {
       if (n === null || n === undefined) return "—";
       try {
@@ -102,15 +130,14 @@
     }
 
     let priceMap = {};
+    let cardDB = []; // lijst met kaartnamen
 
     document.addEventListener("DOMContentLoaded", function() {
-      // Laad prijzen
       fetch("data/prices.json", { cache: "no-store" })
         .then(res => res.ok ? res.json() : Promise.reject("prices.json niet beschikbaar"))
         .then(json => { priceMap = json.prices || {}; })
         .catch(err => { console.warn("Geen prices.json of load faalde:", err); priceMap = {}; });
 
-      // CSV laden
       Papa.parse("Bulk.csv", {
         download: true,
         header: true,
@@ -119,7 +146,9 @@
           const grid = document.getElementById("cardGrid");
           const filterSet = document.getElementById("filterSet");
 
-          // Vul set-filter
+          // database van kaartnamen vullen
+          cardDB = data.map(c => c["Name"]?.toLowerCase()).filter(Boolean);
+
           const sets = [...new Set(data.map(c => c["Set name"]))].sort();
           sets.forEach(set => {
             if (set) {
@@ -130,7 +159,6 @@
             }
           });
 
-          // Functie om prijs per kaart te halen
           function getPriceFor(name, set) {
             const key = `${name}|${set}`.replace(/\|$/, "");
             const info = priceMap[key] || priceMap[name] || null;
@@ -138,7 +166,6 @@
             return info.chosen_price_eur ?? info.price_eur ?? info.price_eur_foil ?? null;
           }
 
-          // Render kaarten
           function renderCards() {
             const searchName = document.getElementById("searchName").value.toLowerCase();
             const selectedSet = filterSet.value;
@@ -154,7 +181,6 @@
               const rarity = (card["Rarity"] || "").toLowerCase();
               const qty = card["Quantity"] || "1";
 
-              // Filters
               if (searchName && !name.toLowerCase().includes(searchName)) return;
               if (selectedSet && set !== selectedSet) return;
               if (selectedRarity && rarity !== selectedRarity) return;
@@ -176,16 +202,37 @@
             });
           }
 
-          // Event listeners voor filters
           document.getElementById("searchName").addEventListener("input", renderCards);
           document.getElementById("filterSet").addEventListener("change", renderCards);
           document.getElementById("filterRarity").addEventListener("change", renderCards);
 
-          // Render eerste keer
           renderCards();
         }
       });
     });
+
+    // Decklist checker functie: toont alleen gevonden kaarten
+    function checkDeck() {
+      const input = document.getElementById("decklist").value;
+      const lines = input.split("\n");
+      const result = [];
+
+      lines.forEach(line => {
+        if (!line.trim()) return;
+        const name = line.replace(/^\d+x?\s+/, "").toLowerCase();
+        if (cardDB.includes(name)) {
+          result.push(line); // alleen tonen als 'ie bestaat in database
+        }
+      });
+
+      if (result.length > 0) {
+        document.getElementById("deckResult").innerHTML =
+          "<strong>Gevonden kaarten:</strong><br>" + result.join("<br>");
+      } else {
+        document.getElementById("deckResult").innerHTML =
+          "<em>Geen kaarten uit je decklist gevonden in de database.</em>";
+      }
+    }
   </script>
 </body>
 </html>
