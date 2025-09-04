@@ -52,21 +52,28 @@ def scryfall_search_card(name):
 
 
 def pick_card_from_search(res_json, target_setname):
+    """Kies de juiste kaart uit de zoekresultaten."""
     if not res_json or "data" not in res_json:
         return None
     items = res_json["data"]
     if not items:
         return None
-    if not target_setname:
-        return items[0]
 
-    tgt = normalize(target_setname)
+    tgt = normalize(target_setname) if target_setname else None
+
+    # 1. Zoek exacte set match met prijs
+    if tgt:
+        for c in items:
+            if normalize(c.get("set_name", "")) == tgt or normalize(c.get("set", "")) == tgt:
+                if c.get("prices", {}).get("eur") or c.get("prices", {}).get("eur_foil"):
+                    return c
+
+    # 2. Zoek eerste kaart met geldige EUR prijs
     for c in items:
-        if normalize(c.get("set_name", "")) == tgt:
+        if c.get("prices", {}).get("eur") or c.get("prices", {}).get("eur_foil"):
             return c
-    for c in items:
-        if normalize(c.get("set", "")) == tgt:
-            return c
+
+    # 3. Fallback naar eerste resultaat
     return items[0]
 
 
@@ -120,7 +127,7 @@ def main():
             try:
                 resp = requests.get(
                     SCRYFALL_NAMED,
-                    params={"exact": name},
+                    params={"fuzzy": name},
                     headers={"User-Agent": "MTG-Price-Updater/1.0"},
                     timeout=12,
                 )
@@ -141,7 +148,9 @@ def main():
             chosen = price_eur
         elif price_eur_foil is not None:
             chosen = price_eur_foil
-        # let op: GEEN fallback naar 0 meer, zodat frontend onderscheid kan maken
+
+        if chosen is None:
+            print(f"[NO PRICE FOUND] {name} ({setname})", file=sys.stderr)
 
         key = f"{name.strip()}|{setname.strip()}".strip("|")
         prices[key] = {
@@ -150,7 +159,7 @@ def main():
             "foil": bool(is_foil),
             "price_eur": price_eur,
             "price_eur_foil": price_eur_foil,
-            "chosen_price_eur": chosen,
+            "chosen_price_eur": chosen if chosen is not None else "N/A",
             "scryfall_id": card.get("id") if card else None,
             "updated_at": ts,
         }
