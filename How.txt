@@ -1,28 +1,3 @@
-python download_card_art.py
-git add .
-git commit -m "update kaarten"
-git push
+.\deploy.ps1
 
-Change csv file
-git add Bulk.csv card_images/
-
-git add .
-
-git commit -m "Update Bulk.csv and add card images"
-
-git push origin main
-
-
-1
-git add .
-git commit -m "Update Bulk.csv and add card images"
-git push origin main
-
-if not work 2
-git pull origin main --rebase
-git add Bulk.csv card_images/
-git commit -m "Resolve merge conflicts"
-git push origin main
-
-update prices:
-python update_prices.py --csv Bulk.csv --out-json data/prices.json --out-csv data/cards_with_prices.csv
+in open PowerShell window here (shift + right click)
