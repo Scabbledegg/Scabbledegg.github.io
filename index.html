@@ -71,8 +71,16 @@
     }
 
     let priceMap = {};
-    let cardDB = []; // lijst met kaartnamen
-    let cardData = []; // volledige CSV rows
+    let cardDB = []; 
+    let cardData = []; 
+
+    // ✅ Prijsfunctie nu globaal beschikbaar
+    function getPriceFor(name, set) {
+      const key = `${name}|${set}`.replace(/\|$/, "");
+      const info = priceMap[key] || priceMap[name] || null;
+      if (!info) return null;
+      return info.chosen_price_eur ?? info.price_eur ?? info.price_eur_foil ?? null;
+    }
 
     document.addEventListener("DOMContentLoaded", function() {
       fetch("data/prices.json", { cache: "no-store" })
@@ -88,7 +96,6 @@
           const grid = document.getElementById("cardGrid");
           const filterSet = document.getElementById("filterSet");
 
-          // database van kaartnamen vullen
           cardDB = cardData.map(c => c["Name"]?.toLowerCase()).filter(Boolean);
 
           const sets = [...new Set(cardData.map(c => c["Set name"]))].sort();
@@ -100,13 +107,6 @@
               filterSet.appendChild(opt);
             }
           });
-
-          function getPriceFor(name, set) {
-            const key = `${name}|${set}`.replace(/\|$/, "");
-            const info = priceMap[key] || priceMap[name] || null;
-            if (!info) return null;
-            return info.chosen_price_eur ?? info.price_eur ?? info.price_eur_foil ?? null;
-          }
 
           function renderCards() {
             const searchName = document.getElementById("searchName").value.toLowerCase();
@@ -150,7 +150,7 @@
       });
     });
 
-    // ✅ Definitieve Decklist checker functie
+    // ✅ Decklist checker gebruikt nu ook getPriceFor()
     function checkDeck() {
       const input = document.getElementById("decklist").value;
       const lines = input.split("\n");
@@ -160,7 +160,6 @@
       lines.forEach(line => {
         if (!line.trim()) return;
 
-        // Splits aantal en naam uit de decklist (bijv. "4 Lightning Bolt")
         const match = line.match(/^(\d+)x?\s+(.*)$/i);
         let deckQty = 1;
         let name = line.trim();
@@ -178,10 +177,8 @@
 
           if (useQty > 0) {
             const set = cardRow["Set name"] || "";
-            const key = `${name}|${set}`.replace(/\|$/, "");
-            const info = priceMap[key] || priceMap[name] || {};
-            const price = info.chosen_price_eur ?? info.price_eur ?? info.price_eur_foil ?? 0;
-            const subtotal = useQty * (price || 0);
+            const price = getPriceFor(name, set) || 0;
+            const subtotal = useQty * price;
             total += subtotal;
 
             let lineText = `${useQty} × ${name} — ${euroFmt(price)} per stuk → ${euroFmt(subtotal)}`;
