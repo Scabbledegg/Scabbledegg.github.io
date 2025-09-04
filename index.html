@@ -5,79 +5,20 @@
   <title>My MTG Deck Database</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" defer></script>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #222;
-      color: white;
-      padding: 20px;
-    }
-    h1 {
-      text-align: center;
-    }
-    .filters {
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-      margin-bottom: 20px;
-    }
-    input, select, textarea, button {
-      padding: 5px;
-      border-radius: 5px;
-      border: none;
-    }
-    textarea {
-      width: 100%;
-      background: #333;
-      color: white;
-      margin-top: 10px;
-    }
-    button {
-      margin-top: 5px;
-      background: #555;
-      color: white;
-      cursor: pointer;
-    }
-    button:hover {
-      background: #777;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-      gap: 15px;
-    }
-    .card {
-      background: #333;
-      padding: 10px;
-      border-radius: 8px;
-      text-align: center;
-    }
-    .card img {
-      width: 100%;
-      border-radius: 6px;
-      background: #111;
-    }
-    .card h3 {
-      font-size: 14px;
-      margin: 5px 0 0 0;
-    }
-    .card p {
-      font-size: 12px;
-      margin: 2px 0;
-    }
-    .price {
-      font-weight: 700;
-      margin-top: 6px;
-      font-size: 13px;
-      color: #dcdcdc;
-    }
-    #deckResult {
-      margin-top: 10px;
-      padding: 10px;
-      background: #333;
-      border-radius: 6px;
-      font-size: 14px;
-      line-height: 1.4;
-    }
+    body { font-family: Arial, sans-serif; background: #222; color: white; padding: 20px; }
+    h1 { text-align: center; }
+    .filters { display: flex; gap: 10px; justify-content: center; margin-bottom: 20px; }
+    input, select, textarea, button { padding: 5px; border-radius: 5px; border: none; }
+    textarea { width: 100%; background: #333; color: white; margin-top: 10px; }
+    button { margin-top: 5px; background: #555; color: white; cursor: pointer; }
+    button:hover { background: #777; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 15px; }
+    .card { background: #333; padding: 10px; border-radius: 8px; text-align: center; }
+    .card img { width: 100%; border-radius: 6px; background: #111; }
+    .card h3 { font-size: 14px; margin: 5px 0 0 0; }
+    .card p { font-size: 12px; margin: 2px 0; }
+    .price { font-weight: 700; margin-top: 6px; font-size: 13px; color: #dcdcdc; }
+    #deckResult { margin-top: 10px; padding: 10px; background: #333; border-radius: 6px; font-size: 14px; line-height: 1.4; }
   </style>
 </head>
 <body>
@@ -131,6 +72,7 @@
 
     let priceMap = {};
     let cardDB = []; // lijst met kaartnamen
+    let cardData = []; // volledige CSV rows
 
     document.addEventListener("DOMContentLoaded", function() {
       fetch("data/prices.json", { cache: "no-store" })
@@ -142,14 +84,14 @@
         download: true,
         header: true,
         complete: function(results) {
-          const data = results.data;
+          cardData = results.data;
           const grid = document.getElementById("cardGrid");
           const filterSet = document.getElementById("filterSet");
 
           // database van kaartnamen vullen
-          cardDB = data.map(c => c["Name"]?.toLowerCase()).filter(Boolean);
+          cardDB = cardData.map(c => c["Name"]?.toLowerCase()).filter(Boolean);
 
-          const sets = [...new Set(data.map(c => c["Set name"]))].sort();
+          const sets = [...new Set(cardData.map(c => c["Set name"]))].sort();
           sets.forEach(set => {
             if (set) {
               const opt = document.createElement("option");
@@ -170,12 +112,10 @@
             const searchName = document.getElementById("searchName").value.toLowerCase();
             const selectedSet = filterSet.value;
             const selectedRarity = document.getElementById("filterRarity").value;
-
             grid.innerHTML = "";
 
-            data.forEach(card => {
+            cardData.forEach(card => {
               if (!card["Name"]) return;
-
               const name = card["Name"];
               const set = card["Set name"] || "";
               const rarity = (card["Rarity"] || "").toLowerCase();
@@ -187,7 +127,6 @@
 
               const div = document.createElement("div");
               div.className = "card";
-
               const imgFile = "./card_images/" + sanitizeFileName(name) + ".jpg";
               const priceVal = getPriceFor(name, set);
 
@@ -211,23 +150,56 @@
       });
     });
 
-    // Decklist checker functie: toont alleen gevonden kaarten
+    // ✅ Definitieve Decklist checker functie
     function checkDeck() {
       const input = document.getElementById("decklist").value;
       const lines = input.split("\n");
       const result = [];
+      let total = 0;
 
       lines.forEach(line => {
         if (!line.trim()) return;
-        const name = line.replace(/^\d+x?\s+/, "").toLowerCase();
-        if (cardDB.includes(name)) {
-          result.push(line); // alleen tonen als 'ie bestaat in database
+
+        // Splits aantal en naam uit de decklist (bijv. "4 Lightning Bolt")
+        const match = line.match(/^(\d+)x?\s+(.*)$/i);
+        let deckQty = 1;
+        let name = line.trim();
+        if (match) {
+          deckQty = parseInt(match[1], 10);
+          name = match[2];
+        }
+
+        const lcName = name.toLowerCase();
+        const cardRow = cardData.find(c => (c["Name"] || "").toLowerCase() === lcName);
+
+        if (cardRow) {
+          const dbQty = parseInt(cardRow["Quantity"] || "0", 10);
+          const useQty = Math.min(deckQty, dbQty);
+
+          if (useQty > 0) {
+            const set = cardRow["Set name"] || "";
+            const key = `${name}|${set}`.replace(/\|$/, "");
+            const info = priceMap[key] || priceMap[name] || {};
+            const price = info.chosen_price_eur ?? info.price_eur ?? info.price_eur_foil ?? 0;
+            const subtotal = useQty * (price || 0);
+            total += subtotal;
+
+            let lineText = `${useQty} × ${name} — ${euroFmt(price)} per stuk → ${euroFmt(subtotal)}`;
+            if (dbQty < deckQty) {
+              const missing = deckQty - dbQty;
+              lineText += ` <span style="color:#f66">(ontbrekend: ${missing})</span>`;
+            }
+            result.push(lineText);
+          } else {
+            result.push(`0 × ${name} <span style="color:#f66">(ontbrekend: ${deckQty})</span>`);
+          }
         }
       });
 
       if (result.length > 0) {
+        result.push(`<br><strong>Totaal: ${euroFmt(total)}</strong>`);
         document.getElementById("deckResult").innerHTML =
-          "<strong>Gevonden kaarten:</strong><br>" + result.join("<br>");
+          "<strong>Gevonden kaarten (volgens je database):</strong><br>" + result.join("<br>");
       } else {
         document.getElementById("deckResult").innerHTML =
           "<em>Geen kaarten uit je decklist gevonden in de database.</em>";
