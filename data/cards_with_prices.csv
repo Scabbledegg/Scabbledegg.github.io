@@ -337,7 +337,7 @@ Essence Scatter,FDN,Foundations,153,normal,uncommon,2,101226,dd05c850-f91e-4ffb-
 Opt,OTC,Outlaws of Thunder Junction Commander,104,normal,common,1,93670,67bcf3fd-fca0-4cdb-b625-bac5fadd00e3,0.11,false,false,near_mint,en,EUR,0.15,,0.15
 Calculated Dismissal,ORI,Magic Origins,48,normal,common,1,10894,2c42ab35-6050-42b2-9c3c-3252f2e69442,0.13,false,false,near_mint,en,EUR,0.08,0.23,0.08
 Don't Make a Sound,DSK,Duskmourn: House of Horror,49,normal,common,1,99305,b5f42e59-7315-41cb-9c41-346e44f0c5fb,0.14,false,false,near_mint,en,EUR,0.08,0.11,0.08
-Negate,ORI,Magic Origins,65,normal,common,1,10877,e848b632-e08a-4341-a99c-d8207f9ffe48,0.16,false,false,near_mint,en,EUR,0.13,0.57,0.13
+Negate,ORI,Magic Origins,65,normal,common,1,10877,e848b632-e08a-4341-a99c-d8207f9ffe48,0.16,false,false,near_mint,en,EUR,0.11,0.57,0.11
 Refute,FDN,Foundations,48,normal,common,5,100368,38806934-dd9c-4ad4-a59c-a16dce03a14a,0.09,false,false,near_mint,en,EUR,0.12,0.11,0.12
 Dragonborn Looter,CLB,Commander Legends: Battle for Baldur's Gate,65,normal,common,1,69035,570e8aaa-5273-42f4-b151-51976ab7730c,0.09,false,false,near_mint,en,EUR,0.09,0.16,0.09
 Complete the Circuit,MOM,March of the Machine,52,normal,rare,1,81229,cdf5de96-9418-48f1-a18e-01a0108c4f97,0.21,false,false,near_mint,en,EUR,0.21,0.22,0.21
@@ -371,7 +371,7 @@ Solemn Simulacrum,TDC,Tarkir: Dragonstorm Commander,325,normal,rare,1,104953,cb1
 Nine-Lives Familiar,FDN,Foundations,66,normal,rare,1,95586,988c23f6-59fe-49f9-a9ce-9881dccb7033,1.01,false,false,near_mint,en,EUR,1.24,1.47,1.24
 Qarsi Revenant,TDM,Tarkir: Dragonstorm,426,foil,rare,1,104236,03f54ff0-e10a-4f22-ada8-43b61d46ee75,0.65,false,false,near_mint,en,EUR,1.22,1.86,1.22
 Blood Artist,INR,Innistrad Remastered,97,normal,uncommon,1,101843,036f387a-8dee-482e-b3e3-cf79b54c61e1,1.37,false,false,near_mint,en,EUR,1.91,2.07,1.91
-Arcane Signet,DSC,Duskmourn: House of Horror Commander,92,normal,common,1,98793,211a1d86-7257-4621-ae05-c2b235c063f0,1.24,false,false,near_mint,en,EUR,0.56,,0.56
+Arcane Signet,DSC,Duskmourn: House of Horror Commander,92,normal,common,1,98793,211a1d86-7257-4621-ae05-c2b235c063f0,1.24,false,false,near_mint,en,EUR,0.53,,0.53
 Llanowar Wastes,TDC,Tarkir: Dragonstorm Commander,376,normal,rare,1,104832,9cb4ae53-8a0d-4eaf-900a-1ee6ec20a5df,1.28,false,false,near_mint,en,EUR,0.81,,0.81
 Captivating Vampire,INR,Innistrad Remastered,100,normal,rare,1,102420,0f87aadf-7638-4691-b5a5-86f928e98462,1.68,false,false,near_mint,en,EUR,1.54,2.25,1.54
 Falkenrath Gorger,INR,Innistrad Remastered,152,normal,rare,1,101849,16c376f5-f69b-49d4-95f4-92bdd68c564c,0.16,false,false,near_mint,en,EUR,0.17,0.31,0.17
@@ -396,17 +396,17 @@ Hollowmurk Siege,TDM,Tarkir: Dragonstorm,387,normal,rare,1,104922,bd9a6427-09cc-
 Unearth,ULG,Urza's Legacy,72,normal,common,1,35448,b6cb2549-e485-44d6-9d65-7605c568909e,1.96,false,false,near_mint,en,EUR,1.75,82.3,1.75
 "Felothar, Dawn of the Abzan",TDM,Tarkir: Dragonstorm,358,normal,rare,1,104830,9c4f9d0f-11fa-4986-a7e8-64a922681906,0.2,false,false,near_mint,en,EUR,0.2,0.32,0.2
 Overgrown Farmland,TDC,Tarkir: Dragonstorm Commander,381,normal,rare,1,104691,644fb0ed-f434-4cc4-b7e9-a60db5ece2b7,2.36,false,false,near_mint,en,EUR,1.98,,1.98
-Sol Ring,PIP,Fallout,239,normal,uncommon,1,92816,e675f7e2-5c9f-4912-8fdd-daaeda284a3d,0.93,false,false,near_mint,en,EUR,1.05,2.87,1.05
+Sol Ring,PIP,Fallout,239,normal,uncommon,1,92816,e675f7e2-5c9f-4912-8fdd-daaeda284a3d,0.93,false,false,near_mint,en,EUR,1.02,2.87,1.02
 Skullclamp,CLB,Commander Legends: Battle for Baldur's Gate,870,normal,uncommon,1,69665,d1877be5-fb98-4bd2-a754-dda1132ef8a0,6.42,false,false,near_mint,en,EUR,4.56,,4.56
 Leyline Axe,FDN,Foundations,129,normal,rare,1,101052,b9c03336-a321-4c06-94d1-809f328fabd8,1.81,false,false,near_mint,en,EUR,1.72,1.82,1.72
-Fabled Passage,BLB,Bloomburrow,252,normal,rare,1,96075,8809830f-d8e1-4603-9652-0ad8b00234e9,4.97,false,false,near_mint,en,EUR,4.86,5.35,4.86
+Fabled Passage,BLB,Bloomburrow,252,normal,rare,1,96075,8809830f-d8e1-4603-9652-0ad8b00234e9,4.97,false,false,near_mint,en,EUR,4.76,5.28,4.76
 Swamp,NEO,Kamigawa: Neon Dynasty,297,normal,common,1,66491,c50b3d79-2361-4858-98b0-64d83c4f7f70,2.55,false,false,near_mint,en,EUR,0.24,0.39,0.24
 Mountain,NEO,Kamigawa: Neon Dynasty,299,foil,common,1,66485,03cd5953-37fc-4a8a-89f8-0b5dd8412dc9,3.52,false,false,near_mint,en,EUR,0.15,0.13,0.15
 Swamp,NEO,Kamigawa: Neon Dynasty,298,normal,common,1,66486,57ef531e-2a8f-4d40-b509-92e3a86b2257,3.21,false,false,near_mint,en,EUR,0.24,0.39,0.24
 Summary Dismissal,INR,Innistrad Remastered,88,normal,uncommon,1,102672,91b51351-d4ea-4bf8-aa43-29e71cd01819,0.1,false,false,near_mint,en,EUR,0.11,0.25,0.11
 Bloodhall Priest,INR,Innistrad Remastered,232,normal,rare,1,102740,b4ea5e44-0487-4e72-983a-02d7db26d075,0.1,false,false,near_mint,en,EUR,0.1,0.16,0.1
 Inspiration from Beyond,FDN,Foundations,43,normal,uncommon,2,101033,b636fe95-664f-4fb1-aab9-28856edeccd6,0.18,false,false,near_mint,en,EUR,0.08,0.12,0.08
-Command Tower,M3C,Modern Horizons 3 Commander,331,normal,common,1,94722,27e36832-09ca-4070-8511-94580014c3ed,0.17,false,false,near_mint,en,EUR,0.22,2.16,0.22
+Command Tower,M3C,Modern Horizons 3 Commander,331,normal,common,1,94722,27e36832-09ca-4070-8511-94580014c3ed,0.17,false,false,near_mint,en,EUR,0.19,2.16,0.19
 Rite of Flame,SS3,Signature Spellbook: Chandra,7,normal,rare,1,51098,10548126-2bac-435d-b7ee-cbfea97a40ea,2.69,false,false,near_mint,en,EUR,3.46,11.99,3.46
 Patchwork Automaton,NEO,Kamigawa: Neon Dynasty,254,normal,uncommon,1,66734,7a4e1580-dd26-4f4b-ac98-3e6fa7b879d5,0.49,false,false,near_mint,en,EUR,0.4,1.02,0.4
 Reckoner Bankbuster,NEO,Kamigawa: Neon Dynasty,255,normal,rare,1,66510,279acd17-6c17-427b-a69d-fc02442ff4a3,1.29,false,false,near_mint,en,EUR,0.93,0.83,0.93
@@ -1154,7 +1154,7 @@ Blade-Blizzard Kitsune,NEO,Kamigawa: Neon Dynasty,5,normal,uncommon,1,66815,d841
 Skyknight Squire,FDN,Foundations,23,normal,rare,1,101396,fcfe4e62-c153-47b8-8e09-cedaf91f53d8,0.4,false,false,near_mint,en,EUR,0.41,0.42,0.41
 Crumb and Get It,BLB,Bloomburrow,8,normal,common,1,96259,3c7b3b25-d4b3-4451-9f5c-6eb369541175,0.09,false,false,near_mint,en,EUR,0.08,0.19,0.08
 Marble Diamond,CLB,Commander Legends: Battle for Baldur's Gate,320,normal,common,1,68833,0930f71c-c3c8-4bdd-8468-6a61349cc8ca,0.14,false,false,near_mint,en,EUR,0.17,0.28,0.17
-Make Your Move,FDN,Foundations,143,normal,common,2,101546,7368f861-3288-4645-90a7-ca35d6da3721,0.03,false,false,near_mint,en,EUR,0.08,0.13,0.08
+Make Your Move,FDN,Foundations,143,normal,common,2,101546,7368f861-3288-4645-90a7-ca35d6da3721,0.03,false,false,near_mint,en,EUR,0.11,0.12,0.11
 Rosecot Knight,MH3,Modern Horizons 3,42,normal,common,1,94874,9ae7df20-1ccf-459b-b81c-ab8763c77ccf,0.08,false,false,near_mint,en,EUR,0.03,0.08,0.03
 Teeming Dragonstorm,TDM,Tarkir: Dragonstorm,30,normal,uncommon,3,104563,3b9d771f-24dc-4ed6-8051-62df576a2ba5,0.13,false,false,near_mint,en,EUR,0.07,0.22,0.07
 "Faramir, Field Commander",LTR,The Lord of the Rings: Tales of Middle-earth,14,normal,uncommon,1,82889,17c2250a-9af1-40de-9f09-7e8c7daec520,0.07,false,false,near_mint,en,EUR,0.06,0.08,0.06
