@@ -1,42 +1,42 @@
 Name,Set code,Set name,Collector number,Foil,Rarity,Quantity,ManaBox ID,Scryfall ID,Purchase price,Misprint,Altered,Condition,Language,Purchase price currency,price_eur,price_eur_foil,chosen_price_eur
 Effortless Master,TDM,Tarkir: Dragonstorm,181,normal,uncommon,4,104441,0ae03ca5-cd4b-42b7-8cd5-3f7e753b4147,0.04,false,false,near_mint,en,EUR,0.04,0.06,0.04
 "Adéwalé, Breaker of Chains",ACR,Assassin's Creed,44,normal,uncommon,1,95428,914efc24-5c3a-4d22-9d77-fce337a08d4d,0.09,false,false,near_mint,en,EUR,0.18,0.11,0.18
-Mortify,ACR,Assassin's Creed,96,normal,uncommon,1,95295,11de7338-243a-40e2-84e3-c31240840768,0.12,false,false,near_mint,en,EUR,0.16,0.17,0.16
-"Ezio, Brash Novice",ACR,Assassin's Creed,145,normal,uncommon,1,95486,c3f4e32b-9252-42a9-a259-cd9a68cb3f4a,0.05,false,false,near_mint,en,EUR,0.06,0.07,0.06
+Mortify,ACR,Assassin's Creed,96,normal,uncommon,1,95295,11de7338-243a-40e2-84e3-c31240840768,0.12,false,false,near_mint,en,EUR,0.17,0.18,0.17
+"Ezio, Brash Novice",ACR,Assassin's Creed,145,normal,uncommon,1,95486,c3f4e32b-9252-42a9-a259-cd9a68cb3f4a,0.05,false,false,near_mint,en,EUR,0.08,0.07,0.08
 Kheru Goldkeeper,TDM,Tarkir: Dragonstorm,313,normal,uncommon,1,105150,9d85ba44-8f29-4c49-b77f-8a6692d23c8c,0.33,false,false,near_mint,en,EUR,,,N/A
 Marshal of the Lost,TDM,Tarkir: Dragonstorm,207,normal,uncommon,1,104304,64fbaa16-67c3-4ed2-9545-39abbbde61dc,0.09,false,false,near_mint,en,EUR,0.07,0.06,0.07
 Mardu Monument,TDM,Tarkir: Dragonstorm,245,normal,uncommon,2,104328,9bd0c794-77bc-4d4a-a769-3829e2ce4bdf,0.1,false,false,near_mint,en,EUR,0.1,0.18,0.1
-Temur Battlecrier,TDM,Tarkir: Dragonstorm,228,normal,rare,1,104309,72184791-0767-4108-920c-763e92dae2d4,0.41,false,false,near_mint,en,EUR,0.69,0.72,0.69
-Frontline Rush,TDM,Tarkir: Dragonstorm,186,normal,uncommon,1,104520,2ce8a205-99d6-4a9c-83a7-18b7220177d3,0.13,false,false,near_mint,en,EUR,0.18,0.29,0.18
+Temur Battlecrier,TDM,Tarkir: Dragonstorm,228,normal,rare,1,104309,72184791-0767-4108-920c-763e92dae2d4,0.41,false,false,near_mint,en,EUR,0.67,0.7,0.67
+Frontline Rush,TDM,Tarkir: Dragonstorm,186,normal,uncommon,1,104520,2ce8a205-99d6-4a9c-83a7-18b7220177d3,0.13,false,false,near_mint,en,EUR,0.16,0.29,0.16
 Cori Mountain Stalwart,TDM,Tarkir: Dragonstorm,175,normal,uncommon,3,104902,b6cbf54e-f30e-4e7b-b17c-217fa424971c,0.08,false,false,near_mint,en,EUR,0.11,0.19,0.11
 Severance Priest,TDM,Tarkir: Dragonstorm,222,normal,rare,2,104917,bc779a1b-128c-4c74-bebd-bdb687867f68,0.12,false,false,near_mint,en,EUR,0.09,0.13,0.09
-Bone-Cairn Butcher,TDM,Tarkir: Dragonstorm,173,normal,uncommon,2,104748,78bf36bc-6702-4c5d-b52d-ab7217cc8787,0.14,false,false,near_mint,en,EUR,0.17,0.36,0.17
+Bone-Cairn Butcher,TDM,Tarkir: Dragonstorm,173,normal,uncommon,2,104748,78bf36bc-6702-4c5d-b52d-ab7217cc8787,0.14,false,false,near_mint,en,EUR,0.18,0.36,0.18
 Roar of Endless Song,TDM,Tarkir: Dragonstorm,220,normal,rare,2,104755,7a9c3531-61a8-43f5-82a2-5166e5f5a6b9,0.14,false,false,near_mint,en,EUR,0.15,0.36,0.15
-Zimone and Dina,MOM,March of the Machine,318,normal,mythic,1,81281,f9769de5-43d0-4a59-a219-1740c65281c4,0.89,false,false,near_mint,en,EUR,0.55,1.16,0.55
-"Bonny Pall, Clearcutter",OTJ,Outlaws of Thunder Junction,196,normal,rare,1,93138,4383ae7c-58ea-4354-93e4-677ad185c3bb,0.64,false,false,near_mint,en,EUR,0.43,0.75,0.43
+Zimone and Dina,MOM,March of the Machine,318,normal,mythic,1,81281,f9769de5-43d0-4a59-a219-1740c65281c4,0.89,false,false,near_mint,en,EUR,0.53,1.19,0.53
+"Bonny Pall, Clearcutter",OTJ,Outlaws of Thunder Junction,196,normal,rare,1,93138,4383ae7c-58ea-4354-93e4-677ad185c3bb,0.64,false,false,near_mint,en,EUR,0.47,0.75,0.47
 Eureka Moment,DSC,Duskmourn: House of Horror Commander,216,normal,common,1,99251,904b7c23-4077-4529-acc1-3882f475c547,0.24,false,false,near_mint,en,EUR,0.23,,0.23
 Coiling Oracle,BLC,Bloomburrow Commander,250,normal,common,1,96399,9cfb4080-0f31-4352-b47a-a36955b68a18,0.12,false,false,near_mint,en,EUR,0.12,,0.12
-Planar Genesis,MH3,Modern Horizons 3,198,normal,uncommon,1,94513,7fc9a10b-c9f9-4129-a671-ced0917ce78b,0.36,false,false,near_mint,en,EUR,0.4,0.99,0.4
+Planar Genesis,MH3,Modern Horizons 3,198,normal,uncommon,1,94513,7fc9a10b-c9f9-4129-a671-ced0917ce78b,0.36,false,false,near_mint,en,EUR,0.39,0.97,0.39
 Runic Shot,DMU,Dominaria United,30,normal,uncommon,1,71864,f54413be-7d73-478d-a25a-8fe06f6491a5,0.12,false,false,near_mint,en,EUR,0.1,0.2,0.1
-"Sokrates, Athenian Teacher",ACR,Assassin's Creed,67,normal,rare,1,95540,f9266244-e8bc-47f8-a440-55d208b961df,0.59,false,false,near_mint,en,EUR,0.59,0.67,0.59
-Gold-Forged Thopteryx,MAT,March of the Machine: The Aftermath,31,normal,uncommon,1,82544,6917d51b-eb61-4e7e-8336-8b4adf8d1e39,0.17,false,false,near_mint,en,EUR,0.22,0.26,0.22
-Cephalopod Sentry,ONE,Phyrexia: All Will Be One,198,normal,uncommon,1,78482,30c22eb9-5056-4c0b-a5d8-41e09161eb40,0.13,false,false,near_mint,en,EUR,0.18,0.21,0.18
+"Sokrates, Athenian Teacher",ACR,Assassin's Creed,67,normal,rare,1,95540,f9266244-e8bc-47f8-a440-55d208b961df,0.59,false,false,near_mint,en,EUR,0.6,0.72,0.6
+Gold-Forged Thopteryx,MAT,March of the Machine: The Aftermath,31,normal,uncommon,1,82544,6917d51b-eb61-4e7e-8336-8b4adf8d1e39,0.17,false,false,near_mint,en,EUR,0.22,0.27,0.22
+Cephalopod Sentry,ONE,Phyrexia: All Will Be One,198,normal,uncommon,1,78482,30c22eb9-5056-4c0b-a5d8-41e09161eb40,0.13,false,false,near_mint,en,EUR,0.16,0.21,0.16
 Restricted Office // Lecture Hall,DSK,Duskmourn: House of Horror,227,normal,rare,1,98894,ac794b2f-b5ea-449d-bb0b-4f0e6cc145ef,0.2,false,false,near_mint,en,EUR,0.19,0.38,0.19
 Prodigy's Prototype,NEO,Kamigawa: Neon Dynasty,231,normal,uncommon,1,66595,be046e0a-6509-450b-b34f-29d5a5e3472e,0.12,false,false,near_mint,en,EUR,0.1,0.32,0.1
-"Abuelo, Ancestral Echo",LCI,The Lost Caverns of Ixalan,219,normal,rare,1,88433,40eee689-2514-421a-8056-eb7668be66ff,0.2,false,false,near_mint,en,EUR,0.19,0.39,0.19
+"Abuelo, Ancestral Echo",LCI,The Lost Caverns of Ixalan,219,normal,rare,1,88433,40eee689-2514-421a-8056-eb7668be66ff,0.2,false,false,near_mint,en,EUR,0.18,0.39,0.18
 Emissary of Soulfire,MH3,Modern Horizons 3,183,normal,uncommon,1,94852,4663e9e3-1989-4ddb-9508-9cc055d2ebe9,0.13,false,false,near_mint,en,EUR,0.14,0.08,0.14
-Gwaihir the Windlord,LTR,The Lord of the Rings: Tales of Middle-earth,210,normal,uncommon,2,82897,1a42c951-1146-4f49-a690-7d385962b191,0.12,false,false,near_mint,en,EUR,,,N/A
-"Tura Kennerüd, Skyknight",DMU,Dominaria United,224,normal,uncommon,1,71758,c839d302-bf85-4a30-a49a-dbbd48695b5c,0.07,false,false,near_mint,en,EUR,,,N/A
-Colossal Skyturtle,NEO,Kamigawa: Neon Dynasty,216,normal,uncommon,1,66842,f40bd797-4d12-4098-a1a8-d7e5b7b82ac9,0.35,false,false,near_mint,en,EUR,,,N/A
-Cyclops Superconductor,MH3,Modern Horizons 3,182,normal,common,2,94861,69ce6839-92d1-497b-9760-6fdc7388614e,0.09,false,false,near_mint,en,EUR,,,N/A
-Enthusiastic Mechanaut,NEO,Kamigawa: Neon Dynasty,218,normal,uncommon,1,66434,ac00521f-1b7d-478d-afe8-6761ea512d8d,0.32,false,false,near_mint,en,EUR,,,N/A
-Izzet Generatorium,MH3,Modern Horizons 3,191,normal,uncommon,1,94609,c6d9537d-c6b9-46ef-834b-87750d79f1ae,0.13,false,false,near_mint,en,EUR,,,N/A
-Ral Zarek,RVR,Ravnica Remastered,216,normal,mythic,1,89641,3bdd2b4b-5ba3-4984-8d48-c4c1d75dd177,0.66,false,false,near_mint,en,EUR,,,N/A
-Wall of Denial,CMM,Commander Masters,939,normal,uncommon,1,83998,049ce45b-ab07-4bce-bb4a-83f5720b6ee7,0.57,false,false,near_mint,en,EUR,,,N/A
-Mage Slayer,NEC,Neon Dynasty Commander,140,normal,uncommon,1,67079,e3226808-493e-4df2-9446-cb7cb47aaf2c,0.45,false,false,near_mint,en,EUR,,,N/A
-"Akawalli, the Seething Tower",LCI,The Lost Caverns of Ixalan,220,normal,uncommon,1,88431,3ee62dd1-97d0-4e5d-8937-26c9e51e9414,0.08,false,false,near_mint,en,EUR,,,N/A
-Badlands Revival,OTJ,Outlaws of Thunder Junction,194,normal,uncommon,1,93251,8d3ef971-cdd4-410c-97c3-df98e4f02ab2,0.06,false,false,near_mint,en,EUR,,,N/A
-Corpseberry Cultivator,BLB,Bloomburrow,210,normal,common,1,95829,c911a759-ed7b-452b-88a3-663478357610,0.04,false,false,near_mint,en,EUR,,,N/A
+Gwaihir the Windlord,LTR,The Lord of the Rings: Tales of Middle-earth,210,normal,uncommon,2,82897,1a42c951-1146-4f49-a690-7d385962b191,0.12,false,false,near_mint,en,EUR,0.13,0.16,0.13
+"Tura Kennerüd, Skyknight",DMU,Dominaria United,224,normal,uncommon,1,71758,c839d302-bf85-4a30-a49a-dbbd48695b5c,0.07,false,false,near_mint,en,EUR,0.08,0.1,0.08
+Colossal Skyturtle,NEO,Kamigawa: Neon Dynasty,216,normal,uncommon,1,66842,f40bd797-4d12-4098-a1a8-d7e5b7b82ac9,0.35,false,false,near_mint,en,EUR,0.4,1.3,0.4
+Cyclops Superconductor,MH3,Modern Horizons 3,182,normal,common,2,94861,69ce6839-92d1-497b-9760-6fdc7388614e,0.09,false,false,near_mint,en,EUR,0.08,0.14,0.08
+Enthusiastic Mechanaut,NEO,Kamigawa: Neon Dynasty,218,normal,uncommon,1,66434,ac00521f-1b7d-478d-afe8-6761ea512d8d,0.32,false,false,near_mint,en,EUR,0.26,0.57,0.26
+Izzet Generatorium,MH3,Modern Horizons 3,191,normal,uncommon,1,94609,c6d9537d-c6b9-46ef-834b-87750d79f1ae,0.13,false,false,near_mint,en,EUR,0.12,0.28,0.12
+Ral Zarek,RVR,Ravnica Remastered,216,normal,mythic,1,89641,3bdd2b4b-5ba3-4984-8d48-c4c1d75dd177,0.66,false,false,near_mint,en,EUR,0.74,0.8,0.74
+Wall of Denial,CMM,Commander Masters,939,normal,uncommon,1,83998,049ce45b-ab07-4bce-bb4a-83f5720b6ee7,0.57,false,false,near_mint,en,EUR,0.59,,0.59
+Mage Slayer,NEC,Neon Dynasty Commander,140,normal,uncommon,1,67079,e3226808-493e-4df2-9446-cb7cb47aaf2c,0.45,false,false,near_mint,en,EUR,0.54,,0.54
+"Akawalli, the Seething Tower",LCI,The Lost Caverns of Ixalan,220,normal,uncommon,1,88431,3ee62dd1-97d0-4e5d-8937-26c9e51e9414,0.08,false,false,near_mint,en,EUR,0.16,0.14,0.16
+Badlands Revival,OTJ,Outlaws of Thunder Junction,194,normal,uncommon,1,93251,8d3ef971-cdd4-410c-97c3-df98e4f02ab2,0.06,false,false,near_mint,en,EUR,0.14,0.17,0.14
+Corpseberry Cultivator,BLB,Bloomburrow,210,normal,common,1,95829,c911a759-ed7b-452b-88a3-663478357610,0.04,false,false,near_mint,en,EUR,0.04,0.2,0.04
 Drag to the Roots,DSK,Duskmourn: House of Horror,213,normal,uncommon,1,98704,46f46095-6479-46b0-9e59-194d83f86a46,0.18,false,false,near_mint,en,EUR,,,N/A
 Gloomshrieker,NEO,Kamigawa: Neon Dynasty,219,normal,uncommon,1,66424,a2b50751-7f65-4321-86da-eef735bf8b67,0.16,false,false,near_mint,en,EUR,,,N/A
 Moss-Pit Skeleton,ZNR,Zendikar Rising,228,normal,uncommon,1,54651,95a445dc-3aea-4281-a145-0ab3a28ec6c6,0.1,false,false,near_mint,en,EUR,,,N/A
@@ -47,23 +47,23 @@ Humiliate,OTP,Breaking News,47,normal,uncommon,1,93144,454bb7c2-cb7b-4601-9f50-2
 Wardens of the Cycle,FDN,Foundations,125,normal,uncommon,2,100761,83ea9b2c-5723-4eff-88ac-6669975939e3,0.14,false,false,near_mint,en,EUR,,,N/A
 Fiendish Panda,FDN,Foundations,120,normal,uncommon,2,100483,4e434d74-cad0-45f5-bc8d-f34aa5e1d879,0.07,false,false,near_mint,en,EUR,,,N/A
 Empyrean Eagle,FDN,Foundations,239,normal,uncommon,3,100533,577e99a7-4a55-4314-8f08-2ae0c33b85c7,0.13,false,false,near_mint,en,EUR,,,N/A
-Shadow Summoning,LTR,The Lord of the Rings: Tales of Middle-earth,226,normal,uncommon,1,83619,ec0984b2-bed6-41b1-9087-2cfd16749037,0.04,false,false,near_mint,en,EUR,,,N/A
+Shadow Summoning,LTR,The Lord of the Rings: Tales of Middle-earth,226,normal,uncommon,1,83619,ec0984b2-bed6-41b1-9087-2cfd16749037,0.04,false,false,near_mint,en,EUR,0.07,0.17,0.07
 "Shilgengar, Sire of Famine",MH3,Modern Horizons 3,109,normal,rare,1,94788,9e6aba35-bee5-4058-a2df-d73506d225c2,0.12,false,false,near_mint,en,EUR,,,N/A
 Starseer Mentor,BLB,Bloomburrow,233,normal,uncommon,1,95791,6b2f6dc5-9fe8-49c1-b24c-1d99ce1da619,0.14,false,false,near_mint,en,EUR,,,N/A
 Vault 11: Voter's Dilemma,PIP,Fallout,121,normal,rare,1,92142,4bafcd4e-5693-4c23-be79-75653fcd214c,0.11,false,false,near_mint,en,EUR,,,N/A
 Vivisection Evangelist,ONE,Phyrexia: All Will Be One,220,normal,uncommon,1,78584,626c46a3-72b8-4e04-adf2-c9c7aaf94f04,0.38,false,false,near_mint,en,EUR,,,N/A
 "Bane, Lord of Darkness",CLB,Commander Legends: Battle for Baldur's Gate,267,normal,rare,1,68885,1a576d17-693d-4cc1-bb5b-bf81c74de03b,0.16,false,false,near_mint,en,EUR,,,N/A
-Ondu Knotmaster // Throw a Line,MH3,Modern Horizons 3,196,normal,uncommon,2,94382,27912e61-97ef-406b-bb88-4fe89a54726e,0.12,false,false,near_mint,en,EUR,,,N/A
-Drowner of Truth // Drowned Jungle,MH3,Modern Horizons 3,253,normal,uncommon,1,94509,7a1d3c1d-1373-4ac4-bb26-9780976efc4f,0.16,false,false,near_mint,en,EUR,,,N/A
+Ondu Knotmaster // Throw a Line,MH3,Modern Horizons 3,196,normal,uncommon,2,94382,27912e61-97ef-406b-bb88-4fe89a54726e,0.12,false,false,near_mint,en,EUR,0.07,0.27,0.07
+Drowner of Truth // Drowned Jungle,MH3,Modern Horizons 3,253,normal,uncommon,1,94509,7a1d3c1d-1373-4ac4-bb26-9780976efc4f,0.16,false,false,near_mint,en,EUR,0.2,0.2,0.2
 Sneaky Snacker,MH3,Modern Horizons 3,205,normal,common,1,94837,0e3aedae-e4bb-48e3-9f8b-bea0430df306,0.23,false,false,near_mint,en,EUR,,,N/A
-Friendly Rivalry,LTR,The Lord of the Rings: Tales of Middle-earth,204,normal,uncommon,1,82930,24076763-88ba-4dee-b548-9c27bd34fdb7,0.09,false,false,near_mint,en,EUR,,,N/A
+Friendly Rivalry,LTR,The Lord of the Rings: Tales of Middle-earth,204,normal,uncommon,1,82930,24076763-88ba-4dee-b548-9c27bd34fdb7,0.09,false,false,near_mint,en,EUR,0.06,0.18,0.06
 Join the Dance,INR,Innistrad Remastered,242,normal,uncommon,2,102528,4a2d360c-1fad-4425-a1ab-5f713c45c7b3,0.03,false,false,near_mint,en,EUR,,,N/A
-Boros Signet,CMM,Commander Masters,942,normal,uncommon,1,84034,0c6e02b3-be4c-45b8-9cb8-6b3142b30c6b,0.84,false,false,near_mint,en,EUR,,,N/A
+Boros Signet,CMM,Commander Masters,942,normal,uncommon,1,84034,0c6e02b3-be4c-45b8-9cb8-6b3142b30c6b,0.84,false,false,near_mint,en,EUR,0.55,,0.55
 Assemble the Legion,PIP,Fallout,210,normal,rare,1,92482,95c04498-91cf-42d2-a349-44df4d022746,0.17,false,false,near_mint,en,EUR,,,N/A
 "Aurelia, the Law Above",MKM,Murders at Karlov Manor,188,normal,rare,1,91048,8f80c6e7-e9f9-4ca6-87f7-a52c96079e4a,0.98,false,false,near_mint,en,EUR,,,N/A
 "Risona, Asari Commander",NEO,Kamigawa: Neon Dynasty,233,normal,rare,1,66700,51d8f1fa-ca92-4e2e-91e8-195bdad82def,0.11,false,false,near_mint,en,EUR,,,N/A
-Veteran Guardmouse,BLB,Bloomburrow,237,normal,common,1,95771,3db43c46-b616-4ef8-80ed-0fab345ab3d0,0.04,false,false,near_mint,en,EUR,,,N/A
-"Shadowfax, Lord of Horses",LTR,The Lord of the Rings: Tales of Middle-earth,227,normal,uncommon,1,83062,4c7d861d-7832-4c15-8d6c-8c07a9a57891,0.08,false,false,near_mint,en,EUR,,,N/A
+Veteran Guardmouse,BLB,Bloomburrow,237,normal,common,1,95771,3db43c46-b616-4ef8-80ed-0fab345ab3d0,0.04,false,false,near_mint,en,EUR,0.02,0.22,0.02
+"Shadowfax, Lord of Horses",LTR,The Lord of the Rings: Tales of Middle-earth,227,normal,uncommon,1,83062,4c7d861d-7832-4c15-8d6c-8c07a9a57891,0.08,false,false,near_mint,en,EUR,0.09,0.22,0.09
 Solar Blaze,WAR,War of the Spark,216,normal,rare,1,44188,eb72ba0f-ab3a-41e6-906d-a84039efa0af,0.22,false,false,near_mint,en,EUR,,,N/A
 "Nelly Borca, Impulsive Accuser",MKC,Murders at Karlov Manor Commander,4,foil,mythic,1,90305,2ef59aa9-f5e1-413a-869b-d287db95efd0,0.38,false,false,near_mint,en,EUR,,,N/A
 Asari Captain,NEO,Kamigawa: Neon Dynasty,215,normal,uncommon,1,66400,834b4e6a-1812-4399-8fe4-bb1686ba49ef,0.06,false,false,near_mint,en,EUR,,,N/A
@@ -75,21 +75,21 @@ Conduit Goblin,MH3,Modern Horizons 3,179,normal,common,2,94461,5c9ad04d-c4d4-4d0
 Cindering Cutthroat,BLB,Bloomburrow,208,normal,common,1,95820,b2ea10dd-21ea-4622-be27-79d03a802b85,0.08,false,false,near_mint,en,EUR,,,N/A
 Oni-Cult Anvil,NEO,Kamigawa: Neon Dynasty,230,normal,uncommon,1,66601,c84db1e2-855c-4169-a9cc-a54c73c14e0c,0.21,false,false,near_mint,en,EUR,,,N/A
 Perforating Artist,FDN,Foundations,124,normal,uncommon,2,100674,72980409-53f0-43c1-965e-06f22e7bb608,0.14,false,false,near_mint,en,EUR,,,N/A
-Shady Informant,MKM,Murders at Karlov Manor,231,normal,common,1,90659,0de36e63-8190-415f-b65b-bae1e595845d,0.02,false,false,near_mint,en,EUR,,,N/A
+Shady Informant,MKM,Murders at Karlov Manor,231,normal,common,1,90659,0de36e63-8190-415f-b65b-bae1e595845d,0.02,false,false,near_mint,en,EUR,0.03,0.06,0.03
 Waking the Trolls,KHM,Kaldheim,234,normal,rare,1,56820,36016324-384c-4c68-8f73-8f39a244c879,0.18,false,false,near_mint,en,EUR,,,N/A
 Roaring Furnace // Steaming Sauna,DSK,Duskmourn: House of Horror,230,normal,rare,1,99257,94352ffb-d716-484d-b018-4e1c033ef2f3,0.32,false,false,near_mint,en,EUR,,,N/A
-Role Reversal,WAR,War of the Spark,214,normal,rare,1,44190,59b47017-d982-4d4c-94fc-f265a5b7f36a,0.27,false,false,near_mint,en,EUR,,,N/A
-Stormcatch Mentor,BLB,Bloomburrow,234,normal,uncommon,1,95813,99754055-6d67-4fde-aff3-41f6af6ea764,0.22,false,false,near_mint,en,EUR,,,N/A
+Role Reversal,WAR,War of the Spark,214,normal,rare,1,44190,59b47017-d982-4d4c-94fc-f265a5b7f36a,0.27,false,false,near_mint,en,EUR,0.34,0.65,0.34
+Stormcatch Mentor,BLB,Bloomburrow,234,normal,uncommon,1,95813,99754055-6d67-4fde-aff3-41f6af6ea764,0.22,false,false,near_mint,en,EUR,0.21,,0.21
 "Calix, Destiny's Hand",CMM,Commander Masters,918,normal,mythic,1,84372,53ec142a-81c0-43e3-bf37-bdc18d7b780e,1.05,false,false,near_mint,en,EUR,,,N/A
 Fall of the Impostor,KHM,Kaldheim,208,normal,uncommon,1,57104,d7de696a-49c2-421d-a86c-bcffd68870c6,0.13,false,false,near_mint,en,EUR,,,N/A
-Golden-Tail Trainer,MH3,Modern Horizons 3,187,normal,uncommon,1,94384,27d42bd9-0307-42ec-a4cd-b39b69b607d0,0.14,false,false,near_mint,en,EUR,,,N/A
+Golden-Tail Trainer,MH3,Modern Horizons 3,187,normal,uncommon,1,94384,27d42bd9-0307-42ec-a4cd-b39b69b607d0,0.14,false,false,near_mint,en,EUR,0.14,0.19,0.14
 Good-Fortune Unicorn,FDN,Foundations,240,normal,uncommon,1,101300,eabbe163-2b15-42e3-89ce-7363e6250d3a,0.12,false,false,near_mint,en,EUR,,,N/A
 Head of the Homestead,BLB,Bloomburrow,216,normal,common,1,95762,2fc20157-edd3-484d-8864-925c071c0551,0.07,false,false,near_mint,en,EUR,,,N/A
 Satyr Enchanter,CMM,Commander Masters,936,normal,uncommon,1,84972,df83d28d-bb0b-4f3d-a16f-8ee8bf452e10,1.01,false,false,near_mint,en,EUR,,,N/A
 Shrewd Storyteller,DSK,Duskmourn: House of Horror,232,normal,uncommon,1,98946,f9636877-8fcc-4ad5-8eb2-a5d5ba49583d,0.08,false,false,near_mint,en,EUR,,,N/A
 Slaughter Singer,ONE,Phyrexia: All Will Be One,216,normal,uncommon,1,78532,4a37aa46-bcf3-48a5-9f74-05e4878ad96f,0.11,false,false,near_mint,en,EUR,,,N/A
-Anthem of Champions,FDN,Foundations,116,normal,rare,2,95580,42fe3a40-9cbe-4235-86f9-32576aaebba8,0.24,false,false,near_mint,en,EUR,,,N/A
-Junkblade Bruiser,BLB,Bloomburrow,220,normal,common,3,95810,918fd89b-5ab7-4ae2-920c-faca5e9da7b9,0.07,false,false,near_mint,en,EUR,,,N/A
+Anthem of Champions,FDN,Foundations,116,normal,rare,2,95580,42fe3a40-9cbe-4235-86f9-32576aaebba8,0.24,false,false,near_mint,en,EUR,0.26,0.32,0.26
+Junkblade Bruiser,BLB,Bloomburrow,220,normal,common,3,95810,918fd89b-5ab7-4ae2-920c-faca5e9da7b9,0.07,false,false,near_mint,en,EUR,0.04,0.23,0.04
 Faithful Watchdog,MH3,Modern Horizons 3,185,normal,common,4,94882,b9afac99-a094-41a8-8323-90dec29691c4,0.07,false,false,near_mint,en,EUR,,,N/A
 Obstinate Gargoyle,MH3,Modern Horizons 3,195,normal,common,2,94849,40cf39f2-7382-405d-a14b-7eb8726cd38a,0.2,false,false,near_mint,en,EUR,,,N/A
 Wandertale Mentor,BLB,Bloomburrow,240,normal,uncommon,2,95808,8c399a55-d02e-41ed-b827-8784b738c118,0.15,false,false,near_mint,en,EUR,,,N/A
@@ -142,7 +142,7 @@ Gurmag Nightwatch,TDM,Tarkir: Dragonstorm,190,normal,common,4,104369,de731430-6b
 Waterlogged Teachings // Inundated Archive,MH3,Modern Horizons 3,261,normal,uncommon,1,94328,060f9675-4921-4cbb-bae2-54c85c679fd4,0.46,false,false,near_mint,en,EUR,,,N/A
 Krydle of Baldur's Gate,AFR,Adventures in the Forgotten Realms,226,normal,uncommon,1,60292,75f4d622-2d50-4e6e-87a5-5a1cc65d6919,0.19,false,false,near_mint,en,EUR,,,N/A
 Snapping Voidcraw,MH3,Modern Horizons 3,204,normal,common,1,94870,9185371c-2dde-48ad-ab27-08be04b3c522,0.08,false,false,near_mint,en,EUR,,,N/A
-Cloudspire Coordinator,DFT,Aetherdrift,196,normal,uncommon,1,103344,eef16cda-9150-4e7d-8490-d9f287b81b62,0.04,false,false,near_mint,en,EUR,,,N/A
+Cloudspire Coordinator,DFT,Aetherdrift,196,normal,uncommon,1,103344,eef16cda-9150-4e7d-8490-d9f287b81b62,0.04,false,false,near_mint,en,EUR,0.05,0.13,0.05
 Pyretic Rebirth,MH3,Modern Horizons 3,200,normal,uncommon,2,94456,5968f641-48b5-4b97-8072-ddd8073cd4d7,0.04,false,false,near_mint,en,EUR,,,N/A
 Leyline of Mutation,DSK,Duskmourn: House of Horror,188,normal,rare,1,98794,2359b670-41f0-4ec7-8db9-3f87f7577bc3,0.17,false,false,near_mint,en,EUR,,,N/A
 Tom Bombadil,LTR,The Lord of the Rings: Tales of Middle-earth,331,normal,mythic,1,83008,3c7ce623-bcf8-4d42-8a88-450bea7d7529,2.95,false,false,near_mint,en,EUR,,,N/A
@@ -150,7 +150,7 @@ Tom Bombadil,LTR,The Lord of the Rings: Tales of Middle-earth,331,normal,mythic,
 Explosive Getaway,DFT,Aetherdrift,202,normal,rare,1,103213,a876edac-b8c8-4994-94f5-548e0fe70fe4,0.18,false,false,near_mint,en,EUR,,,N/A
 "Lagorin, Soul of Alacria",DFT,Aetherdrift,211,normal,uncommon,1,103124,7b04e3f4-103b-4845-b3f0-5417971c7666,0.1,false,false,near_mint,en,EUR,,,N/A
 Boosted Sloop,DFT,Aetherdrift,190,normal,uncommon,1,102977,3563cb48-9dcb-4b92-af3a-4793adf03125,0.06,false,false,near_mint,en,EUR,,,N/A
-Host of the Hereafter,TDM,Tarkir: Dragonstorm,193,normal,uncommon,3,104448,0f182957-8133-45a7-80a3-1944bead4d43,0.1,false,false,near_mint,en,EUR,,,N/A
+Host of the Hereafter,TDM,Tarkir: Dragonstorm,193,normal,uncommon,3,104448,0f182957-8133-45a7-80a3-1944bead4d43,0.1,false,false,near_mint,en,EUR,0.16,0.16,0.16
 Iridescent Tiger,TDM,Tarkir: Dragonstorm,109,normal,uncommon,2,105170,e3abbc8b-2bf8-478e-a541-f8019d150054,0.05,false,false,near_mint,en,EUR,,,N/A
 Tyrant's Scorn,OTP,Breaking News,56,normal,uncommon,3,93394,e61f8b36-6ad2-4295-bd1d-7f9e90b23190,0.06,false,false,near_mint,en,EUR,,,N/A
 "Lazav, Familiar Stranger",OTJ,Outlaws of Thunder Junction,216,normal,uncommon,3,93022,00293326-3eb2-492c-b565-7abafa037d8c,0.09,false,false,near_mint,en,EUR,,,N/A
@@ -191,7 +191,7 @@ Ringsight,LTR,The Lord of the Rings: Tales of Middle-earth,220,normal,uncommon,1
 Mistmeadow Witch,2X2,Double Masters 2022,256,normal,uncommon,1,70468,c0119777-70da-4cba-8104-a7e78604d515,0.07,false,false,near_mint,en,EUR,,,N/A
 Prince Imrahil the Fair,LTR,The Lord of the Rings: Tales of Middle-earth,219,normal,uncommon,1,83216,7d486def-7c3f-41e9-bb28-4582450a7b9e,0.05,false,false,near_mint,en,EUR,,,N/A
 "Strider, Ranger of the North",LTR,The Lord of the Rings: Tales of Middle-earth,232,normal,uncommon,1,83081,54461d61-a745-467f-9fbe-b5e7a8edbdbf,0.05,false,false,near_mint,en,EUR,,,N/A
-Bloodtithe Harvester,INR,Innistrad Remastered,233,normal,uncommon,1,102723,ae4aec0d-c853-44e6-9f51-cbecf413ea14,0.17,false,false,near_mint,en,EUR,,,N/A
+Bloodtithe Harvester,INR,Innistrad Remastered,233,normal,uncommon,1,102723,ae4aec0d-c853-44e6-9f51-cbecf413ea14,0.17,false,false,near_mint,en,EUR,0.14,0.25,0.14
 Markov Waltzer,INR,Innistrad Remastered,245,normal,uncommon,1,102460,231f4da2-8756-4f99-a46f-b8afe9adb80d,0.1,false,false,near_mint,en,EUR,,,N/A
 Vilespawn Spider,INR,Innistrad Remastered,251,normal,uncommon,1,102554,58901777-f8bf-450b-acf8-d60a73c3322f,0.06,false,false,near_mint,en,EUR,,,N/A
 Forbidden Alchemy,TDC,Tarkir: Dragonstorm Commander,152,normal,common,2,104432,04def7e3-10e4-4733-8c19-8fa6e4469086,0.12,false,false,near_mint,en,EUR,,,N/A
@@ -297,26 +297,26 @@ Thunder Magic,FIN,Final Fantasy,165,normal,common,1,106610,9f2b202c-91da-40ec-83
 Cactuar,FIN,Final Fantasy,177,normal,uncommon,1,106657,d5273db4-6214-41e4-825a-612fca8bbe03,0.11,false,false,near_mint,en,EUR,,,N/A
 Il Mheg Pixie,FIN,Final Fantasy,57,normal,uncommon,1,106629,ae612312-3a8e-495f-8730-deaaf7505ca1,0.07,false,false,near_mint,en,EUR,,,N/A
 Commune with Beavers,FIN,Final Fantasy,182,normal,common,1,105641,784287c2-43c5-4210-93ae-cdd33b9acb1b,0.1,false,false,near_mint,en,EUR,,,N/A
-Wastes,FIN,Final Fantasy,309,normal,common,1,105711,c61feafd-ef09-437c-a12c-fd7d6cb8c15a,0.33,false,false,near_mint,en,EUR,,,N/A
-Prishe's Wanderings,FIN,Final Fantasy,193,normal,common,1,106658,d6e1dee0-e2cd-4899-a3ea-7d0df717c9ab,0.09,false,false,near_mint,en,EUR,,,N/A
-Ice Magic,FIN,Final Fantasy,56,normal,common,1,105677,9dabd626-7ec3-4913-babb-d5d3fd5e32d5,0.06,false,false,near_mint,en,EUR,,,N/A
-Item Shopkeep,FIN,Final Fantasy,142,normal,common,1,106293,bd2db3f5-fd0d-4817-af90-6bea1f07e16b,0.02,false,false,near_mint,en,EUR,,,N/A
-Fate of the Sun-Cryst,FIN,Final Fantasy,19,normal,common,1,106287,900cdf11-b42e-4dcc-97c3-2e4d8e406a70,0.04,false,false,near_mint,en,EUR,,,N/A
-Malboro,FIN,Final Fantasy,106,normal,common,1,105739,e46d8048-03ce-4e07-ba24-f41ba6140a4e,0.1,false,false,near_mint,en,EUR,,,N/A
-Loporrit Scout,FIN,Final Fantasy,192,normal,common,1,106612,a182bc66-bfda-4bf5-bd12-3de5dba60945,0.04,false,false,near_mint,en,EUR,,,N/A
-World Map,FIN,Final Fantasy,270,normal,common,1,106572,70d9ab99-ec8a-402e-ba1d-ffa6c4c84a3f,0.09,false,false,near_mint,en,EUR,,,N/A
-Hill Gigas,FIN,Final Fantasy,141,normal,common,1,106529,2a8b3e1e-5c10-4360-ac1c-83b2e026278c,0.06,false,false,near_mint,en,EUR,,,N/A
-Cloud of Darkness,FIN,Final Fantasy,217,normal,uncommon,1,106614,a292094a-674a-401f-8776-ba5ebe57c946,0.07,false,false,near_mint,en,EUR,,,N/A
-Chocobo Racetrack,FIN,Final Fantasy,179,normal,uncommon,1,106516,1565813b-6912-42f4-bae0-22136a2d6a92,0.15,false,false,near_mint,en,EUR,,,N/A
-The Emperor of Palamecia // The Lord Master of Hell,FIN,Final Fantasy,219,normal,uncommon,1,105596,3d75e8fd-6139-4b10-9ce3-195b47d72e0c,0.1,false,false,near_mint,en,EUR,,,N/A
-Embermouth Sentinel,TDM,Tarkir: Dragonstorm,242,normal,common,5,104606,485f75d5-da5b-4605-885a-561ccd999cc6,0.11,false,false,near_mint,en,EUR,,,N/A
-Ambrosia Whiteheart,FIN,Final Fantasy,6,normal,uncommon,2,106459,f2596767-7d19-4110-86ed-3cfc93ac7483,0.13,false,false,near_mint,en,EUR,,,N/A
-Boulderborn Dragon,TDM,Tarkir: Dragonstorm,239,normal,common,4,104292,50c6e815-bfe7-4599-9227-d36504a3640f,0.05,false,false,near_mint,en,EUR,,,N/A
-Heraldic Banner,FDN,Foundations,254,normal,uncommon,3,100678,743ea709-dbb3-4db8-a2ce-544f47eb6339,0.23,false,false,near_mint,en,EUR,,,N/A
-White Auracite,FIN,Final Fantasy,41,normal,common,2,105873,2df6f515-9d21-4769-b1c4-c219611bccbb,0.05,false,false,near_mint,en,EUR,,,N/A
-Combat Tutorial,FIN,Final Fantasy,48,normal,common,2,106679,ec195607-ac30-4931-acfd-f9d8ac8b047f,0.06,false,false,near_mint,en,EUR,,,N/A
-Short Bow,BLB,Bloomburrow,248,normal,uncommon,3,96281,51d8b72b-fa8f-48d3-bddc-d3ce9b8ba2ea,0.09,false,false,near_mint,en,EUR,,,N/A
-Burnished Hart,FDN,Foundations,250,normal,uncommon,2,100609,65ebbff0-fbe6-4310-a33f-e00bb2534979,0.08,false,false,near_mint,en,EUR,,,N/A
+Wastes,FIN,Final Fantasy,309,normal,common,1,105711,c61feafd-ef09-437c-a12c-fd7d6cb8c15a,0.33,false,false,near_mint,en,EUR,0.21,0.32,0.21
+Prishe's Wanderings,FIN,Final Fantasy,193,normal,common,1,106658,d6e1dee0-e2cd-4899-a3ea-7d0df717c9ab,0.09,false,false,near_mint,en,EUR,0.05,0.11,0.05
+Ice Magic,FIN,Final Fantasy,56,normal,common,1,105677,9dabd626-7ec3-4913-babb-d5d3fd5e32d5,0.06,false,false,near_mint,en,EUR,0.03,0.15,0.03
+Item Shopkeep,FIN,Final Fantasy,142,normal,common,1,106293,bd2db3f5-fd0d-4817-af90-6bea1f07e16b,0.02,false,false,near_mint,en,EUR,0.03,0.17,0.03
+Fate of the Sun-Cryst,FIN,Final Fantasy,19,normal,common,1,106287,900cdf11-b42e-4dcc-97c3-2e4d8e406a70,0.04,false,false,near_mint,en,EUR,0.04,0.06,0.04
+Malboro,FIN,Final Fantasy,106,normal,common,1,105739,e46d8048-03ce-4e07-ba24-f41ba6140a4e,0.1,false,false,near_mint,en,EUR,0.06,0.36,0.06
+Loporrit Scout,FIN,Final Fantasy,192,normal,common,1,106612,a182bc66-bfda-4bf5-bd12-3de5dba60945,0.04,false,false,near_mint,en,EUR,0.03,0.12,0.03
+World Map,FIN,Final Fantasy,270,normal,common,1,106572,70d9ab99-ec8a-402e-ba1d-ffa6c4c84a3f,0.09,false,false,near_mint,en,EUR,0.2,0.21,0.2
+Hill Gigas,FIN,Final Fantasy,141,normal,common,1,106529,2a8b3e1e-5c10-4360-ac1c-83b2e026278c,0.06,false,false,near_mint,en,EUR,0.04,0.21,0.04
+Cloud of Darkness,FIN,Final Fantasy,217,normal,uncommon,1,106614,a292094a-674a-401f-8776-ba5ebe57c946,0.07,false,false,near_mint,en,EUR,0.07,0.14,0.07
+Chocobo Racetrack,FIN,Final Fantasy,179,normal,uncommon,1,106516,1565813b-6912-42f4-bae0-22136a2d6a92,0.15,false,false,near_mint,en,EUR,0.12,0.14,0.12
+The Emperor of Palamecia // The Lord Master of Hell,FIN,Final Fantasy,219,normal,uncommon,1,105596,3d75e8fd-6139-4b10-9ce3-195b47d72e0c,0.1,false,false,near_mint,en,EUR,0.17,0.45,0.17
+Embermouth Sentinel,TDM,Tarkir: Dragonstorm,242,normal,common,5,104606,485f75d5-da5b-4605-885a-561ccd999cc6,0.11,false,false,near_mint,en,EUR,0.09,0.11,0.09
+Ambrosia Whiteheart,FIN,Final Fantasy,6,normal,uncommon,2,106459,f2596767-7d19-4110-86ed-3cfc93ac7483,0.13,false,false,near_mint,en,EUR,0.1,0.31,0.1
+Boulderborn Dragon,TDM,Tarkir: Dragonstorm,239,normal,common,4,104292,50c6e815-bfe7-4599-9227-d36504a3640f,0.05,false,false,near_mint,en,EUR,0.02,0.11,0.02
+Heraldic Banner,FDN,Foundations,254,normal,uncommon,3,100678,743ea709-dbb3-4db8-a2ce-544f47eb6339,0.23,false,false,near_mint,en,EUR,0.22,0.58,0.22
+White Auracite,FIN,Final Fantasy,41,normal,common,2,105873,2df6f515-9d21-4769-b1c4-c219611bccbb,0.05,false,false,near_mint,en,EUR,0.06,0.19,0.06
+Combat Tutorial,FIN,Final Fantasy,48,normal,common,2,106679,ec195607-ac30-4931-acfd-f9d8ac8b047f,0.06,false,false,near_mint,en,EUR,0.09,0.18,0.09
+Short Bow,BLB,Bloomburrow,248,normal,uncommon,3,96281,51d8b72b-fa8f-48d3-bddc-d3ce9b8ba2ea,0.09,false,false,near_mint,en,EUR,0.07,0.16,0.07
+Burnished Hart,FDN,Foundations,250,normal,uncommon,2,100609,65ebbff0-fbe6-4310-a33f-e00bb2534979,0.08,false,false,near_mint,en,EUR,0.07,0.1,0.07
 Call the Mountain Chocobo,FIN,Final Fantasy,131,normal,common,2,106633,b2e1986c-2852-4843-bdc4-eddb727ba3d4,0.02,false,false,near_mint,en,EUR,,,N/A
 Commander's Sphere,DRC,Aetherdrift Commander,125,normal,common,2,102989,3adcc4c3-9305-4394-a64f-fd0fa107cbf9,0.12,false,false,near_mint,en,EUR,,,N/A
 "Gohn, Town of Ruin",FIN,Final Fantasy,278,normal,common,2,106602,99582781-613e-4a33-aec7-7569b4a961aa,0.06,false,false,near_mint,en,EUR,,,N/A
@@ -360,7 +360,7 @@ Think Twice,TDC,Tarkir: Dragonstorm Commander,168,normal,common,8,104967,ce79538
 Stroke of Genius,MOC,March of the Machine Commander,238,normal,rare,1,81946,c77deaac-7e13-45b4-921d-8116bddf3bb6,0.37,false,false,near_mint,en,EUR,,,N/A
 "Alora, Merry Thief",CLB,Commander Legends: Battle for Baldur's Gate,381,normal,uncommon,1,69205,a7777a4f-0fc6-4231-b2a4-503f3820c0f6,0.1,false,false,near_mint,en,EUR,,,N/A
 Tolarian Terror,FDN,Foundations,167,normal,common,4,100270,2569d4f3-55ed-4f99-9592-34c7df0aab72,0.18,false,false,near_mint,en,EUR,,,N/A
-Overcharged Amalgam,INR,Innistrad Remastered,80,normal,rare,1,102477,2fae9b40-a1ee-425d-bbf6-fa4b0861cdc4,0.25,false,false,near_mint,en,EUR,,,N/A
+Overcharged Amalgam,INR,Innistrad Remastered,80,normal,rare,1,102477,2fae9b40-a1ee-425d-bbf6-fa4b0861cdc4,0.25,false,false,near_mint,en,EUR,0.25,0.29,0.25
 Brineborn Cutthroat,FDN,Foundations,152,normal,uncommon,1,100986,acf7aafb-931f-49e5-8691-eab8cb34b05e,0.1,false,false,near_mint,en,EUR,,,N/A
 Quick Study,FDN,Foundations,513,normal,common,1,101473,098c86fd-5a38-41fd-be44-ab963448f2a2,0.24,false,false,near_mint,en,EUR,,,N/A
 Dalkovan Packbeasts,TDM,Tarkir: Dragonstorm,7,normal,uncommon,1,104631,4df7b253-6107-47d6-b650-cb4d3e0aec6b,0.18,false,false,near_mint,en,EUR,,,N/A
@@ -370,26 +370,26 @@ Enduring Innocence,DSK,Duskmourn: House of Horror,6,normal,rare,1,98605,08f79439
 Solemn Simulacrum,TDC,Tarkir: Dragonstorm Commander,325,normal,rare,1,104953,cb1563a1-c8dc-4fcb-b9c8-e7432235d31e,0.3,false,false,near_mint,en,EUR,,,N/A
 Nine-Lives Familiar,FDN,Foundations,66,normal,rare,1,95586,988c23f6-59fe-49f9-a9ce-9881dccb7033,1.01,false,false,near_mint,en,EUR,,,N/A
 Qarsi Revenant,TDM,Tarkir: Dragonstorm,426,foil,rare,1,104236,03f54ff0-e10a-4f22-ada8-43b61d46ee75,0.65,false,false,near_mint,en,EUR,,,N/A
-Blood Artist,INR,Innistrad Remastered,97,normal,uncommon,1,101843,036f387a-8dee-482e-b3e3-cf79b54c61e1,1.37,false,false,near_mint,en,EUR,1.94,2.45,1.94
-Arcane Signet,DSC,Duskmourn: House of Horror Commander,92,normal,common,1,98793,211a1d86-7257-4621-ae05-c2b235c063f0,1.24,false,false,near_mint,en,EUR,0.41,,0.41
-Llanowar Wastes,TDC,Tarkir: Dragonstorm Commander,376,normal,rare,1,104832,9cb4ae53-8a0d-4eaf-900a-1ee6ec20a5df,1.28,false,false,near_mint,en,EUR,0.95,,0.95
-Captivating Vampire,INR,Innistrad Remastered,100,normal,rare,1,102420,0f87aadf-7638-4691-b5a5-86f928e98462,1.68,false,false,near_mint,en,EUR,2.12,2.61,2.12
-Falkenrath Gorger,INR,Innistrad Remastered,152,normal,rare,1,101849,16c376f5-f69b-49d4-95f4-92bdd68c564c,0.16,false,false,near_mint,en,EUR,0.2,0.25,0.2
-"Zul Ashur, Lich Lord",FDN,Foundations,77,normal,rare,1,100347,34ad4fdb-9805-45b3-ba20-e47a15d6ff38,1.26,false,false,near_mint,en,EUR,1.21,1.44,1.21
-Starfield Mystic,DSC,Duskmourn: House of Horror Commander,105,normal,rare,1,99053,111bc4a3-5318-4c85-b5d4-d85242bff05f,0.54,false,false,near_mint,en,EUR,0.44,,0.44
-War of the Last Alliance,LTR,The Lord of the Rings: Tales of Middle-earth,36,normal,rare,1,83120,60ddf2cd-5b33-4c8a-a610-8e6a15404dde,0.59,false,false,near_mint,en,EUR,0.62,1.37,0.62
-Tireless Tracker,INR,Innistrad Remastered,219,normal,rare,1,102587,695ac524-b54a-4de7-90b7-ec4e5e94717e,0.22,false,false,near_mint,en,EUR,0.37,0.7,0.37
-Firja's Retribution,CLB,Commander Legends: Battle for Baldur's Gate,846,normal,rare,1,69699,e7d1bbe5-c63e-4a8d-b79a-0dcca221a726,0.31,false,false,near_mint,en,EUR,0.27,,0.27
-"Aatchik, Emerald Radian",DFT,Aetherdrift,187,normal,rare,1,103383,fbdaa29b-85ff-4a06-b27e-fcdbdfd4a3fe,0.2,false,false,near_mint,en,EUR,0.22,0.32,0.22
-Casualties of War,PIP,Fallout,213,normal,rare,1,92289,6ea2451e-ad6e-4f76-ac76-0b8f4fabd0a9,0.21,false,false,near_mint,en,EUR,0.25,0.49,0.25
-Wight of the Reliquary,MH3,Modern Horizons 3,207,normal,rare,1,94251,a15570c0-4210-4959-8584-987ec85f8283,2.1,false,false,near_mint,en,EUR,1.56,3.43,1.56
-Calculating Lich,CLB,Commander Legends: Battle for Baldur's Gate,742,normal,mythic,1,69617,a5dccdab-9dda-4964-9b1a-eec6d31c7995,0.37,false,false,near_mint,en,EUR,0.44,,0.44
-Sevinne's Reclamation,MH3,Modern Horizons 3,267,normal,rare,1,94343,0f055754-58cf-474a-a3a9-59490dbf9dce,0.28,false,false,near_mint,en,EUR,0.34,0.87,0.34
-Altered Ego,INR,Innistrad Remastered,228,normal,rare,1,102502,3b913b54-1a5c-4708-95c6-883c0f285d68,0.21,false,false,near_mint,en,EUR,0.27,0.4,0.27
-Hanweir Battlements,INR,Innistrad Remastered,279,normal,rare,2,102664,8c0acb91-edfc-43a5-af77-6614327fce43,0.89,false,false,near_mint,en,EUR,1.28,1.63,1.28
-Maelstrom Pulse,INR,Innistrad Remastered,244,normal,rare,1,102577,66f17263-b916-40f4-b175-fcfd5630103d,0.16,false,false,near_mint,en,EUR,0.37,0.53,0.37
-"Legolas, Master Archer",LTR,The Lord of the Rings: Tales of Middle-earth,173,normal,rare,1,83379,a9405577-c1dc-48e0-b2aa-6237c569d02e,0.25,false,false,near_mint,en,EUR,0.29,0.6,0.29
-Zealous Conscripts,INR,Innistrad Remastered,183,normal,rare,1,102742,b5ca6c08-bfe0-4021-b6ad-e235c8905661,0.2,false,false,near_mint,en,EUR,0.18,0.46,0.18
+Blood Artist,INR,Innistrad Remastered,97,normal,uncommon,1,101843,036f387a-8dee-482e-b3e3-cf79b54c61e1,1.37,false,false,near_mint,en,EUR,,,N/A
+Arcane Signet,DSC,Duskmourn: House of Horror Commander,92,normal,common,1,98793,211a1d86-7257-4621-ae05-c2b235c063f0,1.24,false,false,near_mint,en,EUR,,,N/A
+Llanowar Wastes,TDC,Tarkir: Dragonstorm Commander,376,normal,rare,1,104832,9cb4ae53-8a0d-4eaf-900a-1ee6ec20a5df,1.28,false,false,near_mint,en,EUR,,,N/A
+Captivating Vampire,INR,Innistrad Remastered,100,normal,rare,1,102420,0f87aadf-7638-4691-b5a5-86f928e98462,1.68,false,false,near_mint,en,EUR,,,N/A
+Falkenrath Gorger,INR,Innistrad Remastered,152,normal,rare,1,101849,16c376f5-f69b-49d4-95f4-92bdd68c564c,0.16,false,false,near_mint,en,EUR,,,N/A
+"Zul Ashur, Lich Lord",FDN,Foundations,77,normal,rare,1,100347,34ad4fdb-9805-45b3-ba20-e47a15d6ff38,1.26,false,false,near_mint,en,EUR,,,N/A
+Starfield Mystic,DSC,Duskmourn: House of Horror Commander,105,normal,rare,1,99053,111bc4a3-5318-4c85-b5d4-d85242bff05f,0.54,false,false,near_mint,en,EUR,,,N/A
+War of the Last Alliance,LTR,The Lord of the Rings: Tales of Middle-earth,36,normal,rare,1,83120,60ddf2cd-5b33-4c8a-a610-8e6a15404dde,0.59,false,false,near_mint,en,EUR,,,N/A
+Tireless Tracker,INR,Innistrad Remastered,219,normal,rare,1,102587,695ac524-b54a-4de7-90b7-ec4e5e94717e,0.22,false,false,near_mint,en,EUR,,,N/A
+Firja's Retribution,CLB,Commander Legends: Battle for Baldur's Gate,846,normal,rare,1,69699,e7d1bbe5-c63e-4a8d-b79a-0dcca221a726,0.31,false,false,near_mint,en,EUR,,,N/A
+"Aatchik, Emerald Radian",DFT,Aetherdrift,187,normal,rare,1,103383,fbdaa29b-85ff-4a06-b27e-fcdbdfd4a3fe,0.2,false,false,near_mint,en,EUR,,,N/A
+Casualties of War,PIP,Fallout,213,normal,rare,1,92289,6ea2451e-ad6e-4f76-ac76-0b8f4fabd0a9,0.21,false,false,near_mint,en,EUR,,,N/A
+Wight of the Reliquary,MH3,Modern Horizons 3,207,normal,rare,1,94251,a15570c0-4210-4959-8584-987ec85f8283,2.1,false,false,near_mint,en,EUR,,,N/A
+Calculating Lich,CLB,Commander Legends: Battle for Baldur's Gate,742,normal,mythic,1,69617,a5dccdab-9dda-4964-9b1a-eec6d31c7995,0.37,false,false,near_mint,en,EUR,,,N/A
+Sevinne's Reclamation,MH3,Modern Horizons 3,267,normal,rare,1,94343,0f055754-58cf-474a-a3a9-59490dbf9dce,0.28,false,false,near_mint,en,EUR,,,N/A
+Altered Ego,INR,Innistrad Remastered,228,normal,rare,1,102502,3b913b54-1a5c-4708-95c6-883c0f285d68,0.21,false,false,near_mint,en,EUR,,,N/A
+Hanweir Battlements,INR,Innistrad Remastered,279,normal,rare,2,102664,8c0acb91-edfc-43a5-af77-6614327fce43,0.89,false,false,near_mint,en,EUR,,,N/A
+Maelstrom Pulse,INR,Innistrad Remastered,244,normal,rare,1,102577,66f17263-b916-40f4-b175-fcfd5630103d,0.16,false,false,near_mint,en,EUR,,,N/A
+"Legolas, Master Archer",LTR,The Lord of the Rings: Tales of Middle-earth,173,normal,rare,1,83379,a9405577-c1dc-48e0-b2aa-6237c569d02e,0.25,false,false,near_mint,en,EUR,,,N/A
+Zealous Conscripts,INR,Innistrad Remastered,183,normal,rare,1,102742,b5ca6c08-bfe0-4021-b6ad-e235c8905661,0.2,false,false,near_mint,en,EUR,,,N/A
 Villainous Wealth,OTP,Breaking News,58,normal,rare,1,93194,66126f16-3d22-4d93-86c8-1800f1cfd22e,0.16,false,false,near_mint,en,EUR,,,N/A
 Hidetsugu Consumes All // Vessel of the All-Consuming,NEO,Kamigawa: Neon Dynasty,221,normal,mythic,1,66571,8e910464-329a-4de1-930a-be85b1956676,0.98,false,false,near_mint,en,EUR,,,N/A
 Hollowmurk Siege,TDM,Tarkir: Dragonstorm,387,normal,rare,1,104922,bd9a6427-09cc-4ddf-88a6-fc23498a7c08,0.74,false,false,near_mint,en,EUR,,,N/A
@@ -562,7 +562,7 @@ Mobilizer Mech,NEO,Kamigawa: Neon Dynasty,65,normal,uncommon,1,66608,cf4bb9de-ba
 Moon-Circuit Hacker,NEO,Kamigawa: Neon Dynasty,334,normal,common,1,66552,75c43923-7280-4ccb-810b-e8c38dd8a26f,0.22,false,false,near_mint,en,EUR,,,N/A
 Moonfolk Puzzlemaker,NEO,Kamigawa: Neon Dynasty,68,normal,common,1,66802,c9fa6d4c-78dc-4b40-9ce8-a0e593d4001f,0.12,false,false,near_mint,en,EUR,,,N/A
 Moonsnare Prototype,NEO,Kamigawa: Neon Dynasty,69,normal,common,1,66423,9d8bc0e9-a536-4bca-92a6-8dca85e1e984,0.15,false,false,near_mint,en,EUR,,,N/A
-Moonsnare Specialist,NEO,Kamigawa: Neon Dynasty,70,normal,common,1,66655,1e8b209f-f577-45cc-9d18-03c1d67d391e,0.03,false,false,near_mint,en,EUR,,,N/A
+Moonsnare Specialist,NEO,Kamigawa: Neon Dynasty,70,normal,common,1,66655,1e8b209f-f577-45cc-9d18-03c1d67d391e,0.03,false,false,near_mint,en,EUR,0.08,0.17,0.08
 Mystic Reflection,KHM,Kaldheim,69,normal,rare,1,57160,f7b877e2-60eb-46cd-acd7-8555b9e7e993,1.21,false,false,near_mint,en,EUR,,,N/A
 Nimble Brigand,OTJ,Outlaws of Thunder Junction,58,normal,uncommon,1,93220,73c74d48-362d-4c3b-9ff7-39bdd19657a6,0.08,false,false,near_mint,en,EUR,,,N/A
 Nimrodel Watcher,LTR,The Lord of the Rings: Tales of Middle-earth,63,normal,common,2,83473,c253ee40-41c9-4cb5-a1a3-94b0aaed09d4,0.04,false,false,near_mint,en,EUR,,,N/A
@@ -596,26 +596,26 @@ Skyswimmer Koi,NEO,Kamigawa: Neon Dynasty,79,normal,common,1,66819,db50259b-8ca8
 Sludge Monster,CLB,Commander Legends: Battle for Baldur's Gate,735,normal,rare,1,69614,a32be366-d86e-48aa-8257-ca8afb87ba18,0.25,false,false,near_mint,en,EUR,,,N/A
 Ithilien Kingfisher,LTR,The Lord of the Rings: Tales of Middle-earth,58,normal,common,1,83158,68c29762-6859-4564-9e1d-a87fa63b951a,0.02,false,false,near_mint,en,EUR,,,N/A
 "Jace, Mirror Mage",ZNR,Zendikar Rising,281,normal,mythic,1,54390,961bb827-f13a-417d-8284-5cd2aac3d034,0.66,false,false,near_mint,en,EUR,,,N/A
-Hithlain Knots,LTR,The Lord of the Rings: Tales of Middle-earth,54,normal,common,3,83448,bbcc27e7-cbe4-45c2-b157-7251a10e7ba4,0.09,false,false,near_mint,en,EUR,,,N/A
-Ichor Synthesizer,ONE,Phyrexia: All Will Be One,55,normal,common,1,78659,7f516ee6-8f7b-40b2-82e5-9c4ea3e0a355,0.05,false,false,near_mint,en,EUR,,,N/A
-Impede Momentum,DMU,Dominaria United,54,normal,common,1,71325,259c04f7-86f2-4584-97fb-8278dca9a213,0.07,false,false,near_mint,en,EUR,,,N/A
-Interpret the Signs,CMR,Commander Legends,75,normal,uncommon,1,55645,42dbf049-5c02-4038-86de-fa6b5110cf7e,0.13,false,false,near_mint,en,EUR,,,N/A
-Into the Fae Court,WOE,Wilds of Eldraine,57,normal,common,1,85587,969b13bb-6411-41f9-b6b4-af4ffca62e17,0.09,false,false,near_mint,en,EUR,,,N/A
-Into the Roil,FDN,Foundations,509,normal,common,1,101486,25edefa9-9fff-4b71-83ae-696c196a795c,0.16,false,false,near_mint,en,EUR,,,N/A
-Harrier Strix,OTJ,Outlaws of Thunder Junction,52,normal,common,2,93213,70ca61a9-8938-41bf-bd14-5759f4de6521,0.17,false,false,near_mint,en,EUR,,,N/A
-Bigfin Bouncer,FDN,Foundations,31,normal,common,4,100882,9b1d5b76-b07e-45c6-800d-4cfce085164f,0.04,false,false,near_mint,en,EUR,,,N/A
-Knightfisher,BLB,Bloomburrow,55,normal,uncommon,2,95967,c7fb7f4f-2153-4527-8f11-adbf508d3533,0.08,false,false,near_mint,en,EUR,,,N/A
-Humbling Elder,TDM,Tarkir: Dragonstorm,48,normal,common,5,104562,3a84c3f8-0030-4653-880e-b2d19272f5fa,0.13,false,false,near_mint,en,EUR,,,N/A
-Ureni's Rebuff,TDM,Tarkir: Dragonstorm,63,normal,uncommon,2,104310,722716df-9cea-40a7-924b-c28497e227e6,0.03,false,false,near_mint,en,EUR,,,N/A
-Moonsnare Specialist,NEO,Kamigawa: Neon Dynasty,335,normal,common,2,66844,f5e2fdd4-b953-4e9a-b511-52199a34214e,0.09,false,false,near_mint,en,EUR,,,N/A
-Snowmelt Stag,TDM,Tarkir: Dragonstorm,57,normal,common,3,104869,a6b3b131-704a-4586-84f8-db465cd4a277,0.06,false,false,near_mint,en,EUR,,,N/A
-Run Away Together,FDN,Foundations,162,normal,common,4,101614,e598eb7b-10dc-49e6-ac60-2fefa987173e,0.06,false,false,near_mint,en,EUR,,,N/A
-Failed Fording,OTJ,Outlaws of Thunder Junction,47,normal,common,2,93188,62bbe11b-e959-4080-98ac-09bd57519c00,0.12,false,false,near_mint,en,EUR,,,N/A
-Erudite Wizard,FDN,Foundations,37,normal,common,5,100835,9273c417-0fcd-4273-b24e-afff76336d0c,0.06,false,false,near_mint,en,EUR,,,N/A
-Iceridge Serpent,TDM,Tarkir: Dragonstorm,49,normal,common,5,105167,d13f117b-b8e4-48db-8ce9-5da9c7ce23a5,0.05,false,false,near_mint,en,EUR,,,N/A
-Aegis Turtle,FDN,Foundations,150,normal,common,3,101590,c7f2014a-fbc9-447c-a440-e06d01066bb9,0.06,false,false,near_mint,en,EUR,,,N/A
-Guardians of Oboro,NEO,Kamigawa: Neon Dynasty,56,normal,common,2,66618,e9c44d4e-742f-4e4f-9bf4-921075bc427c,0.05,false,false,near_mint,en,EUR,,,N/A
-Elementalist Adept,FDN,Foundations,36,normal,common,3,101605,d9768cc6-8f53-4922-ae32-376a2f32d719,0.07,false,false,near_mint,en,EUR,,,N/A
+Hithlain Knots,LTR,The Lord of the Rings: Tales of Middle-earth,54,normal,common,3,83448,bbcc27e7-cbe4-45c2-b157-7251a10e7ba4,0.09,false,false,near_mint,en,EUR,0.05,0.16,0.05
+Ichor Synthesizer,ONE,Phyrexia: All Will Be One,55,normal,common,1,78659,7f516ee6-8f7b-40b2-82e5-9c4ea3e0a355,0.05,false,false,near_mint,en,EUR,0.02,0.16,0.02
+Impede Momentum,DMU,Dominaria United,54,normal,common,1,71325,259c04f7-86f2-4584-97fb-8278dca9a213,0.07,false,false,near_mint,en,EUR,0.11,0.2,0.11
+Interpret the Signs,CMR,Commander Legends,75,normal,uncommon,1,55645,42dbf049-5c02-4038-86de-fa6b5110cf7e,0.13,false,false,near_mint,en,EUR,0.14,0.17,0.14
+Into the Fae Court,WOE,Wilds of Eldraine,57,normal,common,1,85587,969b13bb-6411-41f9-b6b4-af4ffca62e17,0.09,false,false,near_mint,en,EUR,0.02,0.12,0.02
+Into the Roil,FDN,Foundations,509,normal,common,1,101486,25edefa9-9fff-4b71-83ae-696c196a795c,0.16,false,false,near_mint,en,EUR,0.02,,0.02
+Harrier Strix,OTJ,Outlaws of Thunder Junction,52,normal,common,2,93213,70ca61a9-8938-41bf-bd14-5759f4de6521,0.17,false,false,near_mint,en,EUR,0.15,0.25,0.15
+Bigfin Bouncer,FDN,Foundations,31,normal,common,4,100882,9b1d5b76-b07e-45c6-800d-4cfce085164f,0.04,false,false,near_mint,en,EUR,0.06,0.13,0.06
+Knightfisher,BLB,Bloomburrow,55,normal,uncommon,2,95967,c7fb7f4f-2153-4527-8f11-adbf508d3533,0.08,false,false,near_mint,en,EUR,0.13,0.17,0.13
+Humbling Elder,TDM,Tarkir: Dragonstorm,48,normal,common,5,104562,3a84c3f8-0030-4653-880e-b2d19272f5fa,0.13,false,false,near_mint,en,EUR,0.21,0.19,0.21
+Ureni's Rebuff,TDM,Tarkir: Dragonstorm,63,normal,uncommon,2,104310,722716df-9cea-40a7-924b-c28497e227e6,0.03,false,false,near_mint,en,EUR,0.05,0.05,0.05
+Moonsnare Specialist,NEO,Kamigawa: Neon Dynasty,335,normal,common,2,66844,f5e2fdd4-b953-4e9a-b511-52199a34214e,0.09,false,false,near_mint,en,EUR,0.08,0.17,0.08
+Snowmelt Stag,TDM,Tarkir: Dragonstorm,57,normal,common,3,104869,a6b3b131-704a-4586-84f8-db465cd4a277,0.06,false,false,near_mint,en,EUR,0.04,0.05,0.04
+Run Away Together,FDN,Foundations,162,normal,common,4,101614,e598eb7b-10dc-49e6-ac60-2fefa987173e,0.06,false,false,near_mint,en,EUR,0.02,0.06,0.02
+Failed Fording,OTJ,Outlaws of Thunder Junction,47,normal,common,2,93188,62bbe11b-e959-4080-98ac-09bd57519c00,0.12,false,false,near_mint,en,EUR,0.04,0.05,0.04
+Erudite Wizard,FDN,Foundations,37,normal,common,5,100835,9273c417-0fcd-4273-b24e-afff76336d0c,0.06,false,false,near_mint,en,EUR,0.09,0.06,0.09
+Iceridge Serpent,TDM,Tarkir: Dragonstorm,49,normal,common,5,105167,d13f117b-b8e4-48db-8ce9-5da9c7ce23a5,0.05,false,false,near_mint,en,EUR,0.04,0.06,0.04
+Aegis Turtle,FDN,Foundations,150,normal,common,3,101590,c7f2014a-fbc9-447c-a440-e06d01066bb9,0.06,false,false,near_mint,en,EUR,0.04,0.23,0.04
+Guardians of Oboro,NEO,Kamigawa: Neon Dynasty,56,normal,common,2,66618,e9c44d4e-742f-4e4f-9bf4-921075bc427c,0.05,false,false,near_mint,en,EUR,0.05,0.16,0.05
+Elementalist Adept,FDN,Foundations,36,normal,common,3,101605,d9768cc6-8f53-4922-ae32-376a2f32d719,0.07,false,false,near_mint,en,EUR,0.03,0.08,0.03
 Lightshell Duo,FDN,Foundations,157,normal,common,4,101063,bb75315c-ea8f-4eb0-899e-c73ef75fc396,0.06,false,false,near_mint,en,EUR,,,N/A
 Agent of Kotis,TDM,Tarkir: Dragonstorm,36,normal,common,4,104318,812d0462-0158-467f-951d-a7a121188a10,0.05,false,false,near_mint,en,EUR,,,N/A
 Dirgur Island Dragon // Skimming Strike,TDM,Tarkir: Dragonstorm,40,normal,common,4,104342,b1d21a9a-6b0c-4fbc-a427-81be885d326b,0.03,false,false,near_mint,en,EUR,,,N/A
@@ -624,21 +624,21 @@ Sibsig Appraiser,TDM,Tarkir: Dragonstorm,56,normal,common,4,105135,670c5b96-bac6
 Dire Downdraft,BLB,Bloomburrow,46,normal,common,2,96526,f1931f22-974c-43ad-911e-684bf3f9995d,0.1,false,false,near_mint,en,EUR,,,N/A
 Behold the Unspeakable // Vision of the Unspeakable,NEO,Kamigawa: Neon Dynasty,48,normal,uncommon,2,66468,e4d52701-e0dc-474e-b08f-88147200d210,0.08,false,false,near_mint,en,EUR,,,N/A
 Faebloom Trick,FDN,Foundations,38,normal,uncommon,2,100148,0c3bee8f-f5be-4404-a696-c902637799c3,0.23,false,false,near_mint,en,EUR,,,N/A
-Micromancer,FDN,Foundations,158,normal,uncommon,2,101274,e6af54ea-b57a-4e50-8e46-1747cca14430,0.09,false,false,near_mint,en,EUR,,,N/A
+Micromancer,FDN,Foundations,158,normal,uncommon,2,101274,e6af54ea-b57a-4e50-8e46-1747cca14430,0.09,false,false,near_mint,en,EUR,0.13,0.1,0.13
 Icewind Elemental,FDN,Foundations,42,normal,common,5,101629,fd0eba76-3829-408b-828f-0b223c884728,0.03,false,false,near_mint,en,EUR,,,N/A
-Riverwalk Technique,TDM,Tarkir: Dragonstorm,54,normal,common,4,105118,043c25d5-13ee-4cab-98d5-fb89db9cf6e3,0.07,false,false,near_mint,en,EUR,,,N/A
+Riverwalk Technique,TDM,Tarkir: Dragonstorm,54,normal,common,4,105118,043c25d5-13ee-4cab-98d5-fb89db9cf6e3,0.07,false,false,near_mint,en,EUR,0.02,0.06,0.02
 Mischievous Mystic,FDN,Foundations,47,normal,uncommon,3,100242,20d89cec-528b-4b2a-87db-e11ce0000622,0.18,false,false,near_mint,en,EUR,,,N/A
-Guardians of Oboro,NEO,Kamigawa: Neon Dynasty,317,normal,common,1,66578,95dbd59e-a2f0-4031-b6c6-1b59fb7cb067,0.1,false,false,near_mint,en,EUR,,,N/A
+Guardians of Oboro,NEO,Kamigawa: Neon Dynasty,317,normal,common,1,66578,95dbd59e-a2f0-4031-b6c6-1b59fb7cb067,0.1,false,false,near_mint,en,EUR,0.05,0.16,0.05
 Grell Philosopher,CLB,Commander Legends: Battle for Baldur's Gate,666,normal,rare,1,69687,e18bb373-a0bb-4e3c-b7db-83f747820fcd,0.18,false,false,near_mint,en,EUR,,,N/A
 "Grazilaxx, Illithid Scholar",CLB,Commander Legends: Battle for Baldur's Gate,723,normal,rare,1,69485,3de11222-c2fa-4544-a501-a02b31797259,1.44,false,false,near_mint,en,EUR,,,N/A
-"Goldberry, River-Daughter",LTR,The Lord of the Rings: Tales of Middle-earth,52,normal,rare,1,83463,bf4f0a7c-620e-4ed8-8da3-fa6564e8a0cd,0.37,false,false,near_mint,en,EUR,,,N/A
+"Goldberry, River-Daughter",LTR,The Lord of the Rings: Tales of Middle-earth,52,normal,rare,1,83463,bf4f0a7c-620e-4ed8-8da3-fa6564e8a0cd,0.37,false,false,near_mint,en,EUR,0.39,1.33,0.39
 Goggles of Night,CLB,Commander Legends: Battle for Baldur's Gate,74,normal,common,1,69335,deb2aa14-4b8d-4f33-856d-296bc59a0ade,0.1,false,false,near_mint,en,EUR,,,N/A
-Highspire Bell-Ringer,TDM,Tarkir: Dragonstorm,47,normal,common,1,105020,e75dccf7-2894-4c4a-b516-3eee73acddd3,0.09,false,false,near_mint,en,EUR,,,N/A
+Highspire Bell-Ringer,TDM,Tarkir: Dragonstorm,47,normal,common,1,105020,e75dccf7-2894-4c4a-b516-3eee73acddd3,0.09,false,false,near_mint,en,EUR,0.15,0.11,0.15
 Repulse,OTP,Breaking News,13,normal,uncommon,1,93246,88941ed3-1cae-47ce-8ccb-938c5d0e767f,0.09,false,false,near_mint,en,EUR,,,N/A
-Drownyard Lurker,MH3,Modern Horizons 3,3,normal,common,1,94867,7faf5812-2067-4386-bb83-150723d67d02,0.07,false,false,near_mint,en,EUR,,,N/A
+Drownyard Lurker,MH3,Modern Horizons 3,3,normal,common,1,94867,7faf5812-2067-4386-bb83-150723d67d02,0.07,false,false,near_mint,en,EUR,0.14,0.2,0.14
 Flux Channeler,CMM,Commander Masters,847,normal,uncommon,1,84259,3c520263-6bad-4521-ba9e-192ca8223b07,1.64,false,false,near_mint,en,EUR,,,N/A
 Fog Bank,FDN,Foundations,591,normal,uncommon,1,100192,18748b1d-4161-482c-a726-8762b4c1819c,0.21,false,false,near_mint,en,EUR,,,N/A
-Jailbreak Scheme,OTJ,Outlaws of Thunder Junction,53,normal,common,1,93293,a4be8e47-9006-4770-8d99-68a684064a43,0.1,false,false,near_mint,en,EUR,,,N/A
+Jailbreak Scheme,OTJ,Outlaws of Thunder Junction,53,normal,common,1,93293,a4be8e47-9006-4770-8d99-68a684064a43,0.1,false,false,near_mint,en,EUR,0.07,0.12,0.07
 Piranha Fly,DSK,Duskmourn: House of Horror,70,normal,common,1,98742,cd891675-12d4-40df-996a-97d694155227,0.11,false,false,near_mint,en,EUR,,,N/A
 Planar Incision,NEO,Kamigawa: Neon Dynasty,72,normal,common,1,66752,9163cb04-ee28-4127-b53a-89c546996d7d,0.15,false,false,near_mint,en,EUR,,,N/A
 Moon-Circuit Hacker,NEO,Kamigawa: Neon Dynasty,67,normal,common,1,66600,c6e466d1-943d-41e6-a47d-c9d951ca4262,0.23,false,false,near_mint,en,EUR,,,N/A
@@ -647,20 +647,20 @@ Tymora's Invoker,CLB,Commander Legends: Battle for Baldur's Gate,101,normal,comm
 Wall of Tears,STH,Stronghold,50,normal,uncommon,1,36595,4638d815-fb86-490c-84d6-777a1c6131d6,0.43,false,false,near_mint,en,EUR,,,N/A
 Spectral Interference,DFT,Aetherdrift,63,normal,common,1,103556,860cb8af-a5f6-47e7-a34b-7b9f11ddc8c6,0.04,false,false,near_mint,en,EUR,,,N/A
 Wingblade Disciple,TDM,Tarkir: Dragonstorm,65,normal,uncommon,1,105138,71de7dca-0231-4407-86a0-c7fc95f5aaa0,0.09,false,false,near_mint,en,EUR,,,N/A
-Invoke the Winds,NEO,Kamigawa: Neon Dynasty,58,normal,rare,1,66589,ad7b423a-bfd1-47aa-bd2c-64a169b96924,0.23,false,false,near_mint,en,EUR,,,N/A
+Invoke the Winds,NEO,Kamigawa: Neon Dynasty,58,normal,rare,1,66589,ad7b423a-bfd1-47aa-bd2c-64a169b96924,0.23,false,false,near_mint,en,EUR,0.2,0.29,0.2
 Drunau Corpse Trawler,INR,Innistrad Remastered,63,normal,uncommon,1,102425,11b29a06-c1e1-4d81-ac50-906c94617abe,0.04,false,false,near_mint,en,EUR,,,N/A
 Midnight Mangler,DFT,Aetherdrift,50,normal,common,1,102951,237568e3-7331-4bbb-a091-a766723134fc,0.05,false,false,near_mint,en,EUR,,,N/A
-Skystreak Engineer,DFT,Aetherdrift,61,normal,common,1,103511,5bc9c501-098d-4560-9826-329b05689e0f,0.03,false,false,near_mint,en,EUR,,,N/A
+Skystreak Engineer,DFT,Aetherdrift,61,normal,common,1,103511,5bc9c501-098d-4560-9826-329b05689e0f,0.03,false,false,near_mint,en,EUR,0.03,0.04,0.03
 Aether Syphon,DFT,Aetherdrift,38,normal,uncommon,1,103294,d7033739-4cd8-4727-b9b5-099fb597006b,0.18,false,false,near_mint,en,EUR,,,N/A
-Glitch Ghost Surveyor,DFT,Aetherdrift,44,normal,common,1,103615,b9bb89b9-50dd-4b36-aa10-aba585e50246,0.02,false,false,near_mint,en,EUR,,,N/A
+Glitch Ghost Surveyor,DFT,Aetherdrift,44,normal,common,1,103615,b9bb89b9-50dd-4b36-aa10-aba585e50246,0.02,false,false,near_mint,en,EUR,0.04,0.04,0.04
 Flood the Engine,DFT,Aetherdrift,42,normal,common,1,103506,57402f7c-5d4c-4f1e-8bce-a2328a297111,0.03,false,false,near_mint,en,EUR,,,N/A
 Spikeshell Harrier,DFT,Aetherdrift,65,normal,uncommon,1,103572,8f1ece22-ca32-45bb-b5f4-480f9b366cb5,0.08,false,false,near_mint,en,EUR,,,N/A
-Howler's Heavy,DFT,Aetherdrift,46,normal,common,1,103566,8bbd7758-59c7-4ae1-9af8-c3580f4aa958,0.03,false,false,near_mint,en,EUR,,,N/A
+Howler's Heavy,DFT,Aetherdrift,46,normal,common,1,103566,8bbd7758-59c7-4ae1-9af8-c3580f4aa958,0.03,false,false,near_mint,en,EUR,0.04,0.1,0.04
 Stall Out,DFT,Aetherdrift,66,normal,common,1,103500,4ea0e0d3-833f-4353-b648-57b0b657cc1c,0.06,false,false,near_mint,en,EUR,,,N/A
 Trip Up,DFT,Aetherdrift,71,normal,common,1,103451,273061f3-7aa7-4cb0-afd6-616252b88948,0.06,false,false,near_mint,en,EUR,,,N/A
-Keen Buccaneer,DFT,Aetherdrift,48,normal,common,1,103429,0ed90a63-5aca-470a-8e1e-518d8aeb6d91,0.05,false,false,near_mint,en,EUR,,,N/A
-Trade the Helm,DFT,Aetherdrift,69,normal,uncommon,1,103659,eb0b5c09-6c21-4080-81c4-a8376deb729f,0.09,false,false,near_mint,en,EUR,,,N/A
-Guidelight Optimizer,DFT,Aetherdrift,45,normal,common,1,103658,e9fc07dd-05b1-49ed-a3ee-46c31b8e0a3d,0.06,false,false,near_mint,en,EUR,,,N/A
+Keen Buccaneer,DFT,Aetherdrift,48,normal,common,1,103429,0ed90a63-5aca-470a-8e1e-518d8aeb6d91,0.05,false,false,near_mint,en,EUR,0.03,0.06,0.03
+Trade the Helm,DFT,Aetherdrift,69,normal,uncommon,1,103659,eb0b5c09-6c21-4080-81c4-a8376deb729f,0.09,false,false,near_mint,en,EUR,0.09,0.15,0.09
+Guidelight Optimizer,DFT,Aetherdrift,45,normal,common,1,103658,e9fc07dd-05b1-49ed-a3ee-46c31b8e0a3d,0.06,false,false,near_mint,en,EUR,0.06,0.18,0.06
 Slick Imitator,DFT,Aetherdrift,62,normal,uncommon,1,103481,3e86ef50-4939-4e7c-853d-438f0f3e0411,0.13,false,false,near_mint,en,EUR,,,N/A
 Gearseeker Serpent,DFT,Aetherdrift,43,normal,common,1,103480,3dca0007-42d3-4ee2-8e88-361d80a7103c,0.04,false,false,near_mint,en,EUR,,,N/A
 Memory Guardian,DFT,Aetherdrift,49,normal,uncommon,1,103524,6b199ce2-0ea0-47e5-a36c-36373be53fec,0.25,false,false,near_mint,en,EUR,,,N/A
@@ -668,12 +668,12 @@ March of Swirling Mist,NEO,Kamigawa: Neon Dynasty,61,normal,rare,1,66642,100171d
 Cackling Counterpart,INR,Innistrad Remastered,55,normal,uncommon,1,101882,a865fdc5-955a-4c4a-90c0-342c15fd7bbc,0.23,false,false,near_mint,en,EUR,,,N/A
 Cobbled Lancer,INR,Innistrad Remastered,56,normal,uncommon,1,102719,ad933b4d-e1e7-49cc-aa18-8eee2ec8c8a5,0.05,false,false,near_mint,en,EUR,,,N/A
 Compelling Deterrence,INR,Innistrad Remastered,57,normal,uncommon,1,102570,62ffc952-b763-4b9e-acdf-164253bdfe72,0.05,false,false,near_mint,en,EUR,,,N/A
-Surgical Skullbomb,ONE,Phyrexia: All Will Be One,243,normal,common,1,78723,98c2b2af-739f-413c-8c36-da6f78df0acb,0.08,false,false,near_mint,en,EUR,,,N/A
+Surgical Skullbomb,ONE,Phyrexia: All Will Be One,243,normal,common,1,78723,98c2b2af-739f-413c-8c36-da6f78df0acb,0.08,false,false,near_mint,en,EUR,0.11,0.14,0.11
 Surrounded by Orcs,LTR,The Lord of the Rings: Tales of Middle-earth,73,normal,common,1,82905,1c50d4c8-2311-4394-b73f-389eb81e898b,0.05,false,false,near_mint,en,EUR,,,N/A
 Tamiyo's Compleation,NEO,Kamigawa: Neon Dynasty,83,normal,common,1,66436,aee62e43-6a82-4749-972b-e21802642abf,0.08,false,false,near_mint,en,EUR,,,N/A
 The Flood of Mars,WHO,Doctor Who,45,normal,rare,1,87603,8c3474c4-9466-46fc-8327-50950d75e79f,0.3,false,false,near_mint,en,EUR,,,N/A
 Thirst for Knowledge,NEO,Kamigawa: Neon Dynasty,85,normal,uncommon,1,66723,6b927837-8252-4ea7-b2d0-ab624de65bd7,0.1,false,false,near_mint,en,EUR,,,N/A
-Time of Ice,DOM,Dominaria,70,normal,uncommon,1,2206,edcd0674-68b9-41ca-ab46-a73dfcbe4149,0.18,false,false,near_mint,en,EUR,,,N/A
+Time of Ice,DOM,Dominaria,70,normal,uncommon,1,2206,edcd0674-68b9-41ca-ab46-a73dfcbe4149,0.18,false,false,near_mint,en,EUR,0.15,0.9,0.15
 Thought Shucker,BLB,Bloomburrow,77,normal,common,1,95916,44b0d83b-cc41-4f82-892c-ef6d3293228a,0.07,false,false,near_mint,en,EUR,,,N/A
 Thousand-Faced Shadow,NEO,Kamigawa: Neon Dynasty,86,normal,rare,1,66405,89a698a5-f4ac-4b04-96dc-32e1eeef6ac7,0.95,false,false,near_mint,en,EUR,,,N/A
 Tunnel Surveyor,DSK,Duskmourn: House of Horror,76,normal,common,1,98782,12ee2690-f464-4a38-81e1-6dd2053a3327,0.03,false,false,near_mint,en,EUR,,,N/A
@@ -698,10 +698,10 @@ Aqueous Form,CMR,Commander Legends,56,normal,common,1,56189,c859f7cb-ac12-490e-b
 Gateway Sneak,FDN,Foundations,592,normal,uncommon,1,100366,3834176f-29c5-4511-87d6-75d0c348a770,0.15,false,false,near_mint,en,EUR,,,N/A
 Guild Summit,GRN,Guilds of Ravnica,41,normal,uncommon,1,442,d952259f-9e0a-49af-9dfb-3cad1a1bb3a8,0.4,false,false,near_mint,en,EUR,,,N/A
 Aether Tunnel,M19,Core Set 2019,43,normal,uncommon,1,1269,5d6178ed-6353-4733-81e1-7b3dc592c3bd,0.35,false,false,near_mint,en,EUR,,,N/A
-Way of the Thief,GTC,Gatecrash,56,normal,common,1,16768,b249ca81-bd8d-4d3d-81d6-15e8d669c416,0.13,false,false,near_mint,en,EUR,,,N/A
+Way of the Thief,GTC,Gatecrash,56,normal,common,1,16768,b249ca81-bd8d-4d3d-81d6-15e8d669c416,0.13,false,false,near_mint,en,EUR,0.09,0.19,0.09
 Cloak of Mists,USG,Urza's Saga,65,normal,common,1,35903,dd54251c-5a2e-48e4-9790-a64dcc44eb8e,0.2,false,false,near_mint,en,EUR,,,N/A
 Geistlight Snare,INR,Innistrad Remastered,66,normal,uncommon,1,102470,293511f6-09c2-4311-a2a6-0b0b7ef65bef,0.08,false,false,near_mint,en,EUR,,,N/A
-Syncopate,INR,Innistrad Remastered,89,normal,common,1,102690,9aebd769-7ae3-4dac-81ea-458061762cce,0.12,false,false,near_mint,en,EUR,,,N/A
+Syncopate,INR,Innistrad Remastered,89,normal,common,1,102690,9aebd769-7ae3-4dac-81ea-458061762cce,0.12,false,false,near_mint,en,EUR,0.05,0.15,0.05
 Aberrant Researcher // Perfected Form,INR,Innistrad Remastered,52,normal,uncommon,1,102517,41b0eddd-9364-4ca1-ac81-0175dd1387e8,0.16,false,false,near_mint,en,EUR,,,N/A
 Unfathomable Truths,MH3,Modern Horizons 3,77,normal,common,1,94896,f95b8eb1-4dbb-4bb9-aa31-b7a12e3b4618,0.11,false,false,near_mint,en,EUR,,,N/A
 Depth Defiler,MH3,Modern Horizons 3,58,normal,uncommon,1,94407,37684797-7503-460d-9f74-047b1ab2fac3,0.06,false,false,near_mint,en,EUR,,,N/A
@@ -709,7 +709,7 @@ Corrupted Shapeshifter,MH3,Modern Horizons 3,56,normal,common,1,94381,27534c8a-c
 Serum Visionary,MH3,Modern Horizons 3,69,normal,common,1,94330,08a587f5-5910-405e-8982-c889dbbc7f98,0.08,false,false,near_mint,en,EUR,,,N/A
 Glorious Gale,LTR,The Lord of the Rings: Tales of Middle-earth,51,normal,common,1,83178,6e1057de-5710-415c-9a51-1d8bd86021a3,0.09,false,false,near_mint,en,EUR,,,N/A
 Grey Havens Navigator,LTR,The Lord of the Rings: Tales of Middle-earth,53,normal,common,1,83068,4dd89994-bdff-47ca-a65d-10afcc7e773e,0.09,false,false,near_mint,en,EUR,,,N/A
-Birthday Escape,LTR,The Lord of the Rings: Tales of Middle-earth,43,normal,common,1,83034,42db2313-b13d-4292-bef2-bf86f989d32f,0.11,false,false,near_mint,en,EUR,,,N/A
+Birthday Escape,LTR,The Lord of the Rings: Tales of Middle-earth,43,normal,common,1,83034,42db2313-b13d-4292-bef2-bf86f989d32f,0.11,false,false,near_mint,en,EUR,0.12,0.16,0.12
 Arwen's Gift,LTR,The Lord of the Rings: Tales of Middle-earth,39,normal,common,1,82969,30e1ec49-ad4f-4623-aeeb-dba07d6e6251,0.06,false,false,near_mint,en,EUR,,,N/A
 Reckless Scholar,INR,Innistrad Remastered,81,normal,common,3,102784,ceb85311-a7f7-44d5-9caa-50a24fd6d00a,0.06,false,false,near_mint,en,EUR,,,N/A
 Makeshift Mauler,INR,Innistrad Remastered,73,normal,common,3,102511,404c6bb8-4c64-458f-a4aa-98beb2c6a77c,0.03,false,false,near_mint,en,EUR,,,N/A
@@ -719,7 +719,7 @@ Silent Departure,INR,Innistrad Remastered,84,normal,common,4,102532,4d1552e7-20b
 Deranged Assistant,INR,Innistrad Remastered,61,normal,common,3,102495,3960ed42-b3e7-4464-b345-1b9b22719efc,0.04,false,false,near_mint,en,EUR,,,N/A
 Wretched Throng,INR,Innistrad Remastered,94,normal,common,2,102713,a8ecbf3e-24ea-4bce-b97b-7f96668f2e14,0.02,false,false,near_mint,en,EUR,,,N/A
 "Meneldor, Swift Savior",LTR,The Lord of the Rings: Tales of Middle-earth,62,normal,uncommon,2,83131,62d2ee20-abbc-4a9d-8d30-4223242123e8,0.12,false,false,near_mint,en,EUR,,,N/A
-Uncharted Voyage,FDN,Foundations,53,normal,common,3,101611,e0846820-e595-4743-8a28-29c57d728677,0.07,false,false,near_mint,en,EUR,,,N/A
+Uncharted Voyage,FDN,Foundations,53,normal,common,3,101611,e0846820-e595-4743-8a28-29c57d728677,0.07,false,false,near_mint,en,EUR,0.03,0.02,0.03
 Delver of Secrets // Insectile Aberration,INR,Innistrad Remastered,60,normal,common,3,102586,6904ea20-e504-47da-95a0-08739fdde260,0.2,false,false,near_mint,en,EUR,,,N/A
 Strix Lookout,FDN,Foundations,52,normal,common,4,101627,fbd2422e-8e84-4c39-af29-3b4d38baee63,0.07,false,false,near_mint,en,EUR,,,N/A
 Mist Raven,INR,Innistrad Remastered,76,normal,uncommon,2,102548,557b7e56-36f7-489c-a0fe-039c463f8bc5,0.1,false,false,near_mint,en,EUR,,,N/A
@@ -733,34 +733,34 @@ Lantern Bearer // Lanterns' Lift,INR,Innistrad Remastered,72,normal,common,4,101
 Imprisoned in the Moon,INR,Innistrad Remastered,69,normal,common,4,102416,0d150547-09f5-45ce-a825-89944b066bd4,0.1,false,false,near_mint,en,EUR,,,N/A
 Tune the Narrative,MH3,Modern Horizons 3,75,normal,common,2,94418,40b13321-98f1-4e8c-802d-65498e43ec24,0.21,false,false,near_mint,en,EUR,,,N/A
 Tower Geist,INR,Innistrad Remastered,93,normal,common,3,102652,88523d44-4469-4685-8f59-dbcf255e7fe0,0.02,false,false,near_mint,en,EUR,0.04,0.07,0.04
-Covetous Castaway // Ghostly Castigator,INR,Innistrad Remastered,58,normal,uncommon,2,102538,4ff66f14-aee6-4ad2-be70-1c9bb39089b3,0.1,false,false,near_mint,en,EUR,,,N/A
+Covetous Castaway // Ghostly Castigator,INR,Innistrad Remastered,58,normal,uncommon,2,102538,4ff66f14-aee6-4ad2-be70-1c9bb39089b3,0.1,false,false,near_mint,en,EUR,0.05,0.05,0.05
 Grappling Kraken,FDN,Foundations,39,normal,uncommon,2,101165,d1f5cab3-3fc0-448d-8252-cd55abf5b596,0.17,false,false,near_mint,en,EUR,,,N/A
 Stalked Researcher,DSK,Duskmourn: House of Horror,73,normal,common,2,98868,8a26ccad-adfa-43cc-be4c-dc8dd584bca3,0.02,false,false,near_mint,en,EUR,,,N/A
 Spring Splasher,OTJ,Outlaws of Thunder Junction,69,normal,common,2,93315,b6822d12-1a25-42e7-94cc-71bd29daed93,0.06,false,false,near_mint,en,EUR,,,N/A
 Grizzled Angler // Grisly Anglerfish,INR,Innistrad Remastered,67,normal,uncommon,2,102439,16c0bb08-36b3-41e2-a5a9-2fcd6bb49beb,0.05,false,false,near_mint,en,EUR,,,N/A
 Guard Duty,IMA,Iconic Masters,22,normal,common,1,3603,584687fd-59e1-46cb-aca2-3104349407d9,0.07,false,false,near_mint,en,EUR,,,N/A
-Sky Tether,RNA,Ravnica Allegiance,21,normal,uncommon,1,43843,39c47be3-0228-46de-b4b5-911fb86d4596,0.11,false,false,near_mint,en,EUR,0.12,0.27,0.12
-Touch the Spirit Realm,NEO,Kamigawa: Neon Dynasty,40,normal,uncommon,1,66823,e16ab44e-4257-4c0c-b705-8ac1e9c1d835,0.65,false,false,near_mint,en,EUR,0.61,1.42,0.61
-Stangg,A25,Masters 25,218,normal,uncommon,1,2498,a23f846e-b5e6-48c2-afea-c9be7fc8b7c3,0.1,false,false,near_mint,en,EUR,0.08,0.22,0.08
-Unmake,PLST,The List,EVE-96,normal,common,1,97789,65af6191-8226-49e3-8570-418e858f5a59,0.35,false,false,near_mint,en,EUR,0.52,,0.52
-"Chatzuk, Mighty Guitarist",MB2,Mystery Booster 2,590,normal,rare,1,96671,193afb87-9695-416a-9b1c-7b362a4a99a1,0.4,false,false,near_mint,en,EUR,0.35,,0.35
-Omenpath to Naya,MB2,Mystery Booster 2,616,normal,rare,1,96749,41b7743d-7134-4d35-b128-7bed315656a7,0.34,false,false,near_mint,en,EUR,0.27,,0.27
-All-You-Can-Eat Buffet,PF25,MagicFest 2025,8,normal,rare,1,105776,7b2a86f5-15c0-4bf4-9591-b91681d83a7a,0.02,false,false,near_mint,en,EUR,0.29,,0.29
-Snap Judgment,MB2,Mystery Booster 2,567,normal,rare,1,97007,bc51b39f-fd6e-41e8-9c1b-5e5087796788,0.12,false,false,near_mint,en,EUR,0.27,,0.27
-"Toofer, Keeper of the Full Grip",MB2,Mystery Booster 2,554,normal,rare,1,97061,d98efa7a-b2f6-4885-b424-332c918ae885,0.25,false,false,near_mint,en,EUR,0.21,,0.21
-Worn Powerstone,MH3,Modern Horizons 3,298,normal,uncommon,1,94578,ace686ad-9e3f-41b3-b8eb-d1b6d45eb4e1,0.17,false,false,near_mint,en,EUR,0.21,0.32,0.21
-Letter of Acceptance,CMM,Commander Masters,397,normal,common,1,84744,ae094ace-1760-4bdd-a513-04616fb0deeb,0.1,false,false,near_mint,en,EUR,0.08,0.1,0.08
-Dragonlair Spider,PLST,The List,PCA-87,normal,rare,1,97929,7ebddcdb-9bcb-4355-9bcf-232608fb678e,0.45,false,false,near_mint,en,EUR,0.95,,0.95
-Go Blank,STX,Strixhaven: School of Mages,72,normal,uncommon,1,58188,846e8657-7435-44c6-a997-b8b156d0cd2c,0.41,false,false,near_mint,en,EUR,0.46,0.68,0.46
-Bad Deal,M21,Core Set 2021,89,normal,uncommon,1,50863,7a3f8bc2-ef66-474f-92a3-9c4df1670cec,0.09,false,false,near_mint,en,EUR,0.16,0.35,0.16
-Skirge Familiar,PLST,The List,USG-157,normal,uncommon,1,97585,3ffbfaa3-0aaa-4277-af3f-e64a5dd6c1e6,0.27,false,false,near_mint,en,EUR,0.15,0.55,0.15
-Wicked Pact,PLST,The List,ME4-102,normal,uncommon,1,96602,6c329e5b-e903-4cc2-bd35-5bdc77615013,0.44,false,false,near_mint,en,EUR,1.56,,1.56
-Sheoldred's Edict,ONE,Phyrexia: All Will Be One,108,normal,uncommon,1,78761,a9225cc3-90f0-448f-a8d9-7c6c2796d077,1.84,false,false,near_mint,en,EUR,1.65,2.36,1.65
+Sky Tether,RNA,Ravnica Allegiance,21,normal,uncommon,1,43843,39c47be3-0228-46de-b4b5-911fb86d4596,0.11,false,false,near_mint,en,EUR,,,N/A
+Touch the Spirit Realm,NEO,Kamigawa: Neon Dynasty,40,normal,uncommon,1,66823,e16ab44e-4257-4c0c-b705-8ac1e9c1d835,0.65,false,false,near_mint,en,EUR,,,N/A
+Stangg,A25,Masters 25,218,normal,uncommon,1,2498,a23f846e-b5e6-48c2-afea-c9be7fc8b7c3,0.1,false,false,near_mint,en,EUR,,,N/A
+Unmake,PLST,The List,EVE-96,normal,common,1,97789,65af6191-8226-49e3-8570-418e858f5a59,0.35,false,false,near_mint,en,EUR,,,N/A
+"Chatzuk, Mighty Guitarist",MB2,Mystery Booster 2,590,normal,rare,1,96671,193afb87-9695-416a-9b1c-7b362a4a99a1,0.4,false,false,near_mint,en,EUR,,,N/A
+Omenpath to Naya,MB2,Mystery Booster 2,616,normal,rare,1,96749,41b7743d-7134-4d35-b128-7bed315656a7,0.34,false,false,near_mint,en,EUR,,,N/A
+All-You-Can-Eat Buffet,PF25,MagicFest 2025,8,normal,rare,1,105776,7b2a86f5-15c0-4bf4-9591-b91681d83a7a,0.02,false,false,near_mint,en,EUR,,,N/A
+Snap Judgment,MB2,Mystery Booster 2,567,normal,rare,1,97007,bc51b39f-fd6e-41e8-9c1b-5e5087796788,0.12,false,false,near_mint,en,EUR,,,N/A
+"Toofer, Keeper of the Full Grip",MB2,Mystery Booster 2,554,normal,rare,1,97061,d98efa7a-b2f6-4885-b424-332c918ae885,0.25,false,false,near_mint,en,EUR,,,N/A
+Worn Powerstone,MH3,Modern Horizons 3,298,normal,uncommon,1,94578,ace686ad-9e3f-41b3-b8eb-d1b6d45eb4e1,0.17,false,false,near_mint,en,EUR,,,N/A
+Letter of Acceptance,CMM,Commander Masters,397,normal,common,1,84744,ae094ace-1760-4bdd-a513-04616fb0deeb,0.1,false,false,near_mint,en,EUR,,,N/A
+Dragonlair Spider,PLST,The List,PCA-87,normal,rare,1,97929,7ebddcdb-9bcb-4355-9bcf-232608fb678e,0.45,false,false,near_mint,en,EUR,,,N/A
+Go Blank,STX,Strixhaven: School of Mages,72,normal,uncommon,1,58188,846e8657-7435-44c6-a997-b8b156d0cd2c,0.41,false,false,near_mint,en,EUR,,,N/A
+Bad Deal,M21,Core Set 2021,89,normal,uncommon,1,50863,7a3f8bc2-ef66-474f-92a3-9c4df1670cec,0.09,false,false,near_mint,en,EUR,,,N/A
+Skirge Familiar,PLST,The List,USG-157,normal,uncommon,1,97585,3ffbfaa3-0aaa-4277-af3f-e64a5dd6c1e6,0.27,false,false,near_mint,en,EUR,,,N/A
+Wicked Pact,PLST,The List,ME4-102,normal,uncommon,1,96602,6c329e5b-e903-4cc2-bd35-5bdc77615013,0.44,false,false,near_mint,en,EUR,,,N/A
+Sheoldred's Edict,ONE,Phyrexia: All Will Be One,108,normal,uncommon,1,78761,a9225cc3-90f0-448f-a8d9-7c6c2796d077,1.84,false,false,near_mint,en,EUR,,,N/A
 Cleaver Blow,MB2,Mystery Booster 2,542,normal,rare,1,96940,9b588e61-ef9b-4603-9f38-b72e9f0edaf5,0.34,false,false,near_mint,en,EUR,,,N/A
 Chittering Rats,J22,Jumpstart 2022,387,normal,common,1,76130,1b9993c2-eaf7-4163-bd19-8161025cad56,0.78,false,false,near_mint,en,EUR,,,N/A
 Bog Down,PLS,Planeshift,39,normal,common,1,32913,8752a605-38f8-4d75-b122-063a788dff6e,0.08,false,false,near_mint,en,EUR,,,N/A
-Heartless Act,CMM,Commander Masters,166,normal,uncommon,1,84682,a11dea2a-fe20-4e1b-9e1e-8759e0950f0a,0.23,false,false,near_mint,en,EUR,,,N/A
-Hand of Death,S00,Starter 2000,25,normal,common,1,33714,d17d9a95-5586-4d16-9700-215b9af63f6f,0.11,false,false,near_mint,en,EUR,,,N/A
+Heartless Act,CMM,Commander Masters,166,normal,uncommon,1,84682,a11dea2a-fe20-4e1b-9e1e-8759e0950f0a,0.23,false,false,near_mint,en,EUR,0.15,0.25,0.15
+Hand of Death,S00,Starter 2000,25,normal,common,1,33714,d17d9a95-5586-4d16-9700-215b9af63f6f,0.11,false,false,near_mint,en,EUR,0.12,,0.12
 Diregraf Horde,MID,Innistrad: Midnight Hunt,96,normal,common,1,63150,153be768-ddad-44f2-bcdd-c40353c807d7,0.13,false,false,near_mint,en,EUR,,,N/A
 Fledgling Djinn,WTH,Weatherlight,69,normal,common,1,37228,1b0fdf2a-d6d2-42da-8f41-0f67dd0bf4d2,0.07,false,false,near_mint,en,EUR,,,N/A
 Disturbed Burial,TMP,Tempest,129,normal,common,1,36870,06254b6c-eb22-4ec9-9420-74e9ee15e072,0.23,false,false,near_mint,en,EUR,,,N/A
@@ -769,10 +769,10 @@ Glarewielder,LRW,Lorwyn,171,normal,uncommon,1,25271,59fdc845-7165-40f3-a082-21a5
 Fireslinger,JVC,Duel Decks Anthology: Jace vs. Chandra,36,normal,common,1,12255,87f8a822-5f41-4742-81e1-c78dc437b3d0,0.25,false,false,near_mint,en,EUR,,,N/A
 Blood Knight,PLC,Planar Chaos,115,normal,uncommon,1,26419,0f2133c0-8561-4264-8802-1b2933abf186,0.23,false,false,near_mint,en,EUR,,,N/A
 Punishing Fire,DDG,Duel Decks: Knights vs. Dragons,66,normal,uncommon,1,19910,0da4409b-fe3f-4500-bf4b-890593f7d313,0.33,false,false,near_mint,en,EUR,,,N/A
-Shiv's Embrace,USG,Urza's Saga,216,normal,uncommon,1,35754,7c9ba1a3-1de4-4771-b76a-89354bc799d3,0.14,false,false,near_mint,en,EUR,,,N/A
+Shiv's Embrace,USG,Urza's Saga,216,normal,uncommon,1,35754,7c9ba1a3-1de4-4771-b76a-89354bc799d3,0.14,false,false,near_mint,en,EUR,0.09,,0.09
 Magmaw,UMA,Ultimate Masters,138,normal,uncommon,1,43372,08c571fe-54ef-4234-98c3-5d4a7b07e7d2,0.06,false,false,near_mint,en,EUR,,,N/A
 By Force,AKH,Amonkhet,123,normal,uncommon,1,5562,66cdfdb2-b47f-446d-9850-8581bd1d806c,0.46,false,false,near_mint,en,EUR,,,N/A
-Goblin Offensive,PLST,The List,USG-192,normal,uncommon,1,97923,7d97d0c8-5c9a-4b04-a680-39ae3367367c,0.81,false,false,near_mint,en,EUR,,,N/A
+Goblin Offensive,PLST,The List,USG-192,normal,uncommon,1,97923,7d97d0c8-5c9a-4b04-a680-39ae3367367c,0.81,false,false,near_mint,en,EUR,2.26,,2.26
 Spined Megalodon,M21,Core Set 2021,72,normal,common,1,50842,6d42d3dd-29df-44a1-89b8-994761eda77d,0.08,false,false,near_mint,en,EUR,,,N/A
 Alchemist's Retrieval,VOW,Innistrad: Crimson Vow,47,normal,common,1,64462,edbf9d4f-6027-40b8-81c1-7f001a9119dd,0.09,false,false,near_mint,en,EUR,,,N/A
 Viral Drake,PLST,The List,NPH-49,normal,uncommon,1,97454,26b098d7-9b8d-47a1-9694-22b0f0ef25ff,1.24,false,false,near_mint,en,EUR,,,N/A
@@ -782,10 +782,10 @@ Apprentice Sorcerer,P02,Portal Second Age,32,normal,uncommon,1,36470,9e1fd317-55
 Spellstutter Sprite,PLST,The List,LRW-89,normal,common,1,85903,181434ed-65eb-4b47-9b12-7bbe6e0d262e,3.88,false,false,near_mint,en,EUR,,,N/A
 Amoeboid Changeling,LRW,Lorwyn,51,normal,common,1,25391,068518d2-f061-4061-b208-158e991156b6,0.52,false,false,near_mint,en,EUR,,,N/A
 Talrand's Invocation,NCC,New Capenna Commander,234,normal,uncommon,1,68305,88f43c2c-fee4-4df2-b326-a1d9840f64b0,0.07,false,false,near_mint,en,EUR,,,N/A
-Twisted Image,A25,Masters 25,75,normal,uncommon,1,2641,60c38f83-32af-4819-b259-a986860f484a,0.23,false,false,near_mint,en,EUR,,,N/A
+Twisted Image,A25,Masters 25,75,normal,uncommon,1,2641,60c38f83-32af-4819-b259-a986860f484a,0.23,false,false,near_mint,en,EUR,0.22,0.73,0.22
 Bishop of Wings,PLST,The List,M20-8,normal,rare,1,85996,c369d381-b48e-43cf-a032-8bcb120f443e,4.64,false,false,near_mint,en,EUR,,,N/A
 Totem-Guide Hartebeest,ORI,Magic Origins,37,normal,uncommon,1,10905,589346d3-b32b-40f2-8513-741ceb88bf7b,0.16,false,false,near_mint,en,EUR,,,N/A
-Vizier of Remedies,AKH,Amonkhet,38,normal,uncommon,1,5647,36ab760e-93e0-4dbc-aaa1-02316f62ed3f,0.42,false,false,near_mint,en,EUR,,,N/A
+Vizier of Remedies,AKH,Amonkhet,38,normal,uncommon,1,5647,36ab760e-93e0-4dbc-aaa1-02316f62ed3f,0.42,false,false,near_mint,en,EUR,0.27,2.0,0.27
 Swell of Courage,DDF,Duel Decks: Elspeth vs. Tezzeret,31,normal,uncommon,1,21086,0fddb694-d863-4364-9bf9-650d7be3b471,0.06,false,false,near_mint,en,EUR,,,N/A
 Spirit Link,DMR,Dominaria Remastered,29,normal,common,1,78210,fc046a97-4699-438d-8da4-022560a18564,0.13,false,false,near_mint,en,EUR,,,N/A
 Fairgrounds Warden,KLD,Kaladesh,13,normal,uncommon,1,7630,49b6c8f3-76b7-4954-8608-023304cdec3e,0.13,false,false,near_mint,en,EUR,,,N/A
@@ -798,7 +798,7 @@ All That Glitters,CMM,Commander Masters,9,normal,common,1,84413,5fc0b82a-f943-43
 Presence of Gond,A25,Masters 25,184,normal,common,1,2532,922cf7de-3c37-4f4d-ae1a-7a14234a6dab,0.18,false,false,near_mint,en,EUR,,,N/A
 Graf Rats,INR,Innistrad Remastered,113,normal,uncommon,2,101894,f830ede6-ddbf-49b9-80cd-e3dbeccbf208,0.09,false,false,near_mint,en,EUR,,,N/A
 Midnight Scavengers,INR,Innistrad Remastered,123,normal,common,2,101886,bc079c81-85e8-4a0d-83fe-533c4feaa343,0.09,false,false,near_mint,en,EUR,,,N/A
-Blade of the Oni,NEO,Kamigawa: Neon Dynasty,89,normal,mythic,1,66788,b6bc3f71-b4ce-4c05-be3c-7a0faad476c3,1.42,false,false,near_mint,en,EUR,,,N/A
+Blade of the Oni,NEO,Kamigawa: Neon Dynasty,89,normal,mythic,1,66788,b6bc3f71-b4ce-4c05-be3c-7a0faad476c3,1.42,false,false,near_mint,en,EUR,1.07,1.53,1.07
 Wakestone Gargoyle,TDC,Tarkir: Dragonstorm Commander,137,normal,rare,1,104628,4d5f0939-6b99-401d-99c9-e4339a9c5822,0.13,false,false,near_mint,en,EUR,,,N/A
 Dollmaker's Shop // Porcelain Gallery,DSK,Duskmourn: House of Horror,4,normal,mythic,1,98668,c5ee6651-9946-4bae-b21e-6cf28fa77b13,2.98,false,false,near_mint,en,EUR,,,N/A
 Captain of the Watch,DDO,Duel Decks: Elspeth vs. Kiora,3,normal,rare,1,11927,6e201980-e220-44dc-beab-ad13c20332bd,0.37,false,false,near_mint,en,EUR,,,N/A
@@ -827,7 +827,7 @@ Feast or Famine,DDJ,Duel Decks: Izzet vs. Golgari,72,normal,common,1,17464,92105
 Spore Swarm,DOM,Dominaria,180,normal,uncommon,1,2096,b2314215-23af-4c8e-860f-b029e151af36,0.09,false,false,near_mint,en,EUR,,,N/A
 Earthrumbler,DFT,Aetherdrift,160,normal,uncommon,1,100068,ee386cd0-934a-4b33-9db3-0a9033ab577e,0.08,false,false,near_mint,en,EUR,,,N/A
 Silken Strength,DFT,Aetherdrift,180,normal,common,1,103634,ce0e1ded-9b00-4d7b-884c-70a429783b1f,0.1,false,false,near_mint,en,EUR,,,N/A
-Nightblade Brigade,TDM,Tarkir: Dragonstorm,85,normal,common,1,105134,648debd9-d4cf-4788-8882-f1601a3d87f5,0.07,false,false,near_mint,en,EUR,,,N/A
+Nightblade Brigade,TDM,Tarkir: Dragonstorm,85,normal,common,1,105134,648debd9-d4cf-4788-8882-f1601a3d87f5,0.07,false,false,near_mint,en,EUR,0.08,0.18,0.08
 Gisa's Bidding,INR,Innistrad Remastered,111,normal,common,1,102557,5ad2fdbf-4a68-42e8-9c4f-7a075261ddf8,0.08,false,false,near_mint,en,EUR,,,N/A
 Infestation Sage,FDN,Foundations,64,normal,common,1,101601,d40c73de-7a5f-46f2-a70b-449bc8ecfe24,0.16,false,false,near_mint,en,EUR,,,N/A
 Stirge,CLB,Commander Legends: Battle for Baldur's Gate,150,normal,common,1,69002,4b1d59fb-c3ff-4995-a695-51f2a4dae404,0.16,false,false,near_mint,en,EUR,,,N/A
@@ -844,27 +844,27 @@ Demonic Taskmaster,INR,Innistrad Remastered,104,normal,uncommon,1,102726,af33e18
 Triskaidekaphobia,INR,Innistrad Remastered,136,normal,uncommon,1,101859,3354807e-bea0-4903-8010-06618af4c700,0.07,false,false,near_mint,en,EUR,,,N/A
 Virus Beetle,NEO,Kamigawa: Neon Dynasty,128,normal,common,1,66871,488ee202-0d28-4cc0-8a7d-644d9878e952,0.14,false,false,near_mint,en,EUR,,,N/A
 Retreat to Coralhelm,DSC,Duskmourn: House of Horror Commander,126,normal,uncommon,1,99353,cf8246c1-1db2-409f-9440-222d6dc78297,0.5,false,false,near_mint,en,EUR,,,N/A
-Take the Fall,OTJ,Outlaws of Thunder Junction,73,normal,common,1,93287,9fea80c4-923c-40a1-9363-bfa4c267a024,0.1,false,false,near_mint,en,EUR,,,N/A
-Quarrel's End,LTR,The Lord of the Rings: Tales of Middle-earth,141,normal,common,1,83101,5a7e61a6-c602-4089-ae45-828d8e516a63,0.04,false,false,near_mint,en,EUR,,,N/A
-Marauding Mako,DFT,Aetherdrift,138,normal,uncommon,1,103199,9efbfd67-e0f5-43e0-9fff-1eb4a2bed0d8,1.01,false,false,near_mint,en,EUR,,,N/A
-Abrade,TDC,Tarkir: Dragonstorm Commander,203,normal,uncommon,1,104626,4c2a1b4e-858c-47a3-be89-9275e48d5475,0.1,false,false,near_mint,en,EUR,,,N/A
-Shock Brigade,TDM,Tarkir: Dragonstorm,120,normal,common,5,104700,66940466-8e9d-4a85-bfb0-e92189b7a121,0.1,false,false,near_mint,en,EUR,,,N/A
-Highway Robbery,OTJ,Outlaws of Thunder Junction,129,normal,common,2,93110,31a88429-9204-4a23-a7a8-babbd6bab79f,0.26,false,false,near_mint,en,EUR,,,N/A
-Molten Gatekeeper,MH3,Modern Horizons 3,128,normal,common,2,94877,9f5ba065-2806-4e99-a330-168cfe76250f,0.17,false,false,near_mint,en,EUR,,,N/A
-Explosive Derailment,OTJ,Outlaws of Thunder Junction,122,normal,common,1,93417,f0e3df9c-0a86-4e6f-a3c7-84a883328a3d,0.11,false,false,near_mint,en,EUR,,,N/A
-Bronzeplate Boar,NEO,Kamigawa: Neon Dynasty,135,normal,uncommon,1,66398,7c8f5da8-13a8-4b39-8ddc-7661892924af,0.09,false,false,near_mint,en,EUR,,,N/A
-Brazen Scourge,FDN,Foundations,191,normal,uncommon,3,101616,eb84b86c-3276-4fc1-a09d-47de388cb729,0.06,false,false,near_mint,en,EUR,,,N/A
-Boltwave,FDN,Foundations,79,normal,uncommon,1,100810,8d1ec351-5e70-4eb2-b590-6bff94ef8178,2.55,false,false,near_mint,en,EUR,,,N/A
-Ardent Elementalist,MID,Innistrad: Midnight Hunt,128,normal,common,1,63507,f58592f7-1df5-428d-9dde-e6acd9a5d1d5,0.11,false,false,near_mint,en,EUR,,,N/A
-Eddymurk Crab,BLB,Bloomburrow,48,normal,uncommon,1,96132,e6d45abe-4962-47d9-a54e-7e623ea8647c,0.2,false,false,near_mint,en,EUR,,,N/A
-Bellowing Crier,BLB,Bloomburrow,42,normal,common,1,96119,ca2215dd-6300-49cf-b9b2-3a840b786c31,0.08,false,false,near_mint,en,EUR,,,N/A
-Fresh Start,TDM,Tarkir: Dragonstorm,46,normal,uncommon,1,104818,96f7af08-ac05-45d0-979f-282943130c61,0.1,false,false,near_mint,en,EUR,,,N/A
-Essence Capture,NEO,Kamigawa: Neon Dynasty,52,normal,uncommon,1,66624,f39bf1fa-b530-4353-a683-843466227109,0.08,false,false,near_mint,en,EUR,,,N/A
-Glistener Seer,ONE,Phyrexia: All Will Be One,54,normal,common,1,78825,c22aaaec-bad5-43e9-8e92-9c4bde95fcfd,0.07,false,false,near_mint,en,EUR,,,N/A
-Knights of Dol Amroth,LTR,The Lord of the Rings: Tales of Middle-earth,59,normal,common,1,83146,661338ff-a192-4007-a144-63d00f2e9ecb,0.03,false,false,near_mint,en,EUR,,,N/A
-Mnemonic Sphere,NEO,Kamigawa: Neon Dynasty,64,normal,common,1,66648,1a15d8d9-0575-4add-ae8d-4576e8ed2cbe,0.07,false,false,near_mint,en,EUR,,,N/A
-Network Disruptor,NEO,Kamigawa: Neon Dynasty,71,normal,common,1,66542,5a37719a-2a87-4870-8f25-12544ca2f2cf,0.09,false,false,near_mint,en,EUR,,,N/A
-Psychic Membrane,MRD,Mirrodin,46,normal,uncommon,1,29999,4ffd5a69-05b6-4fc4-8186-503a2e204330,0.17,false,false,near_mint,en,EUR,,,N/A
+Take the Fall,OTJ,Outlaws of Thunder Junction,73,normal,common,1,93287,9fea80c4-923c-40a1-9363-bfa4c267a024,0.1,false,false,near_mint,en,EUR,0.09,0.05,0.09
+Quarrel's End,LTR,The Lord of the Rings: Tales of Middle-earth,141,normal,common,1,83101,5a7e61a6-c602-4089-ae45-828d8e516a63,0.04,false,false,near_mint,en,EUR,0.12,0.14,0.12
+Marauding Mako,DFT,Aetherdrift,138,normal,uncommon,1,103199,9efbfd67-e0f5-43e0-9fff-1eb4a2bed0d8,1.01,false,false,near_mint,en,EUR,0.68,0.78,0.68
+Abrade,TDC,Tarkir: Dragonstorm Commander,203,normal,uncommon,1,104626,4c2a1b4e-858c-47a3-be89-9275e48d5475,0.1,false,false,near_mint,en,EUR,0.15,,0.15
+Shock Brigade,TDM,Tarkir: Dragonstorm,120,normal,common,5,104700,66940466-8e9d-4a85-bfb0-e92189b7a121,0.1,false,false,near_mint,en,EUR,0.09,0.18,0.09
+Highway Robbery,OTJ,Outlaws of Thunder Junction,129,normal,common,2,93110,31a88429-9204-4a23-a7a8-babbd6bab79f,0.26,false,false,near_mint,en,EUR,0.68,0.75,0.68
+Molten Gatekeeper,MH3,Modern Horizons 3,128,normal,common,2,94877,9f5ba065-2806-4e99-a330-168cfe76250f,0.17,false,false,near_mint,en,EUR,0.2,0.4,0.2
+Explosive Derailment,OTJ,Outlaws of Thunder Junction,122,normal,common,1,93417,f0e3df9c-0a86-4e6f-a3c7-84a883328a3d,0.11,false,false,near_mint,en,EUR,0.1,0.1,0.1
+Bronzeplate Boar,NEO,Kamigawa: Neon Dynasty,135,normal,uncommon,1,66398,7c8f5da8-13a8-4b39-8ddc-7661892924af,0.09,false,false,near_mint,en,EUR,0.1,0.1,0.1
+Brazen Scourge,FDN,Foundations,191,normal,uncommon,3,101616,eb84b86c-3276-4fc1-a09d-47de388cb729,0.06,false,false,near_mint,en,EUR,0.02,0.08,0.02
+Boltwave,FDN,Foundations,79,normal,uncommon,1,100810,8d1ec351-5e70-4eb2-b590-6bff94ef8178,2.55,false,false,near_mint,en,EUR,2.55,3.25,2.55
+Ardent Elementalist,MID,Innistrad: Midnight Hunt,128,normal,common,1,63507,f58592f7-1df5-428d-9dde-e6acd9a5d1d5,0.11,false,false,near_mint,en,EUR,0.13,0.24,0.13
+Eddymurk Crab,BLB,Bloomburrow,48,normal,uncommon,1,96132,e6d45abe-4962-47d9-a54e-7e623ea8647c,0.2,false,false,near_mint,en,EUR,1.14,0.98,1.14
+Bellowing Crier,BLB,Bloomburrow,42,normal,common,1,96119,ca2215dd-6300-49cf-b9b2-3a840b786c31,0.08,false,false,near_mint,en,EUR,0.1,0.26,0.1
+Fresh Start,TDM,Tarkir: Dragonstorm,46,normal,uncommon,1,104818,96f7af08-ac05-45d0-979f-282943130c61,0.1,false,false,near_mint,en,EUR,0.07,0.2,0.07
+Essence Capture,NEO,Kamigawa: Neon Dynasty,52,normal,uncommon,1,66624,f39bf1fa-b530-4353-a683-843466227109,0.08,false,false,near_mint,en,EUR,0.07,0.24,0.07
+Glistener Seer,ONE,Phyrexia: All Will Be One,54,normal,common,1,78825,c22aaaec-bad5-43e9-8e92-9c4bde95fcfd,0.07,false,false,near_mint,en,EUR,0.04,0.2,0.04
+Knights of Dol Amroth,LTR,The Lord of the Rings: Tales of Middle-earth,59,normal,common,1,83146,661338ff-a192-4007-a144-63d00f2e9ecb,0.03,false,false,near_mint,en,EUR,0.04,0.11,0.04
+Mnemonic Sphere,NEO,Kamigawa: Neon Dynasty,64,normal,common,1,66648,1a15d8d9-0575-4add-ae8d-4576e8ed2cbe,0.07,false,false,near_mint,en,EUR,0.09,0.19,0.09
+Network Disruptor,NEO,Kamigawa: Neon Dynasty,71,normal,common,1,66542,5a37719a-2a87-4870-8f25-12544ca2f2cf,0.09,false,false,near_mint,en,EUR,0.1,0.19,0.1
+Psychic Membrane,MRD,Mirrodin,46,normal,uncommon,1,29999,4ffd5a69-05b6-4fc4-8186-503a2e204330,0.17,false,false,near_mint,en,EUR,0.13,0.64,0.13
 Razzle-Dazzler,OTJ,Outlaws of Thunder Junction,63,normal,common,1,93430,f7d08008-9272-405e-82ef-566e6d42bb17,0.08,false,false,near_mint,en,EUR,,,N/A
 "Stay Hidden, Stay Silent",DSK,Duskmourn: House of Horror,291,normal,uncommon,1,98728,9fdd7bdd-2ba8-4658-9825-741aecad5f42,0.07,false,false,near_mint,en,EUR,,,N/A
 Spell Pierce,NEO,Kamigawa: Neon Dynasty,80,normal,common,1,66596,beb42273-935b-4bda-849e-c163606cf89e,0.22,false,false,near_mint,en,EUR,,,N/A
@@ -1102,26 +1102,26 @@ Museum Nightwatch,MKM,Murders at Karlov Manor,25,normal,common,1,90790,37860682-
 Tazeem Raptor,ZNR,Zendikar Rising,43,normal,common,1,54497,299d60b9-0ba7-40ee-b9d0-ee8f1ea288c9,0.04,false,false,near_mint,en,EUR,,,N/A
 Makindi Ox,ZNR,Zendikar Rising,25,normal,common,1,54837,fd0d164a-bce2-4474-abe0-b735eb6c9442,0.1,false,false,near_mint,en,EUR,,,N/A
 Guardian of the Forgotten,MH3,Modern Horizons 3,28,normal,uncommon,1,94514,8032c909-3170-45ab-a552-a8dc683b0a6e,0.06,false,false,near_mint,en,EUR,,,N/A
-Kitsune Ace,NEO,Kamigawa: Neon Dynasty,22,normal,common,2,66838,ef1d446a-8607-45b8-a01f-dad17bab76e7,0.03,false,false,near_mint,en,EUR,0.07,0.16,0.07
-Archon of Absolution,ELD,Throne of Eldraine,3,normal,uncommon,1,46335,684ca60c-7ed4-49e1-b54a-91d129539375,0.22,false,false,near_mint,en,EUR,0.18,0.39,0.18
-Helpful Hunter,FDN,Foundations,16,normal,common,1,97172,1b9a0e91-80b5-428f-8f08-931d0631be14,0.18,false,false,near_mint,en,EUR,0.16,0.37,0.16
-Steadfast Unicorn,CLB,Commander Legends: Battle for Baldur's Gate,44,normal,common,1,68862,13762890-6c5e-44e4-9bd8-998bd054db20,0.17,false,false,near_mint,en,EUR,0.15,0.19,0.15
-Living Phone,DSK,Duskmourn: House of Horror,20,normal,common,1,99234,8266f93b-f91c-4427-a222-075ceb0be3af,0.05,false,false,near_mint,en,EUR,0.02,0.12,0.02
-Possessed Goat,DSK,Duskmourn: House of Horror,25,normal,common,1,99350,cd02b8ff-ff65-4a38-b8fb-f8dd130edbf7,0.05,false,false,near_mint,en,EUR,0.03,0.07,0.03
-Arborea Pegasus,AFR,Adventures in the Forgotten Realms,299,normal,common,1,60273,6bf942df-d30b-4d1b-8a46-bca4abaeb147,0.05,false,false,near_mint,en,EUR,0.06,0.08,0.06
-Archon of Sun's Grace,WOC,Wilds of Eldraine Commander,61,normal,rare,1,85354,3c00d4e6-1922-4b18-b3f7-af868b058913,0.92,false,false,near_mint,en,EUR,0.56,,0.56
-Tuinvale Guide,WOE,Wilds of Eldraine,36,normal,common,1,85220,01334fed-781e-4864-83fd-d37f787a778b,0.04,false,false,near_mint,en,EUR,0.08,0.07,0.08
-Indebted Spirit,MH3,Modern Horizons 3,31,normal,uncommon,1,94884,bfdbef00-bc1b-4dd6-aef5-aeb5ce454344,0.1,false,false,near_mint,en,EUR,0.12,0.17,0.12
-Onakke Oathkeeper,CMM,Commander Masters,722,normal,rare,1,84379,55d0caac-50c0-434e-af77-9ebd2a466415,0.55,false,false,near_mint,en,EUR,0.91,,0.91
-Fear of Immobility,DSK,Duskmourn: House of Horror,10,normal,common,1,98651,9220c8fa-6ef7-4bc1-acb9-fc54cc43e498,0.06,false,false,near_mint,en,EUR,0.02,0.09,0.02
-Shepherding Spirits,DSK,Duskmourn: House of Horror,31,normal,common,1,98720,86c02ab1-0fb2-4cb0-a871-bfad406726fc,0.03,false,false,near_mint,en,EUR,0.02,0.06,0.02
-Hold at Bay,BNG,Born of the Gods,18,normal,common,1,14942,ffeb407d-6a42-488a-9869-83da3047e45d,0.05,false,false,near_mint,en,EUR,0.08,0.13,0.08
-Bygone Bishop,CLB,Commander Legends: Battle for Baldur's Gate,689,normal,rare,1,69663,cf879fc7-9f84-40a7-a7be-9cc98a720af5,0.2,false,false,near_mint,en,EUR,0.22,,0.22
-Banish from Edoras,LTR,The Lord of the Rings: Tales of Middle-earth,1,normal,common,1,83363,a4410076-e1fe-45f3-a0ca-a91ab0133ff4,0.05,false,false,near_mint,en,EUR,0.06,0.11,0.06
-Resurgent Belief,MH2,Modern Horizons 2,26,normal,rare,1,59381,01880c6f-be00-48b5-913f-ec6c80ced184,0.48,false,false,near_mint,en,EUR,0.61,0.91,0.61
-Kellan's Lightblades,WOE,Wilds of Eldraine,18,normal,common,1,85249,0cc727a6-f875-49b1-b7a4-67f22fbc3d50,0.06,false,false,near_mint,en,EUR,0.08,0.06,0.08
-Mystical Tether,OTJ,Outlaws of Thunder Junction,19,normal,common,1,93064,18344498-952e-489c-8b03-bd1bef4c26ca,0.07,false,false,near_mint,en,EUR,0.08,0.03,0.08
-Judge Unworthy,TSR,Time Spiral Remastered,21,normal,common,1,57865,ce06e910-e130-4975-92db-1399ff3d44b7,0.04,false,false,near_mint,en,EUR,0.09,0.19,0.09
+Kitsune Ace,NEO,Kamigawa: Neon Dynasty,22,normal,common,2,66838,ef1d446a-8607-45b8-a01f-dad17bab76e7,0.03,false,false,near_mint,en,EUR,,,N/A
+Archon of Absolution,ELD,Throne of Eldraine,3,normal,uncommon,1,46335,684ca60c-7ed4-49e1-b54a-91d129539375,0.22,false,false,near_mint,en,EUR,,,N/A
+Helpful Hunter,FDN,Foundations,16,normal,common,1,97172,1b9a0e91-80b5-428f-8f08-931d0631be14,0.18,false,false,near_mint,en,EUR,,,N/A
+Steadfast Unicorn,CLB,Commander Legends: Battle for Baldur's Gate,44,normal,common,1,68862,13762890-6c5e-44e4-9bd8-998bd054db20,0.17,false,false,near_mint,en,EUR,,,N/A
+Living Phone,DSK,Duskmourn: House of Horror,20,normal,common,1,99234,8266f93b-f91c-4427-a222-075ceb0be3af,0.05,false,false,near_mint,en,EUR,,,N/A
+Possessed Goat,DSK,Duskmourn: House of Horror,25,normal,common,1,99350,cd02b8ff-ff65-4a38-b8fb-f8dd130edbf7,0.05,false,false,near_mint,en,EUR,,,N/A
+Arborea Pegasus,AFR,Adventures in the Forgotten Realms,299,normal,common,1,60273,6bf942df-d30b-4d1b-8a46-bca4abaeb147,0.05,false,false,near_mint,en,EUR,,,N/A
+Archon of Sun's Grace,WOC,Wilds of Eldraine Commander,61,normal,rare,1,85354,3c00d4e6-1922-4b18-b3f7-af868b058913,0.92,false,false,near_mint,en,EUR,,,N/A
+Tuinvale Guide,WOE,Wilds of Eldraine,36,normal,common,1,85220,01334fed-781e-4864-83fd-d37f787a778b,0.04,false,false,near_mint,en,EUR,,,N/A
+Indebted Spirit,MH3,Modern Horizons 3,31,normal,uncommon,1,94884,bfdbef00-bc1b-4dd6-aef5-aeb5ce454344,0.1,false,false,near_mint,en,EUR,,,N/A
+Onakke Oathkeeper,CMM,Commander Masters,722,normal,rare,1,84379,55d0caac-50c0-434e-af77-9ebd2a466415,0.55,false,false,near_mint,en,EUR,,,N/A
+Fear of Immobility,DSK,Duskmourn: House of Horror,10,normal,common,1,98651,9220c8fa-6ef7-4bc1-acb9-fc54cc43e498,0.06,false,false,near_mint,en,EUR,,,N/A
+Shepherding Spirits,DSK,Duskmourn: House of Horror,31,normal,common,1,98720,86c02ab1-0fb2-4cb0-a871-bfad406726fc,0.03,false,false,near_mint,en,EUR,,,N/A
+Hold at Bay,BNG,Born of the Gods,18,normal,common,1,14942,ffeb407d-6a42-488a-9869-83da3047e45d,0.05,false,false,near_mint,en,EUR,,,N/A
+Bygone Bishop,CLB,Commander Legends: Battle for Baldur's Gate,689,normal,rare,1,69663,cf879fc7-9f84-40a7-a7be-9cc98a720af5,0.2,false,false,near_mint,en,EUR,,,N/A
+Banish from Edoras,LTR,The Lord of the Rings: Tales of Middle-earth,1,normal,common,1,83363,a4410076-e1fe-45f3-a0ca-a91ab0133ff4,0.05,false,false,near_mint,en,EUR,,,N/A
+Resurgent Belief,MH2,Modern Horizons 2,26,normal,rare,1,59381,01880c6f-be00-48b5-913f-ec6c80ced184,0.48,false,false,near_mint,en,EUR,,,N/A
+Kellan's Lightblades,WOE,Wilds of Eldraine,18,normal,common,1,85249,0cc727a6-f875-49b1-b7a4-67f22fbc3d50,0.06,false,false,near_mint,en,EUR,,,N/A
+Mystical Tether,OTJ,Outlaws of Thunder Junction,19,normal,common,1,93064,18344498-952e-489c-8b03-bd1bef4c26ca,0.07,false,false,near_mint,en,EUR,,,N/A
+Judge Unworthy,TSR,Time Spiral Remastered,21,normal,common,1,57865,ce06e910-e130-4975-92db-1399ff3d44b7,0.04,false,false,near_mint,en,EUR,,,N/A
 Plunge into Winter,WOE,Wilds of Eldraine,22,normal,common,1,85861,fe4aceba-f386-457c-bc68-6382eda46754,0.11,false,false,near_mint,en,EUR,,,N/A
 Expose to Daylight,RNA,Ravnica Allegiance,8,normal,common,1,43856,094c2ac3-040f-41fe-9a37-c037d90baec0,0.06,false,false,near_mint,en,EUR,,,N/A
 Glimpse the Sun God,BNG,Born of the Gods,13,normal,uncommon,1,14947,f241e5f7-3168-4bd2-b586-185aad3ae9d9,0.18,false,false,near_mint,en,EUR,,,N/A
@@ -1143,28 +1143,28 @@ Windborn Muse,MKC,Murders at Karlov Manor Commander,92,normal,rare,1,90329,3ce8b
 The Wanderer,CMM,Commander Masters,843,normal,uncommon,1,84850,c6ec3686-cecd-4dee-8a68-c3e4baec25ca,0.2,false,false,near_mint,en,EUR,,,N/A
 "Baird, Steward of Argive",BLC,Bloomburrow Commander,135,normal,uncommon,1,96279,5165b4fa-ce48-49c3-9cb3-dc6ece8c0f08,0.23,false,false,near_mint,en,EUR,,,N/A
 Wingmantle Chaplain,TDC,Tarkir: Dragonstorm Commander,141,normal,uncommon,1,104826,9ab1ed2c-f248-4d2a-a0c3-6c7763f71a93,0.19,false,false,near_mint,en,EUR,,,N/A
-The Restoration of Eiganjo // Architect of Restoration,NEO,Kamigawa: Neon Dynasty,34,normal,rare,1,66586,a11a33ae-e7fa-4bd4-8cd8-3a3239a29bcc,0.61,false,false,near_mint,en,EUR,,,N/A
-Cut a Deal,BLC,Bloomburrow Commander,105,normal,uncommon,1,96213,27a233b3-aeb3-4bc4-8c81-fcca514c3eb5,0.28,false,false,near_mint,en,EUR,,,N/A
-Scouting Hawk,CLB,Commander Legends: Battle for Baldur's Gate,41,normal,common,1,69257,bce2209e-7a5c-4394-876c-e0f68cfba9ca,0.11,false,false,near_mint,en,EUR,,,N/A
-Harnessed Snubhorn,MAT,March of the Machine: The Aftermath,3,normal,uncommon,1,82525,553ed1d8-4d5c-48f8-8513-031bd8977d75,0.13,false,false,near_mint,en,EUR,,,N/A
-Hardened Escort,DSK,Duskmourn: House of Horror,16,normal,common,2,98779,12054e10-46d6-4581-a7e5-ff277cb0e229,0.08,false,false,near_mint,en,EUR,,,N/A
-Trained Arynx,OTJ,Outlaws of Thunder Junction,36,normal,common,1,93415,ef32a5f8-f69d-47dc-a800-4f0ddf4eada5,0.06,false,false,near_mint,en,EUR,,,N/A
-Carrot Cake,BLB,Bloomburrow,7,normal,common,1,95636,eb03bb4f-8b4b-417e-bfc6-294cd2186b2e,0.09,false,false,near_mint,en,EUR,,,N/A
+The Restoration of Eiganjo // Architect of Restoration,NEO,Kamigawa: Neon Dynasty,34,normal,rare,1,66586,a11a33ae-e7fa-4bd4-8cd8-3a3239a29bcc,0.61,false,false,near_mint,en,EUR,0.72,0.68,0.72
+Cut a Deal,BLC,Bloomburrow Commander,105,normal,uncommon,1,96213,27a233b3-aeb3-4bc4-8c81-fcca514c3eb5,0.28,false,false,near_mint,en,EUR,0.28,,0.28
+Scouting Hawk,CLB,Commander Legends: Battle for Baldur's Gate,41,normal,common,1,69257,bce2209e-7a5c-4394-876c-e0f68cfba9ca,0.11,false,false,near_mint,en,EUR,0.09,0.17,0.09
+Harnessed Snubhorn,MAT,March of the Machine: The Aftermath,3,normal,uncommon,1,82525,553ed1d8-4d5c-48f8-8513-031bd8977d75,0.13,false,false,near_mint,en,EUR,0.13,0.11,0.13
+Hardened Escort,DSK,Duskmourn: House of Horror,16,normal,common,2,98779,12054e10-46d6-4581-a7e5-ff277cb0e229,0.08,false,false,near_mint,en,EUR,0.07,0.07,0.07
+Trained Arynx,OTJ,Outlaws of Thunder Junction,36,normal,common,1,93415,ef32a5f8-f69d-47dc-a800-4f0ddf4eada5,0.06,false,false,near_mint,en,EUR,0.05,0.06,0.05
+Carrot Cake,BLB,Bloomburrow,7,normal,common,1,95636,eb03bb4f-8b4b-417e-bfc6-294cd2186b2e,0.09,false,false,near_mint,en,EUR,0.16,0.23,0.16
 Blade-Blizzard Kitsune,NEO,Kamigawa: Neon Dynasty,5,normal,uncommon,1,66815,d8419d27-8c6e-4f38-98b4-60dd9a910c43,0.03,false,false,near_mint,en,EUR,,,N/A
-Skyknight Squire,FDN,Foundations,23,normal,rare,1,101396,fcfe4e62-c153-47b8-8e09-cedaf91f53d8,0.4,false,false,near_mint,en,EUR,,,N/A
-Crumb and Get It,BLB,Bloomburrow,8,normal,common,1,96259,3c7b3b25-d4b3-4451-9f5c-6eb369541175,0.09,false,false,near_mint,en,EUR,,,N/A
-Marble Diamond,CLB,Commander Legends: Battle for Baldur's Gate,320,normal,common,1,68833,0930f71c-c3c8-4bdd-8468-6a61349cc8ca,0.14,false,false,near_mint,en,EUR,,,N/A
-Make Your Move,FDN,Foundations,143,normal,common,2,101546,7368f861-3288-4645-90a7-ca35d6da3721,0.03,false,false,near_mint,en,EUR,,,N/A
-Rosecot Knight,MH3,Modern Horizons 3,42,normal,common,1,94874,9ae7df20-1ccf-459b-b81c-ab8763c77ccf,0.08,false,false,near_mint,en,EUR,,,N/A
-Teeming Dragonstorm,TDM,Tarkir: Dragonstorm,30,normal,uncommon,3,104563,3b9d771f-24dc-4ed6-8051-62df576a2ba5,0.13,false,false,near_mint,en,EUR,,,N/A
-"Faramir, Field Commander",LTR,The Lord of the Rings: Tales of Middle-earth,14,normal,uncommon,1,82889,17c2250a-9af1-40de-9f09-7e8c7daec520,0.07,false,false,near_mint,en,EUR,,,N/A
-"Teyo, the Shieldmage",WAR,War of the Spark,32,normal,uncommon,1,44372,a974571c-d8d5-4860-9077-2023e5f32a24,0.13,false,false,near_mint,en,EUR,,,N/A
-Wall of Glare,UDS,Urza's Destiny,25,normal,common,1,34820,5f159193-fcf8-437c-b14a-06718a446a5c,0.66,false,false,near_mint,en,EUR,,,N/A
-Flaming Fist,CLB,Commander Legends: Battle for Baldur's Gate,18,normal,common,1,69361,ec122c9f-5513-4ba7-ae04-3c2060121d73,0.1,false,false,near_mint,en,EUR,,,N/A
-Secret Rendezvous,BLC,Bloomburrow Commander,152,normal,uncommon,1,96498,e198cc9f-a03c-49f2-8270-80864ce17508,0.21,false,false,near_mint,en,EUR,,,N/A
-Soul-Guide Gryff,INR,Innistrad Remastered,40,normal,common,3,102494,39388258-cf07-4f29-a379-c743ecac680b,0.04,false,false,near_mint,en,EUR,,,N/A
-Serra Angel,FDN,Foundations,147,normal,uncommon,2,100391,3cee9303-9d65-45a2-93d4-ef4aba59141b,0.11,false,false,near_mint,en,EUR,,,N/A
-Riling Dawnbreaker // Signaling Roar,TDM,Tarkir: Dragonstorm,21,normal,common,5,104532,312f7072-3bf8-449f-bfb7-93727ef26c66,0.09,false,false,near_mint,en,EUR,,,N/A
+Skyknight Squire,FDN,Foundations,23,normal,rare,1,101396,fcfe4e62-c153-47b8-8e09-cedaf91f53d8,0.4,false,false,near_mint,en,EUR,0.48,0.51,0.48
+Crumb and Get It,BLB,Bloomburrow,8,normal,common,1,96259,3c7b3b25-d4b3-4451-9f5c-6eb369541175,0.09,false,false,near_mint,en,EUR,0.08,0.15,0.08
+Marble Diamond,CLB,Commander Legends: Battle for Baldur's Gate,320,normal,common,1,68833,0930f71c-c3c8-4bdd-8468-6a61349cc8ca,0.14,false,false,near_mint,en,EUR,0.16,0.39,0.16
+Make Your Move,FDN,Foundations,143,normal,common,2,101546,7368f861-3288-4645-90a7-ca35d6da3721,0.03,false,false,near_mint,en,EUR,0.08,0.15,0.08
+Rosecot Knight,MH3,Modern Horizons 3,42,normal,common,1,94874,9ae7df20-1ccf-459b-b81c-ab8763c77ccf,0.08,false,false,near_mint,en,EUR,0.07,0.08,0.07
+Teeming Dragonstorm,TDM,Tarkir: Dragonstorm,30,normal,uncommon,3,104563,3b9d771f-24dc-4ed6-8051-62df576a2ba5,0.13,false,false,near_mint,en,EUR,0.12,0.04,0.12
+"Faramir, Field Commander",LTR,The Lord of the Rings: Tales of Middle-earth,14,normal,uncommon,1,82889,17c2250a-9af1-40de-9f09-7e8c7daec520,0.07,false,false,near_mint,en,EUR,0.06,0.22,0.06
+"Teyo, the Shieldmage",WAR,War of the Spark,32,normal,uncommon,1,44372,a974571c-d8d5-4860-9077-2023e5f32a24,0.13,false,false,near_mint,en,EUR,0.25,0.62,0.25
+Wall of Glare,UDS,Urza's Destiny,25,normal,common,1,34820,5f159193-fcf8-437c-b14a-06718a446a5c,0.66,false,false,near_mint,en,EUR,0.65,7.21,0.65
+Flaming Fist,CLB,Commander Legends: Battle for Baldur's Gate,18,normal,common,1,69361,ec122c9f-5513-4ba7-ae04-3c2060121d73,0.1,false,false,near_mint,en,EUR,0.22,0.15,0.22
+Secret Rendezvous,BLC,Bloomburrow Commander,152,normal,uncommon,1,96498,e198cc9f-a03c-49f2-8270-80864ce17508,0.21,false,false,near_mint,en,EUR,0.19,,0.19
+Soul-Guide Gryff,INR,Innistrad Remastered,40,normal,common,3,102494,39388258-cf07-4f29-a379-c743ecac680b,0.04,false,false,near_mint,en,EUR,0.02,0.05,0.02
+Serra Angel,FDN,Foundations,147,normal,uncommon,2,100391,3cee9303-9d65-45a2-93d4-ef4aba59141b,0.11,false,false,near_mint,en,EUR,0.09,0.14,0.09
+Riling Dawnbreaker // Signaling Roar,TDM,Tarkir: Dragonstorm,21,normal,common,5,104532,312f7072-3bf8-449f-bfb7-93727ef26c66,0.09,false,false,near_mint,en,EUR,0.03,0.16,0.03
 Slip On the Ring,LTR,The Lord of the Rings: Tales of Middle-earth,31,normal,common,2,82961,2e20c2b8-ffe3-4d14-8588-f89719358e3d,0.09,false,false,near_mint,en,EUR,,,N/A
 "Éowyn, Lady of Rohan",LTR,The Lord of the Rings: Tales of Middle-earth,10,normal,uncommon,2,83594,e59710c4-24de-419e-a8a0-e8392d450c23,0.09,false,false,near_mint,en,EUR,,,N/A
 Lucky Offering,NEO,Kamigawa: Neon Dynasty,27,normal,common,2,66660,24bbdeb0-9165-4874-a853-d19c20c250ef,0.04,false,false,near_mint,en,EUR,,,N/A
@@ -1185,7 +1185,7 @@ One Last Job,OTJ,Outlaws of Thunder Junction,22,normal,rare,2,93216,71bfbfae-e7e
 Dazzling Angel,FDN,Foundations,9,normal,common,3,101468,027dc444-e544-4693-8653-3dcdda530162,0.14,false,false,near_mint,en,EUR,,,N/A
 Aerie Auxiliary,MH3,Modern Horizons 3,18,normal,common,2,94859,5e4c134b-a416-467e-a158-def84c92c6af,0.06,false,false,near_mint,en,EUR,,,N/A
 Youthful Valkyrie,FDN,Foundations,149,normal,uncommon,2,100894,9d795f79-c3a5-4ea1-a5cf-1ce73d6837b6,0.28,false,false,near_mint,en,EUR,,,N/A
-Prideful Parent,FDN,Foundations,21,normal,common,4,97188,b742117a-8a72-43b9-b05d-274829d138a2,0.07,false,false,near_mint,en,EUR,,,N/A
+Prideful Parent,FDN,Foundations,21,normal,common,4,97188,b742117a-8a72-43b9-b05d-274829d138a2,0.07,false,false,near_mint,en,EUR,0.09,0.08,0.09
 Seven-Tail Mentor,NEO,Kamigawa: Neon Dynasty,313,normal,common,3,66509,267efff1-cbe6-40b0-959e-72b81cbda1d0,0.03,false,false,near_mint,en,EUR,,,N/A
 Seized from Slumber,DSK,Duskmourn: House of Horror,28,normal,common,2,99080,24456083-0c76-46c5-9b18-8d468702df69,0.06,false,false,near_mint,en,EUR,,,N/A
 Sunblade Samurai,NEO,Kamigawa: Neon Dynasty,315,normal,common,1,66588,a32e2ad3-c5fb-4072-aabf-6cb9538db3ca,0.17,false,false,near_mint,en,EUR,,,N/A
@@ -1197,7 +1197,7 @@ Selfless Samurai,NEO,Kamigawa: Neon Dynasty,312,normal,uncommon,1,66564,82f1ade5
 Born to Drive,NEO,Kamigawa: Neon Dynasty,6,normal,uncommon,1,66627,ffdfad1f-d316-4023-9c79-8c24f1cd31d0,0.09,false,false,near_mint,en,EUR,,,N/A
 Sky-Blessed Samurai,NEO,Kamigawa: Neon Dynasty,37,normal,uncommon,1,66604,c9c7ba6f-c58e-4347-92e4-51ae8f2d5a88,0.06,false,false,near_mint,en,EUR,,,N/A
 "Norika Yamazaki, the Poet",NEO,Kamigawa: Neon Dynasty,31,normal,uncommon,1,66500,09cb553c-58c1-4cfd-b441-297b5f09b263,0.1,false,false,near_mint,en,EUR,,,N/A
-Ancestral Katana,NEO,Kamigawa: Neon Dynasty,1,normal,common,1,66463,d9b1ed43-ee6c-43a2-ba94-5bf71c63e070,0.1,false,false,near_mint,en,EUR,,,N/A
+Ancestral Katana,NEO,Kamigawa: Neon Dynasty,1,normal,common,1,66463,d9b1ed43-ee6c-43a2-ba94-5bf71c63e070,0.1,false,false,near_mint,en,EUR,0.04,0.21,0.04
 Selfless Samurai,NEO,Kamigawa: Neon Dynasty,35,normal,uncommon,1,66555,76c27ec5-5a9b-4080-9a53-00630335a915,0.11,false,false,near_mint,en,EUR,,,N/A
 Sunblade Samurai,NEO,Kamigawa: Neon Dynasty,39,normal,common,1,66617,e6c577bb-5e21-4a3e-b0a7-713a4ff7dce6,0.06,false,false,near_mint,en,EUR,,,N/A
 Sky-Blessed Samurai,NEO,Kamigawa: Neon Dynasty,314,normal,uncommon,1,66573,91d6a843-a1b7-4862-a2bf-8f8f66788126,0.08,false,false,near_mint,en,EUR,,,N/A
@@ -1287,7 +1287,7 @@ Pacesetter Paragon,DFT,Aetherdrift,140,normal,uncommon,1,103103,7364b4dc-8cce-49
 Gastal Blockbuster,DFT,Aetherdrift,128,normal,common,1,103650,dca41ec6-8f8f-42ef-abac-cc645c6440b7,0.05,false,false,near_mint,en,EUR,,,N/A
 Endrider Catalyzer,DFT,Aetherdrift,124,normal,common,1,103052,55a5a67b-d969-4ba4-9dcc-32d0c2e5c04a,0.11,false,false,near_mint,en,EUR,,,N/A
 Gilded Ghoda,DFT,Aetherdrift,130,normal,common,1,103050,55685602-a18c-43a4-ac60-13b039672fa4,0.09,false,false,near_mint,en,EUR,,,N/A
-Burner Rocket,DFT,Aetherdrift,114,normal,common,1,103665,ecee6509-1103-4ae5-a2e7-0441f5d4a872,0.06,false,false,near_mint,en,EUR,,,N/A
+Burner Rocket,DFT,Aetherdrift,114,normal,common,1,103665,ecee6509-1103-4ae5-a2e7-0441f5d4a872,0.06,false,false,near_mint,en,EUR,0.05,0.08,0.05
 "Heiko Yamazaki, the General",NEO,Kamigawa: Neon Dynasty,146,normal,uncommon,1,66584,9ea5e61c-d903-410b-9acf-96a917ce05cc,0.09,false,false,near_mint,en,EUR,,,N/A
 Invoke Calamity,NEO,Kamigawa: Neon Dynasty,147,normal,rare,1,66483,fe666c86-6734-4c47-9244-bcd26b54068d,0.18,false,false,near_mint,en,EUR,,,N/A
 Fling,OTP,Breaking News,24,normal,uncommon,1,93079,1cddae19-eb96-475c-9800-17ac57df4c0a,0.1,false,false,near_mint,en,EUR,,,N/A
@@ -1315,7 +1315,7 @@ Hordeling Outburst,ONC,Phyrexia: All Will Be One Commander,100,normal,uncommon,1
 Irascible Wolverine,OTJ,Outlaws of Thunder Junction,130,normal,common,1,93112,324c0af5-7cdf-4c71-84cc-6349f10e0d66,0.02,false,false,near_mint,en,EUR,,,N/A
 Iron-Fist Pulverizer,OTJ,Outlaws of Thunder Junction,131,normal,common,1,93352,cd7f984a-0b56-45df-958d-6178e4da61ed,0.08,false,false,near_mint,en,EUR,,,N/A
 Ironhoof Boar,NEO,Kamigawa: Neon Dynasty,148,normal,common,1,66887,73abe574-6fb8-4809-9c18-0cf989f986f5,0.03,false,false,near_mint,en,EUR,,,N/A
-Kami of Industry,NEO,Kamigawa: Neon Dynasty,149,normal,common,1,66809,d3d00e61-3007-43da-960b-823e9ead2acf,0.03,false,false,near_mint,en,EUR,,,N/A
+Kami of Industry,NEO,Kamigawa: Neon Dynasty,149,normal,common,1,66809,d3d00e61-3007-43da-960b-823e9ead2acf,0.03,false,false,near_mint,en,EUR,0.05,0.15,0.05
 Kami's Flare,NEO,Kamigawa: Neon Dynasty,150,normal,common,1,66907,bef5d58e-b490-4682-9a44-12cd61a94c0f,0.18,false,false,near_mint,en,EUR,,,N/A
 Shrapnel Slinger,ONE,Phyrexia: All Will Be One,148,normal,common,1,78751,a6147bdc-4e02-48be-9ab9-c212f70d9194,0.08,false,false,near_mint,en,EUR,,,N/A
 Shivan Dragon,FDN,Foundations,206,normal,uncommon,1,100236,1fcff1e0-2745-448d-a27b-e31719e222e9,0.03,false,false,near_mint,en,EUR,,,N/A
@@ -1388,7 +1388,7 @@ Equilibrium Adept,TDM,Tarkir: Dragonstorm,106,normal,uncommon,1,104335,a4ba6d74-
 Stormshriek Feral // Flush Out,TDM,Tarkir: Dragonstorm,124,normal,common,1,104447,0ec92c44-7cf0-48a5-a3ca-bc633496d887,0.08,false,false,near_mint,en,EUR,,,N/A
 War Effort,TDM,Tarkir: Dragonstorm,131,normal,uncommon,1,105007,dd7f0413-c009-4c08-b877-9c1b776cbf26,0.1,false,false,near_mint,en,EUR,,,N/A
 Foray of Orcs,LTR,The Lord of the Rings: Tales of Middle-earth,128,normal,uncommon,1,83116,5fea0c66-c776-4dc7-a235-f3822521cacd,0.05,false,false,near_mint,en,EUR,,,N/A
-"Fear, Fire, Foes!",LTR,The Lord of the Rings: Tales of Middle-earth,125,normal,uncommon,1,82995,37be98a4-0cba-46b4-be93-a9805fe77160,0.17,false,false,near_mint,en,EUR,,,N/A
+"Fear, Fire, Foes!",LTR,The Lord of the Rings: Tales of Middle-earth,125,normal,uncommon,1,82995,37be98a4-0cba-46b4-be93-a9805fe77160,0.17,false,false,near_mint,en,EUR,0.13,0.15,0.13
 Goblin Fireleaper,LTR,The Lord of the Rings: Tales of Middle-earth,133,normal,uncommon,1,83620,ec120dae-8c40-4053-9341-1f7774464634,0.03,false,false,near_mint,en,EUR,,,N/A
 Haradrim Spearmaster,LTR,The Lord of the Rings: Tales of Middle-earth,135,normal,common,1,83118,6050cf98-cdce-4825-9ab8-2294a2b63faf,0.04,false,false,near_mint,en,EUR,,,N/A
 Rohirrim Lancer,LTR,The Lord of the Rings: Tales of Middle-earth,146,normal,common,1,82963,2f506f9f-4c0d-44e8-9f81-8403d808d0e4,0.06,false,false,near_mint,en,EUR,,,N/A
@@ -1433,26 +1433,26 @@ Festival Crasher,INR,Innistrad Remastered,153,normal,common,2,102800,d8d050c1-ae
 Unsparing Boltcaster,TDM,Tarkir: Dragonstorm,130,normal,uncommon,2,104488,204f5e5e-d87f-4aee-84e3-28afe8e21591,0.12,false,false,near_mint,en,EUR,,,N/A
 Meticulous Artisan,TDM,Tarkir: Dragonstorm,112,normal,common,3,104912,baf4c9dd-0546-41ac-a7ba-0bc312fef31e,0.02,false,false,near_mint,en,EUR,,,N/A
 Voldaren Duelist,INR,Innistrad Remastered,181,normal,common,4,102629,7e2df669-a996-4692-9c04-7ba236595076,0.06,false,false,near_mint,en,EUR,,,N/A
-Alchemist's Greeting,INR,Innistrad Remastered,140,normal,common,4,102847,f36e2146-b6a9-4b61-9ccf-969a2c79b747,0.03,false,false,near_mint,en,EUR,,,N/A
-Misthios's Fury,ACR,Assassin's Creed,291,normal,common,2,95517,e34a45ab-793e-4198-8327-e13287e0b74c,0.05,false,false,near_mint,en,EUR,,,N/A
-Conduit of Storms // Conduit of Emrakul,INR,Innistrad Remastered,150,normal,common,5,102710,a60c3aa0-9c6b-4fb2-8ece-b9a02c64c1cf,0.04,false,false,near_mint,en,EUR,,,N/A
-Spitfire Lagac,FDN,Foundations,208,normal,common,4,101496,30f600cd-b696-4f49-9cbc-5a33aa43d04c,0.13,false,false,near_mint,en,EUR,,,N/A
-Abrade,INR,Innistrad Remastered,139,normal,common,3,102860,fee393c7-1868-4d11-93c3-3d143e0c8dd9,0.1,false,false,near_mint,en,EUR,,,N/A
-Blood Petal Celebrant,INR,Innistrad Remastered,144,normal,common,4,102686,96db3d95-c0b8-42ff-956c-837f5f9cd40d,0.04,false,false,near_mint,en,EUR,,,N/A
-Rescue Leopard,TDM,Tarkir: Dragonstorm,116,normal,common,2,105119,056136a8-84be-477c-b654-63238fb8236e,0.05,false,false,near_mint,en,EUR,,,N/A
-Sower of Chaos,FDN,Foundations,95,normal,common,5,101556,7ff50606-491c-4946-8d03-719b01cfad77,0.04,false,false,near_mint,en,EUR,,,N/A
-Goblin Boarders,FDN,Foundations,87,normal,common,4,101506,4409a063-bf2a-4a49-803e-3ce6bd474353,0.05,false,false,near_mint,en,EUR,,,N/A
-Overwhelming Surge,TDM,Tarkir: Dragonstorm,115,normal,uncommon,2,105163,bd7af85f-354e-468a-990b-bd774e68240f,0.13,false,false,near_mint,en,EUR,,,N/A
-Sunset Strikemaster,TDM,Tarkir: Dragonstorm,126,normal,uncommon,2,104394,f8f1a2f2-526d-4b2c-985b-0acfdc21a2ee,0.19,false,false,near_mint,en,EUR,,,N/A
-Bloodmad Vampire,INR,Innistrad Remastered,145,normal,common,3,102662,8a9747c1-ef2c-4c61-9529-abfb6ae0f964,0.06,false,false,near_mint,en,EUR,,,N/A
-Hungry Ridgewolf,INR,Innistrad Remastered,160,normal,common,5,102611,770fc080-ac42-4a5a-846f-6e49b4aaf4ba,0.05,false,false,near_mint,en,EUR,,,N/A
-Amped Raptor,MH3,Modern Horizons 3,114,normal,uncommon,2,94362,1ac0e78b-0fdd-44f9-8b7b-c4f28a32782e,0.2,false,false,near_mint,en,EUR,,,N/A
-Borrowed Hostility,INR,Innistrad Remastered,146,normal,common,5,101870,64185203-9d47-4d67-b433-1c4b09816a35,0.06,false,false,near_mint,en,EUR,,,N/A
-Neonate's Rush,INR,Innistrad Remastered,166,normal,common,2,102451,1d623e71-05bd-46d6-b831-2c8dcff7ab45,0.02,false,false,near_mint,en,EUR,,,N/A
-Devoted Duelist,TDM,Tarkir: Dragonstorm,104,normal,common,4,104354,bbf9c673-37b4-48ed-a9ea-13f8e3e6c47b,0.07,false,false,near_mint,en,EUR,,,N/A
-Wildfire Howl,BLB,Bloomburrow,162,normal,uncommon,2,96059,7392d397-9836-4df2-944d-c930c9566811,0.04,false,false,near_mint,en,EUR,,,N/A
-Stromkirk Occultist,INR,Innistrad Remastered,173,normal,uncommon,2,102730,b11fa9f0-82d1-4dd6-8f2d-45d73f908277,0.13,false,false,near_mint,en,EUR,,,N/A
-Summit Intimidator,TDM,Tarkir: Dragonstorm,125,normal,common,3,104373,e3cba0b1-7c22-4e51-b9cf-5bf01e67a222,0.02,false,false,near_mint,en,EUR,,,N/A
+Alchemist's Greeting,INR,Innistrad Remastered,140,normal,common,4,102847,f36e2146-b6a9-4b61-9ccf-969a2c79b747,0.03,false,false,near_mint,en,EUR,0.05,0.07,0.05
+Misthios's Fury,ACR,Assassin's Creed,291,normal,common,2,95517,e34a45ab-793e-4198-8327-e13287e0b74c,0.05,false,false,near_mint,en,EUR,0.07,,0.07
+Conduit of Storms // Conduit of Emrakul,INR,Innistrad Remastered,150,normal,common,5,102710,a60c3aa0-9c6b-4fb2-8ece-b9a02c64c1cf,0.04,false,false,near_mint,en,EUR,0.03,0.1,0.03
+Spitfire Lagac,FDN,Foundations,208,normal,common,4,101496,30f600cd-b696-4f49-9cbc-5a33aa43d04c,0.13,false,false,near_mint,en,EUR,0.06,0.12,0.06
+Abrade,INR,Innistrad Remastered,139,normal,common,3,102860,fee393c7-1868-4d11-93c3-3d143e0c8dd9,0.1,false,false,near_mint,en,EUR,0.13,0.12,0.13
+Blood Petal Celebrant,INR,Innistrad Remastered,144,normal,common,4,102686,96db3d95-c0b8-42ff-956c-837f5f9cd40d,0.04,false,false,near_mint,en,EUR,0.07,0.05,0.07
+Rescue Leopard,TDM,Tarkir: Dragonstorm,116,normal,common,2,105119,056136a8-84be-477c-b654-63238fb8236e,0.05,false,false,near_mint,en,EUR,0.06,0.11,0.06
+Sower of Chaos,FDN,Foundations,95,normal,common,5,101556,7ff50606-491c-4946-8d03-719b01cfad77,0.04,false,false,near_mint,en,EUR,0.06,0.06,0.06
+Goblin Boarders,FDN,Foundations,87,normal,common,4,101506,4409a063-bf2a-4a49-803e-3ce6bd474353,0.05,false,false,near_mint,en,EUR,0.07,0.06,0.07
+Overwhelming Surge,TDM,Tarkir: Dragonstorm,115,normal,uncommon,2,105163,bd7af85f-354e-468a-990b-bd774e68240f,0.13,false,false,near_mint,en,EUR,0.12,0.2,0.12
+Sunset Strikemaster,TDM,Tarkir: Dragonstorm,126,normal,uncommon,2,104394,f8f1a2f2-526d-4b2c-985b-0acfdc21a2ee,0.19,false,false,near_mint,en,EUR,0.13,0.19,0.13
+Bloodmad Vampire,INR,Innistrad Remastered,145,normal,common,3,102662,8a9747c1-ef2c-4c61-9529-abfb6ae0f964,0.06,false,false,near_mint,en,EUR,0.06,0.25,0.06
+Hungry Ridgewolf,INR,Innistrad Remastered,160,normal,common,5,102611,770fc080-ac42-4a5a-846f-6e49b4aaf4ba,0.05,false,false,near_mint,en,EUR,0.09,0.05,0.09
+Amped Raptor,MH3,Modern Horizons 3,114,normal,uncommon,2,94362,1ac0e78b-0fdd-44f9-8b7b-c4f28a32782e,0.2,false,false,near_mint,en,EUR,0.2,0.34,0.2
+Borrowed Hostility,INR,Innistrad Remastered,146,normal,common,5,101870,64185203-9d47-4d67-b433-1c4b09816a35,0.06,false,false,near_mint,en,EUR,0.07,0.18,0.07
+Neonate's Rush,INR,Innistrad Remastered,166,normal,common,2,102451,1d623e71-05bd-46d6-b831-2c8dcff7ab45,0.02,false,false,near_mint,en,EUR,0.05,0.15,0.05
+Devoted Duelist,TDM,Tarkir: Dragonstorm,104,normal,common,4,104354,bbf9c673-37b4-48ed-a9ea-13f8e3e6c47b,0.07,false,false,near_mint,en,EUR,0.1,0.13,0.1
+Wildfire Howl,BLB,Bloomburrow,162,normal,uncommon,2,96059,7392d397-9836-4df2-944d-c930c9566811,0.04,false,false,near_mint,en,EUR,0.03,0.18,0.03
+Stromkirk Occultist,INR,Innistrad Remastered,173,normal,uncommon,2,102730,b11fa9f0-82d1-4dd6-8f2d-45d73f908277,0.13,false,false,near_mint,en,EUR,0.1,0.13,0.1
+Summit Intimidator,TDM,Tarkir: Dragonstorm,125,normal,common,3,104373,e3cba0b1-7c22-4e51-b9cf-5bf01e67a222,0.02,false,false,near_mint,en,EUR,0.02,0.04,0.02
 Breaching Dragonstorm,TDM,Tarkir: Dragonstorm,101,normal,uncommon,2,105013,e2c2a069-7553-4879-abfb-b2aa3349e4b8,0.14,false,false,near_mint,en,EUR,,,N/A
 Stensia Masquerade,INR,Innistrad Remastered,172,normal,uncommon,2,102853,faaf031f-2c77-4248-8a29-f47e64773cfd,0.2,false,false,near_mint,en,EUR,,,N/A
 Peerless Samurai,NEO,Kamigawa: Neon Dynasty,322,normal,common,2,66507,247c362c-bf21-4bca-89d4-54eb60806f10,0.09,false,false,near_mint,en,EUR,,,N/A
@@ -1471,28 +1471,28 @@ Heartfire Immolator,FDN,Foundations,201,normal,uncommon,2,100390,3ca38f4d-01f5-4
 Dragon Trainer,FDN,Foundations,84,normal,uncommon,2,100830,91bd75a1-cb54-4e38-9ce1-e8f32a73c6eb,0.1,false,false,near_mint,en,EUR,,,N/A
 Take Out the Trash,BLB,Bloomburrow,156,normal,common,3,95940,7a1c6f00-af4c-4d35-b682-6c0e759df9a5,0.08,false,false,near_mint,en,EUR,,,N/A
 Furyblade Vampire,INR,Innistrad Remastered,155,normal,uncommon,2,102683,95a38a53-d83a-4df7-8caa-40995b0c4235,0.16,false,false,near_mint,en,EUR,,,N/A
-Unstoppable Ogre,NEO,Kamigawa: Neon Dynasty,169,normal,common,2,66385,719f20d9-2baa-49b3-8c6a-89f21a07d538,0.08,false,false,near_mint,en,EUR,0.04,0.1,0.04
-Alania's Pathmaker,BLB,Bloomburrow,123,normal,common,2,96123,d3871fe6-e26e-4ab4-bd81-7e3c7b8135c1,0.03,false,false,near_mint,en,EUR,0.11,0.13,0.11
-Upriser Renegade,NEO,Kamigawa: Neon Dynasty,324,normal,uncommon,2,66366,52af0f2d-de2e-4554-ae32-c88bc7ba7c71,0.16,false,false,near_mint,en,EUR,0.13,0.09,0.13
-Firespitter Whelp,FDN,Foundations,197,normal,uncommon,2,100463,4b3a4c7d-3126-4bde-9dca-cb6a1e2f37c9,0.16,false,false,near_mint,en,EUR,0.17,0.2,0.17
-Seam Rip,EOE,Edge of Eternities,34,normal,uncommon,1,107750,9d298847-2d02-4593-b4d3-c5b722edac1e,0.71,false,false,near_mint,en,EUR,0.81,1.18,0.81
-Systems Override,EOE,Edge of Eternities,161,normal,uncommon,1,106980,2a34c71b-8d3c-435b-9cf8-4902f997d10d,0.06,false,false,near_mint,en,EUR,0.07,0.09,0.07
-Umbral Collar Zealot,EOE,Edge of Eternities,123,normal,uncommon,1,107321,bbcc1d84-9772-475d-924a-75bb54c9bc20,1.15,false,false,near_mint,en,EUR,0.84,0.72,0.84
-Mechan Navigator,EOE,Edge of Eternities,64,normal,uncommon,1,107507,a1fe1d39-42c8-41d0-8bf0-46973e4b07d4,0.11,false,false,near_mint,en,EUR,0.17,0.14,0.17
-Gigastorm Titan,EOE,Edge of Eternities,57,normal,uncommon,1,107603,abc83e0a-0ae5-4087-a751-058a1ba6a920,0.07,false,false,near_mint,en,EUR,0.14,0.1,0.14
-Reroute Systems,EOE,Edge of Eternities,31,normal,uncommon,1,107409,3bbdba38-2b99-4226-98e3-6d2580345d6d,0.07,false,false,near_mint,en,EUR,0.07,0.22,0.07
-Melded Moxite,EOE,Edge of Eternities,143,normal,common,1,107421,474c067f-eb24-4ae8-b4c0-f6f8e24cdb2a,0.13,false,false,near_mint,en,EUR,0.16,0.29,0.16
-Eumidian Terrabotanist,EOE,Edge of Eternities,180,normal,uncommon,1,107729,64fb2981-86ed-478a-89cd-c6bb078a5bc7,0.12,false,false,near_mint,en,EUR,0.19,0.21,0.19
-Sunstar Expansionist,EOE,Edge of Eternities,41,normal,uncommon,1,107300,93b0e6e5-9fb6-4342-9322-1a4cc09a7a76,0.06,false,false,near_mint,en,EUR,0.04,0.12,0.04
-Weftstalker Ardent,EOE,Edge of Eternities,169,normal,uncommon,1,107165,cddb48cc-8eb1-47ce-90f0-7aad1e93e2c4,0.31,false,false,near_mint,en,EUR,0.88,1.39,0.88
-Susurian Dirgecraft,EOE,Edge of Eternities,117,normal,uncommon,1,107757,b67cdb6e-9a3b-4887-924d-318faa3c443d,0.05,false,false,near_mint,en,EUR,0.1,0.18,0.1
-All-Fates Scroll,EOE,Edge of Eternities,234,normal,uncommon,1,107407,3a5ed010-cb17-45df-b169-ebc807dae534,0.13,false,false,near_mint,en,EUR,0.15,0.2,0.15
-"Mm'menon, Uthros Exile",EOE,Edge of Eternities,221,normal,uncommon,1,107597,5546c044-5826-48c3-9d28-866f3c3c5f2c,0.1,false,false,near_mint,en,EUR,0.13,0.21,0.13
-Wedgelight Rammer,EOE,Edge of Eternities,43,normal,uncommon,1,107397,2cb0984f-dc8b-4bb3-a4fd-8d6d4ae20198,0.05,false,false,near_mint,en,EUR,0.13,0.07,0.13
-Ruinous Rampage,EOE,Edge of Eternities,158,normal,uncommon,1,107299,91d7a4c2-1a4b-4e9f-b543-225b6906752f,0.18,false,false,near_mint,en,EUR,0.35,0.15,0.35
-Lithobraking,EOE,Edge of Eternities,142,normal,uncommon,1,107438,5a22024c-2c0f-4487-98d1-ee89cf3dba89,0.09,false,false,near_mint,en,EUR,0.03,0.09,0.03
-"Alpharael, Dreaming Acolyte",EOE,Edge of Eternities,212,normal,uncommon,1,106884,349a2211-2b23-418d-a1ef-1c72ad2e171d,0.03,false,false,near_mint,en,EUR,0.05,0.1,0.05
-Rescue Skiff,EOE,Edge of Eternities,32,normal,uncommon,1,107459,6fe86bfb-c67d-4df9-88c9-f083091f4cda,0.06,false,false,near_mint,en,EUR,0.11,0.31,0.11
+Unstoppable Ogre,NEO,Kamigawa: Neon Dynasty,169,normal,common,2,66385,719f20d9-2baa-49b3-8c6a-89f21a07d538,0.08,false,false,near_mint,en,EUR,,,N/A
+Alania's Pathmaker,BLB,Bloomburrow,123,normal,common,2,96123,d3871fe6-e26e-4ab4-bd81-7e3c7b8135c1,0.03,false,false,near_mint,en,EUR,,,N/A
+Upriser Renegade,NEO,Kamigawa: Neon Dynasty,324,normal,uncommon,2,66366,52af0f2d-de2e-4554-ae32-c88bc7ba7c71,0.16,false,false,near_mint,en,EUR,,,N/A
+Firespitter Whelp,FDN,Foundations,197,normal,uncommon,2,100463,4b3a4c7d-3126-4bde-9dca-cb6a1e2f37c9,0.16,false,false,near_mint,en,EUR,,,N/A
+Seam Rip,EOE,Edge of Eternities,34,normal,uncommon,1,107750,9d298847-2d02-4593-b4d3-c5b722edac1e,0.71,false,false,near_mint,en,EUR,,,N/A
+Systems Override,EOE,Edge of Eternities,161,normal,uncommon,1,106980,2a34c71b-8d3c-435b-9cf8-4902f997d10d,0.06,false,false,near_mint,en,EUR,,,N/A
+Umbral Collar Zealot,EOE,Edge of Eternities,123,normal,uncommon,1,107321,bbcc1d84-9772-475d-924a-75bb54c9bc20,1.15,false,false,near_mint,en,EUR,,,N/A
+Mechan Navigator,EOE,Edge of Eternities,64,normal,uncommon,1,107507,a1fe1d39-42c8-41d0-8bf0-46973e4b07d4,0.11,false,false,near_mint,en,EUR,,,N/A
+Gigastorm Titan,EOE,Edge of Eternities,57,normal,uncommon,1,107603,abc83e0a-0ae5-4087-a751-058a1ba6a920,0.07,false,false,near_mint,en,EUR,,,N/A
+Reroute Systems,EOE,Edge of Eternities,31,normal,uncommon,1,107409,3bbdba38-2b99-4226-98e3-6d2580345d6d,0.07,false,false,near_mint,en,EUR,,,N/A
+Melded Moxite,EOE,Edge of Eternities,143,normal,common,1,107421,474c067f-eb24-4ae8-b4c0-f6f8e24cdb2a,0.13,false,false,near_mint,en,EUR,,,N/A
+Eumidian Terrabotanist,EOE,Edge of Eternities,180,normal,uncommon,1,107729,64fb2981-86ed-478a-89cd-c6bb078a5bc7,0.12,false,false,near_mint,en,EUR,,,N/A
+Sunstar Expansionist,EOE,Edge of Eternities,41,normal,uncommon,1,107300,93b0e6e5-9fb6-4342-9322-1a4cc09a7a76,0.06,false,false,near_mint,en,EUR,,,N/A
+Weftstalker Ardent,EOE,Edge of Eternities,169,normal,uncommon,1,107165,cddb48cc-8eb1-47ce-90f0-7aad1e93e2c4,0.31,false,false,near_mint,en,EUR,,,N/A
+Susurian Dirgecraft,EOE,Edge of Eternities,117,normal,uncommon,1,107757,b67cdb6e-9a3b-4887-924d-318faa3c443d,0.05,false,false,near_mint,en,EUR,,,N/A
+All-Fates Scroll,EOE,Edge of Eternities,234,normal,uncommon,1,107407,3a5ed010-cb17-45df-b169-ebc807dae534,0.13,false,false,near_mint,en,EUR,,,N/A
+"Mm'menon, Uthros Exile",EOE,Edge of Eternities,221,normal,uncommon,1,107597,5546c044-5826-48c3-9d28-866f3c3c5f2c,0.1,false,false,near_mint,en,EUR,,,N/A
+Wedgelight Rammer,EOE,Edge of Eternities,43,normal,uncommon,1,107397,2cb0984f-dc8b-4bb3-a4fd-8d6d4ae20198,0.05,false,false,near_mint,en,EUR,,,N/A
+Ruinous Rampage,EOE,Edge of Eternities,158,normal,uncommon,1,107299,91d7a4c2-1a4b-4e9f-b543-225b6906752f,0.18,false,false,near_mint,en,EUR,,,N/A
+Lithobraking,EOE,Edge of Eternities,142,normal,uncommon,1,107438,5a22024c-2c0f-4487-98d1-ee89cf3dba89,0.09,false,false,near_mint,en,EUR,,,N/A
+"Alpharael, Dreaming Acolyte",EOE,Edge of Eternities,212,normal,uncommon,1,106884,349a2211-2b23-418d-a1ef-1c72ad2e171d,0.03,false,false,near_mint,en,EUR,,,N/A
+Rescue Skiff,EOE,Edge of Eternities,32,normal,uncommon,1,107459,6fe86bfb-c67d-4df9-88c9-f083091f4cda,0.06,false,false,near_mint,en,EUR,,,N/A
 Illvoi Operative,EOE,Edge of Eternities,61,normal,common,1,107773,d0ae9fc7-1802-4806-9996-1f1f458ff6a7,0.03,false,false,near_mint,en,EUR,,,N/A
 Slagdrill Scrapper,EOE,Edge of Eternities,160,normal,common,1,107694,155dcf54-8fdb-4715-97dc-4eb5d3d80d78,0.05,false,false,near_mint,en,EUR,,,N/A
 Comet Crawler,EOE,Edge of Eternities,92,normal,common,1,107766,becca990-ab2e-4aa4-be7d-293ec727cb08,0.04,false,false,near_mint,en,EUR,,,N/A
